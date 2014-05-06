@@ -43,3 +43,15 @@ integer = {'integer_one': first_integer, 'integer_two':second_integer,'integer_t
 
 
 
+def integer_calc(x,y,z):
+    return x+y-z
+
+function_one_result = integer_calc(first_integer,second_integer,third_integer)
+print function_one_result
+
+
+def integer_calc_two(x,y,z):
+    return x*y-z
+
+function_two_result = integer_calc_two(first_integer,second_integer,third_integer)
+print function_two_result
