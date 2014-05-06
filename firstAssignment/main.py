@@ -35,3 +35,11 @@ if third_integer and second_integer and first_integer:
 else:
     third_integer = 10
 
+#array and dictionary
+
+array_noun = [first_noun,second_noun,third_noun,fourth_noun]
+
+integer = {'integer_one': first_integer, 'integer_two':second_integer,'integer_three':third_integer}
+
+
+
