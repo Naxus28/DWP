@@ -1,6 +1,6 @@
 import math
 
-#input fields down below
+#input fields down below - gather nouns and integers from users
 first_noun = raw_input('Please enter a noun:')
 second_noun = raw_input('Please enter a verb:')
 third_noun = raw_input('Please enter a yet another noun:')
@@ -11,22 +11,23 @@ third_integer = raw_input('Please enter another integer:')
 fourth_integer = raw_input('Please enter the last integer:')
 
 
-#if statements (last one has two logical operators),
-#  mathematical operators, assignment operators,
+# if statements (last one has two logical operators),
+# mathematical operators, assignment operators
+# these "validate" (but not really) the integers - it doesn't validate if the inputs are numbers though
 if first_integer:
     first_integer = (int(first_integer) + 21)
     first_integer -= 3
 else:
     first_integer = 1
 
-
+#second if else
 if second_integer:
     second_integer = (int(second_integer) - 10)
     second_integer += 11
 else:
     second_integer = 4
 
-
+#third if else
 if third_integer and second_integer and first_integer:
     third_integer = (int(third_integer) * 2)
     third_integer /= 2
@@ -36,31 +37,28 @@ else:
     third_integer = 10
 
 
-#array and dictionary
+#array and dictionary - both store the data input by users
 array_noun = [first_noun,second_noun,third_noun,fourth_noun]
 
 integer = {'integer_one': first_integer, 'integer_two':second_integer,'integer_three':third_integer}
 
+#this variable was needed to include an element of the dictionary in the text below
+# I didn't really understand why I couldn't use integer['integer_one'] instead
 new_integer = integer['integer_one']
 
-#for loop
+#for loop - this will allow me to select a different order of the array
 for i in range(0,2):
     array_noun = [array_noun[3],array_noun[0], array_noun[1],array_noun[2]]
-   # print array_noun
 
-#functions
+#functions - functions return results from math operations with the input integers
 def integer_calc(x,y,z):
     return x+y-z
-
 function_one_result = integer_calc(integer['integer_one'],integer['integer_two'],integer['integer_three'])
-#print function_one_result
 
 
 def integer_calc_two(x,y,z):
     return x*y-z
-
 function_two_result = integer_calc_two(first_integer,second_integer,third_integer)
-#print function_two_result
 
 message = '''
 This is my {array_noun[3]} madlib experience!
