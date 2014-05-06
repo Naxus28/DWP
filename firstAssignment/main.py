@@ -73,3 +73,4 @@ I hope you liked that your answers were all scrambled up and displayed in a diff
 Don't we love coding? ;)
 '''
 
+message = message.format(**locals())
