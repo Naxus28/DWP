@@ -66,7 +66,7 @@ message = '''
 This is my {array_noun[3]} madlib experience!
 I did some {array_noun[1]} on google to learn what a madlib is.
 I looked up only {function_one_result} websites and got an {array_noun[2]} of what it is.
-It took me about {integer['integer_one']} minutes to write this text.
+It took me about {new_integer} minutes to write this text.
 Guess how long it took me to write the code... certainly not {fourth_integer} minutes. Maybe some {function_one_result} minutes.
 Crazy, huh?
 I hope you liked that your answers were all scrambled up and displayed in a different order than you entered them.
