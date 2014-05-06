@@ -46,21 +46,21 @@ new_integer = integer['integer_one']
 #for loop
 for i in range(0,2):
     array_noun = [array_noun[3],array_noun[0], array_noun[1],array_noun[2]]
-    print array_noun
+   # print array_noun
 
 #functions
 def integer_calc(x,y,z):
     return x+y-z
 
 function_one_result = integer_calc(integer['integer_one'],integer['integer_two'],integer['integer_three'])
-print function_one_result
+#print function_one_result
 
 
 def integer_calc_two(x,y,z):
     return x*y-z
 
 function_two_result = integer_calc_two(first_integer,second_integer,third_integer)
-print function_two_result
+#print function_two_result
 
 message = '''
 This is my {array_noun[3]} madlib experience!
