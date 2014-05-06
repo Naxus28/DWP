@@ -74,3 +74,4 @@ Don't we love coding? ;)
 '''
 
 message = message.format(**locals())
+print message
