@@ -71,8 +71,17 @@ print students
 
 #DICTIONARIES - ASSOCIATIVE ARRAYS
 #name_of_dict = {'key': value}
-class_info = {'students': students, 'roster count': 9, 'room':'FS4A7'}
-print 'this is the key room '+ class_info['room']
+class_info = {'students': students, 'roster count': 9, 'room': 'FS4A7'}
+print 'this is the key room ' + class_info['room']
+
+print 'this is student #3: ' + class_info['students'][2]
+
+for st in class_info:
+    print class_info['students']
+    if class_info['students'] == "Eli":
+        break
+
+print 'this is student #: ' + str(class_info['students'])
 
 #LOOPS - in python loops are naturally for each
 
@@ -89,7 +98,7 @@ for i in range(0,8):
 import random
 
 for i in range(0,10):
-    print random.randrange(20)
+    print "these are the random numbers from 0 to 20: " + str(random.randrange(20))
 
 #FUNCTIONS
 def calc_area(h,w):
@@ -104,9 +113,9 @@ def calc_area(h,w):
     area=h*w
     return area
 
-a = calc_area(200,300)
+#a = calc_area(200,300)
 
-print a
+print str(calc_area(200,300)) + " " + "this is the area"
 
 #FORMAT STRING METHODS
 user_name = 'Kermit'
@@ -117,7 +126,7 @@ It is great that you are here! You have been with us since {join_date}!
 '''
 
 message = message.format(**locals())
-# print message
+print message
 
 first_name = raw_input('Type your first name:')
 print first_name + ', nice to meet you.'
@@ -127,3 +136,12 @@ print first_name + ', nice to meet you.'
 
 age = raw_input('Type your age:')
 print str(int(age)+2) + ' is your age'
+
+
+def multi_add(*args):
+    result = 0
+    for n in args:
+        result = result + n
+    return result
+
+print multi_add(2,3,4,5)

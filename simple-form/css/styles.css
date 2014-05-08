@@ -1,0 +1,10 @@
+body{
+    background: #ddd;
+}
+
+p{
+    font-size: 2em;
+    color:rgb(21,56,137);
+    text-align: center;
+    text-transform: uppercase;
+}
