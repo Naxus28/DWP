@@ -21,24 +21,32 @@ from page import HTMLPage
 #blueprint for creating the web app
 class MainHandler(webapp2.RequestHandler):
     #catalist - start our web app
-    #when the aoo loads this function gets called
+    #when the app loads this function gets called
+
     def get(self):
         #prints out to the browser
-        p = HTMLPage() #p is the instance (object) and HTMLPage is the object used to creat it
+         #p is the instance (object) and HTMLPage is the object used to creat it
         #instance.attribute
         #instance.method()
 
 
         #self.response.write(p.page_open + p.page_content + p.page_close)
 
-        #or we could also call the function print_out and have the same result
+
+    #or we could also call the function print_out and have the same result
         if self.request.GET:
             fn = self.request.GET["firstname"]
             ln = self.request.GET["lastname"]
-            self.response.write(p.print_out() + p.call_variables(fn, ln))
-            #self.response.write()
+            p = HTMLPage(fn, ln)
+            if fn and ln:
+                print "these are fn and ln: " + fn + " " + ln
+                self.response.write(p.call_variables())
+            else:
+                print "these are fn and ln: " + fn + " " + ln
+                self.response.write(p.error())
         else:
-            self.response.write(p.print_out(" "))
+            p = HTMLPage("", "")
+            self.response.write(p.print_out())
 
 app = webapp2.WSGIApplication([
     ('/', MainHandler)

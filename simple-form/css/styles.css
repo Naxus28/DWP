@@ -2,9 +2,32 @@ body{
     background: #ddd;
 }
 
-p{
+p#name{
     font-size: 2em;
     color:rgb(21,56,137);
     text-align: center;
     text-transform: uppercase;
+}
+
+p#name a{
+    font-size: .5em;
+    margin-top: 20px;
+}
+
+p#error{
+    font-size: 1.4em;
+    color:rgb(21,56,137);
+    text-align: center;
+}
+
+a{
+    display:block;
+    text-align:center;
+    font-style: oblique;
+    font-size: 1.6em;
+    color:rgb(21,56,137);
+}
+
+a:hover{
+    color:rgb(1,46,127);
 }
