@@ -12,4 +12,6 @@ calc_area(10,4)
 #function count down
 def count_down(count):
     for i in range(count):
-  
+        print str(count) + " Bottles on the wall. " + str(count) + " Bottles of beer." \
+                                             " Take one down and pass it around. Now you have " + str(count-1) + " bottles of beer on the wall."
+ 
