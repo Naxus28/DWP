@@ -8,3 +8,8 @@ def calc_area(w,h):
 
 calc_area(20,20)
 calc_area(10,4)
+
+#function count down
+def count_down(count):
+    for i in range(count):
+  
