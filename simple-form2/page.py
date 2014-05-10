@@ -31,8 +31,11 @@ class MyClass(object):
             <form method="GET" action="">
                 <input class="name" type="text" name="firstName" placeholder="First Name">
                 <input class="name" type="text" name="lastName" placeholder="Last Name">
-                <input class="radio" type="radio" name="genre" id="female" value="Female" /> <label class="radio" for="female">Female</label>
-                <input class="radio" type="radio" name="genre" id="male" value="Male" /> <label class="radio" for="female">Male</label>
+                <input class="password" type="text" name="password" placeholder="Password">
+                <p id="radio_par">
+                    <input class="radio" type="radio" name="genre" id="female" value="Female" /> <label class="radio" for="female">Female</label>
+                    <input class="radio" type="radio" name="genre" id="male" value="Male" /> <label class="radio" for="female">Male</label>
+                </p>
                 <select  name="select">
                      <option>I'm here to...</option>
                      <option value="learn">learn more about soccer</option>
