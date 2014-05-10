@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31dd1338-67c9-4da6-94f2-0e5abe273d9b" name="Default" comment="" />
-    <ignored path="ferraz_gabriel_simple_form.iws" />
+    <list default="true" id="24e8c624-bc11-40b4-933d-714b8316db65" name="Default" comment="" />
+    <ignored path="simple-form2.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,11 +19,11 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="ferraz_gabriel_simple_form" />
+    <favorites_list name="simple-form2" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="137" />
-    <option name="y" value="213" />
+    <option name="x" value="20" />
+    <option name="y" value="40" />
     <option name="width" value="1260" />
     <option name="height" value="760" />
   </component>
@@ -57,7 +57,7 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ferraz_gabriel_simple_form" />
+              <option name="myItemId" value="simple-form2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -67,7 +67,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <list size="0" />
@@ -75,14 +75,14 @@
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="31dd1338-67c9-4da6-94f2-0e5abe273d9b" name="Default" comment="" />
-      <created>1399518279647</created>
-      <updated>1399518279647</updated>
+      <changelist id="24e8c624-bc11-40b4-933d-714b8316db65" name="Default" comment="" />
+      <created>1399665260081</created>
+      <updated>1399665260081</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="137" y="213" width="1260" height="760" extended-state="0" />
+    <frame x="20" y="40" width="1260" height="760" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />

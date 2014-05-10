@@ -25,7 +25,8 @@ class MainHandler(webapp2.RequestHandler):
 
     def get(self):
         #prints out to the browser
-         #p is the instance (object) and HTMLPage is the object used to creat it
+        #p = HTMLPage(fn, ln)
+        #p is the instance (object) and HTMLPage is the object used to create it
         #instance.attribute
         #instance.method()
 

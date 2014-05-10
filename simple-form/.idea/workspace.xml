@@ -23,19 +23,92 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.py">
+      <file leaf-file-name="page.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../simple-form2/page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="25" selection-start="1357" selection-end="1357" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="1121">
+            <state line="38" column="82" selection-start="1747" selection-end="1747" vertical-scroll-proportion="0.6363636" vertical-offset="323" max-vertical-offset="1083">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../simple-form2/css/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="78" column="16" selection-start="1431" selection-end="1431" vertical-scroll-proportion="-21.56" vertical-offset="943" max-vertical-offset="2052">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="14" selection-start="1797" selection-end="1797" vertical-scroll-proportion="0.0" vertical-offset="116" max-vertical-offset="1140">
+              <folding>
+                <marker date="1399530538000" expanded="true" signature="748:1726" placeholder="..." />
+                <marker date="1399530538000" expanded="true" signature="852:1726" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="29" selection-start="1093" selection-end="1093" vertical-scroll-proportion="0.47384617" vertical-offset="319" max-vertical-offset="969">
+            <state line="9" column="6" selection-start="213" selection-end="276" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
+              <folding>
+                <marker date="1399530367000" expanded="true" signature="23:1463" placeholder="..." />
+                <marker date="1399530367000" expanded="true" signature="1397:1463" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../assignment-one/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="44" selection-start="688" selection-end="824" vertical-scroll-proportion="0.0" vertical-offset="40" max-vertical-offset="703">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../simple-form2/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="24" selection-start="640" selection-end="640" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+              <folding>
+                <element signature="e#601#615#0" expanded="true" />
+                <marker date="1399668467000" expanded="true" signature="684:827" placeholder="..." />
+                <marker date="1399668467000" expanded="true" signature="703:827" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.yaml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="0" selection-start="96" selection-end="125" vertical-scroll-proportion="-5.32" vertical-offset="0" max-vertical-offset="494">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.yaml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../assignment-one/app.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="0" selection-start="290" selection-end="290" vertical-scroll-proportion="-15.2" vertical-offset="0" max-vertical-offset="494">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.yaml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../simple-form2/app.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="0" selection-start="164" selection-end="164" vertical-scroll-proportion="-9.12" vertical-offset="0" max-vertical-offset="551">
               <folding />
             </state>
           </provider>
@@ -45,24 +118,6 @@
         <entry file="file://$PROJECT_DIR$/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
             <state line="13" column="14" selection-start="188" selection-end="188" vertical-scroll-proportion="-9.88" vertical-offset="0" max-vertical-offset="722">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="classes_finished.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../Ex_Files_UaR_Python/Exercise Files/Ch2/classes_finished.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="31" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="classes_start.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../Ex_Files_UaR_Python/Exercise Files/Ch2/classes_start.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="8" selection-start="554" selection-end="554" vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="608">
               <folding />
             </state>
           </provider>
@@ -81,14 +136,18 @@
         <option value="$PROJECT_DIR$/../../Ex_Files_UaR_Python/Exercise Files/Ch2/classes_start.py" />
         <option value="$PROJECT_DIR$/app.yaml" />
         <option value="$PROJECT_DIR$/../../Ex_Files_UaR_Python/Exercise Files/Ch2/classes_finished.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/css/styles.css" />
         <option value="$PROJECT_DIR$/page.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/../simple-form2/main.py" />
+        <option value="$PROJECT_DIR$/../simple-form2/app.yaml" />
+        <option value="$PROJECT_DIR$/../simple-form2/css/styles.css" />
+        <option value="$PROJECT_DIR$/../simple-form2/page.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="35" />
+    <option name="x" value="-26" />
     <option name="y" value="22" />
     <option name="width" value="1260" />
     <option name="height" value="760" />
@@ -134,6 +193,54 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="simple-form2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simple-form" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simple-form2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simple-form" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simple-form2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simple-form" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assignment-one" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simple-form" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="simple-form" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -157,8 +264,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../simple-form2" />
     <property name="recentsLimit" value="5" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../simple-form2" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.classes_start">
     <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -339,7 +451,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="35" y="22" width="1260" height="760" extended-state="0" />
+    <frame x="-26" y="22" width="1260" height="760" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -392,13 +504,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="9" selection-start="117" selection-end="117" vertical-scroll-proportion="0.3707317" vertical-offset="0" max-vertical-offset="494">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../Ex_Files_UaR_Python/Exercise Files/Ch2/classes_finished.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="31" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0" vertical-offset="59" max-vertical-offset="646">
@@ -406,10 +511,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../assignment-one/app.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="290" selection-end="290" vertical-scroll-proportion="-15.2" vertical-offset="0" max-vertical-offset="494">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../assignment-one/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="44" selection-start="688" selection-end="824" vertical-scroll-proportion="0.0" vertical-offset="40" max-vertical-offset="703">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="25" selection-start="1357" selection-end="1357" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="1121">
-          <folding />
+        <state line="53" column="14" selection-start="1797" selection-end="1797" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1140">
+          <folding>
+            <marker date="1399530538000" expanded="true" signature="748:1726" placeholder="..." />
+            <marker date="1399530538000" expanded="true" signature="852:1726" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -422,7 +544,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="29" selection-start="1093" selection-end="1093" vertical-scroll-proportion="0.47384617" vertical-offset="319" max-vertical-offset="969">
+        <state line="9" column="6" selection-start="213" selection-end="276" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
+          <folding>
+            <marker date="1399530367000" expanded="true" signature="23:1463" placeholder="..." />
+            <marker date="1399530367000" expanded="true" signature="1397:1463" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="96" selection-end="125" vertical-scroll-proportion="-5.32" vertical-offset="0" max-vertical-offset="494">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../simple-form2/app.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="164" selection-end="164" vertical-scroll-proportion="-9.12" vertical-offset="0" max-vertical-offset="551">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../simple-form2/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="24" selection-start="640" selection-end="640" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+          <folding>
+            <element signature="e#601#615#0" expanded="true" />
+            <marker date="1399668467000" expanded="true" signature="684:827" placeholder="..." />
+            <marker date="1399668467000" expanded="true" signature="703:827" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../simple-form2/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="16" selection-start="1431" selection-end="1431" vertical-scroll-proportion="-21.56" vertical-offset="943" max-vertical-offset="2052">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../simple-form2/page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="82" selection-start="1747" selection-end="1747" vertical-scroll-proportion="0.6363636" vertical-offset="323" max-vertical-offset="1083">
           <folding />
         </state>
       </provider>
