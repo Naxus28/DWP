@@ -5,6 +5,7 @@ class MyClass(object):
 <html>
     <head>
         <link rel="stylesheet" href="css/styles.css" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=Lato|Raleway' rel='stylesheet' type='text/css'>
         <title>The Soccer Network</title>
     </head>
     <body>
@@ -16,27 +17,32 @@ class MyClass(object):
         '''
         self.paragraph1 = '''
         <div class="container" id="left_container">
-            <p>Be part of the largest soccer network on the planet</p>
-            <p>Find people who share the same passion for soccer as you</p>
-            <p>Participate in soccer in events with new friends</p>
-            <p>Keep informed about the latest soccer news</p>
+            <h2>WHAT YOU GET</h2>
+            <ul>
+                <li>Be part of the largest soccer network on the planet</li>
+                <li>Find people who share the same passion for soccer as you</li>
+                <li>Participate in soccer events with new friends</li>
+                <li>Keep informed about the latest soccer news</li>
+                <li>Have fun!</li>
+            </ul>
         </div>
         <div class="container" id="right_container">
             <h2>SIGN UP</h2>
-            <form>
+            <form method="GET" action="">
                 <input class="name" type="text" name="firstName" placeholder="First Name">
                 <input class="name" type="text" name="lastName" placeholder="Last Name">
-                <input class="radio" type="radio" name="genre" id="female" value="Female" /> <label for="female">Female</label>
-                <input class="radio" type="radio" name="genre" id="male" value="Male" /> <label for="female">Male</label>
-                <p></p>
-                <label for="Select">Choose your level of passion</label>
-                <select name="select">
-                     <option value="volvo">Volvo</option>
-                     <option value="saab">Saab</option>
-                     <option value="mercedes">Mercedes</option>
-                     <option value="audi">Audi</option>
+                <input class="radio" type="radio" name="genre" id="female" value="Female" /> <label class="radio" for="female">Female</label>
+                <input class="radio" type="radio" name="genre" id="male" value="Male" /> <label class="radio" for="female">Male</label>
+                <select  name="select">
+                     <option>I'm here to...</option>
+                     <option value="learn">learn more about soccer</option>
+                     <option value="find">find people to play with</option>
+                     <option value="read">read the news about soccer</option>
+                     <option value="message">exchange messages with soccer fans</option>
                 </select>
-                <input type="checkbox" name="checkbox" class="checkbox" id="checkB"><label for="checkbox" class="checkbox">I agree with the <a>terms of use</z></label>
+               <p id="check"> <input type="checkbox" name="checkbox" class="checkbox" id="checkB"><label for="checkbox" class="checkbox">
+               I agree with the <a>terms of use</z></label></p>
+               <input id="submit" type="submit" name="submit" value="Sign up"/>
             </form>
         </div>
         '''
