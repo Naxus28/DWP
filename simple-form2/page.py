@@ -15,7 +15,7 @@ class MyClass(object):
             <h1>The Soccer Network</h1>
         </header>
         '''
-        self.paragraph1 = '''
+        self.content = '''
         <div class="container" id="left_container">
             <h2>WHAT YOU GET</h2>
             <ul>
@@ -58,4 +58,4 @@ class MyClass(object):
 </html>
 '''
     def main(self):
-        return self.page_open + self.header + self.paragraph1 + self.background_div + self.close_page
+        return self.page_open + self.header + self.content + self.background_div + self.close_page
