@@ -35,13 +35,11 @@ class MainHandler(webapp2.RequestHandler):
             picture = self.request.GET["picture"]
             print gender
 
-            if picture:
-                picture = picture
-            else:
+            if not picture:
                 if gender == "Male":
-                    picture = "images/temp_man.jpg"
+                    picture = "images/cartman.png"
                 else:
-                    picture = "images/woman.png"
+                    picture = "images/marjorine.png"
 
             if "checkbox" in self.request.GET:
                 checkbox = True
