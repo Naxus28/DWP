@@ -15,7 +15,13 @@
 # limitations under the License.
 #
 import webapp2
-import win32api
+
+from Tkinter import *
+msg = Message(text="Please, make sure you fill out the boxes and agree with the terms")
+msg.config(bg='green', font=('times', 16))
+msg.pack()
+mainloop()
+
 from page import MyClass
 
 class MainHandler(webapp2.RequestHandler):
