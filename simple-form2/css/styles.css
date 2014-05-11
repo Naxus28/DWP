@@ -81,7 +81,6 @@ form input.name{
     border-radius: 5px;
     padding-left: 5px;
     font-size: .7em;
-    font-style: oblique;
     color: rgb(100,100,100);
 }
 form input.password,form input.picture {
