@@ -69,10 +69,8 @@
       <file leaf-file-name="main.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../simple-form2/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="10" selection-start="617" selection-end="791" vertical-scroll-proportion="0.33333334" vertical-offset="209" max-vertical-offset="1330">
-              <folding>
-                <element signature="e#601#615#0" expanded="true" />
-              </folding>
+            <state line="18" column="0" selection-start="619" selection-end="801" vertical-scroll-proportion="0.21212122" vertical-offset="209" max-vertical-offset="1330">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -507,9 +505,7 @@
     <entry file="file://$PROJECT_DIR$/../simple-form2/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="24" selection-start="640" selection-end="640" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="646">
-          <folding>
-            <element signature="e#601#615#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -636,10 +632,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../simple-form2/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="10" selection-start="617" selection-end="791" vertical-scroll-proportion="0.33333334" vertical-offset="209" max-vertical-offset="1330">
-          <folding>
-            <element signature="e#601#615#0" expanded="true" />
-          </folding>
+        <state line="18" column="0" selection-start="619" selection-end="801" vertical-scroll-proportion="0.21212122" vertical-offset="209" max-vertical-offset="1330">
+          <folding />
         </state>
       </provider>
     </entry>
