@@ -33,7 +33,6 @@ class MainHandler(webapp2.RequestHandler):
             gender = self.request.GET["gender"]
             reason = self.request.GET["select"]
             picture = self.request.GET["picture"]
-            print gender
 
             if not picture:
                 if gender == "Male":

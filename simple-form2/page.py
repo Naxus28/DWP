@@ -10,9 +10,14 @@ class MyClass(object):
     </head>
     <body>
     '''
-        self.header = '''
+        self.header_open = '''
         <header>
             <h1>The Soccer Network</h1>
+        '''
+        self.logout = '''
+         <a href="http://localhost:9080">LOG OUT</a>
+        '''
+        self.header_close = '''
         </header>
         '''
         #=====first page content=============
@@ -128,10 +133,10 @@ class MyClass(object):
 </html>
 '''
     def main(self):
-        return self.page_open + self.header + self.content + self.background_div + self.close_page
+        return self.page_open + self.header_open + self.header_close + self.content + self.background_div + self.close_page
 
     def page2(self):
-        return self.page_open + self.header + self.open_container2 + self.open_h2 + self.name_h2 + \
+        return self.page_open + self.header_open + self.logout + self.header_close + self.open_container2 + self.open_h2 + self.name_h2 + \
                self.close_h2 + self.open_picture + self.picture + self.close_picture + self.paragraph1+ \
                self.open_password_paragraph + self.password_paragraph +\
                self.close_password_paragraph + self.open_gender + self.gender + self.close_gender + self.open_reason + \
