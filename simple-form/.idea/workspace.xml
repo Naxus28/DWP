@@ -26,7 +26,7 @@
       <file leaf-file-name="page.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../simple-form2/page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="58" selection-start="2687" selection-end="2687" vertical-scroll-proportion="0.8181818" vertical-offset="627" max-vertical-offset="1254">
+            <state line="77" column="0" selection-start="3676" selection-end="3676" vertical-scroll-proportion="-0.6666667" vertical-offset="1881" max-vertical-offset="2717">
               <folding />
             </state>
           </provider>
@@ -42,7 +42,7 @@
       <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="54" selection-start="1488" selection-end="1504" vertical-scroll-proportion="0.0" vertical-offset="500" max-vertical-offset="1140">
+            <state line="49" column="42" selection-start="1722" selection-end="1722" vertical-scroll-proportion="0.0" vertical-offset="329" max-vertical-offset="1140">
               <folding />
             </state>
           </provider>
@@ -51,7 +51,7 @@
       <file leaf-file-name="page.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="12" selection-start="829" selection-end="829" vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="969">
+            <state line="26" column="12" selection-start="829" selection-end="829" vertical-scroll-proportion="0.0" vertical-offset="266" max-vertical-offset="969">
               <folding />
             </state>
           </provider>
@@ -69,11 +69,8 @@
       <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../simple-form2/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="24" selection-start="640" selection-end="640" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="646">
-              <folding>
-                <marker date="1399668467000" expanded="true" signature="684:827" placeholder="..." />
-                <marker date="1399668467000" expanded="true" signature="703:827" placeholder="..." />
-              </folding>
+            <state line="30" column="33" selection-start="1086" selection-end="1086" vertical-scroll-proportion="0.0" vertical-offset="247" max-vertical-offset="1159">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -129,10 +126,10 @@
         <option value="$PROJECT_DIR$/../../Ex_Files_UaR_Python/Exercise Files/Ch2/classes_finished.py" />
         <option value="$PROJECT_DIR$/css/styles.css" />
         <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/../simple-form2/main.py" />
         <option value="$PROJECT_DIR$/../simple-form2/app.yaml" />
-        <option value="$PROJECT_DIR$/../simple-form2/css/styles.css" />
         <option value="$PROJECT_DIR$/page.py" />
+        <option value="$PROJECT_DIR$/../simple-form2/main.py" />
+        <option value="$PROJECT_DIR$/../simple-form2/css/styles.css" />
         <option value="$PROJECT_DIR$/../simple-form2/page.py" />
       </list>
     </option>
@@ -259,6 +256,9 @@
     <property name="recentsLimit" value="5" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../simple-form2/images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/../simple-form2" />
     </key>
@@ -519,10 +519,7 @@
     <entry file="file://$PROJECT_DIR$/../simple-form2/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="24" selection-start="640" selection-end="640" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="646">
-          <folding>
-            <marker date="1399668467000" expanded="true" signature="684:827" placeholder="..." />
-            <marker date="1399668467000" expanded="true" signature="703:827" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -604,16 +601,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../simple-form2/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="24" selection-start="640" selection-end="640" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-          <folding>
-            <marker date="1399668467000" expanded="true" signature="684:827" placeholder="..." />
-            <marker date="1399668467000" expanded="true" signature="703:827" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../simple-form2/images/images.jpeg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -629,20 +616,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="54" selection-start="1488" selection-end="1504" vertical-scroll-proportion="0.0" vertical-offset="500" max-vertical-offset="1140">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../simple-form2/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="32" selection-start="661" selection-end="661" vertical-scroll-proportion="-0.76" vertical-offset="608" max-vertical-offset="3059">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="12" selection-start="829" selection-end="829" vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="969">
@@ -650,9 +623,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="42" selection-start="1722" selection-end="1722" vertical-scroll-proportion="0.0" vertical-offset="291" max-vertical-offset="1140">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../simple-form2/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="33" selection-start="1086" selection-end="1086" vertical-scroll-proportion="0.0" vertical-offset="247" max-vertical-offset="1159">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../simple-form2/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="163" column="13" selection-start="3047" selection-end="3047" vertical-scroll-proportion="0.6292683" vertical-offset="2710" max-vertical-offset="3534">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../simple-form2/page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="58" selection-start="2687" selection-end="2687" vertical-scroll-proportion="0.8181818" vertical-offset="627" max-vertical-offset="1254">
+        <state line="77" column="0" selection-start="3676" selection-end="3676" vertical-scroll-proportion="-0.6666667" vertical-offset="1881" max-vertical-offset="2717">
           <folding />
         </state>
       </provider>
