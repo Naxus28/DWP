@@ -80,8 +80,7 @@ class MyClass(object):
             </h2>
         '''
         self.open_picture = '''
-
-            <img value = "image" src="
+            <img src="
         '''
         self.picture = picture
 

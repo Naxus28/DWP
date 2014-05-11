@@ -26,16 +26,16 @@
       <file leaf-file-name="page.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../simple-form2/page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="138" column="82" selection-start="5192" selection-end="5192" vertical-scroll-proportion="0.0" vertical-offset="2185" max-vertical-offset="2812">
+            <state line="42" column="34" selection-start="1842" selection-end="1842" vertical-scroll-proportion="-8.423077" vertical-offset="579" max-vertical-offset="2793">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../simple-form2/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="21" selection-start="165" selection-end="165" vertical-scroll-proportion="0.15447155" vertical-offset="76" max-vertical-offset="3952">
+            <state line="9" column="21" selection-start="165" selection-end="165" vertical-scroll-proportion="-6.84" vertical-offset="0" max-vertical-offset="3952">
               <folding />
             </state>
           </provider>
@@ -62,16 +62,16 @@
       <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../assignment-one/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="44" selection-start="688" selection-end="824" vertical-scroll-proportion="0.0" vertical-offset="456" max-vertical-offset="722">
+            <state line="24" column="44" selection-start="688" selection-end="824" vertical-scroll-proportion="0.0" vertical-offset="63" max-vertical-offset="703">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../simple-form2/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="27" selection-start="1243" selection-end="1243" vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="1349">
+            <state line="34" column="46" selection-start="1211" selection-end="1211" vertical-scroll-proportion="0.21212122" vertical-offset="513" max-vertical-offset="1349">
               <folding />
             </state>
           </provider>
@@ -130,9 +130,9 @@
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/../simple-form2/app.yaml" />
         <option value="$PROJECT_DIR$/page.py" />
-        <option value="$PROJECT_DIR$/../simple-form2/main.py" />
-        <option value="$PROJECT_DIR$/../simple-form2/page.py" />
         <option value="$PROJECT_DIR$/../simple-form2/css/styles.css" />
+        <option value="$PROJECT_DIR$/../simple-form2/page.py" />
+        <option value="$PROJECT_DIR$/../simple-form2/main.py" />
       </list>
     </option>
   </component>
@@ -196,31 +196,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple-form" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple-form2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple-form" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assignment-one" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -644,13 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../assignment-one/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="44" selection-start="688" selection-end="824" vertical-scroll-proportion="0.0" vertical-offset="40" max-vertical-offset="703">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="0" selection-start="96" selection-end="125" vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="494">
@@ -701,23 +670,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../simple-form2/main.py">
+    <entry file="file://$PROJECT_DIR$/../simple-form2/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="27" selection-start="1243" selection-end="1243" vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="1349">
+        <state line="9" column="21" selection-start="165" selection-end="165" vertical-scroll-proportion="-6.84" vertical-offset="0" max-vertical-offset="3952">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../assignment-one/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="44" selection-start="688" selection-end="824" vertical-scroll-proportion="0.0" vertical-offset="40" max-vertical-offset="703">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../simple-form2/page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="138" column="82" selection-start="5192" selection-end="5192" vertical-scroll-proportion="0.0" vertical-offset="2185" max-vertical-offset="2812">
+        <state line="42" column="34" selection-start="1842" selection-end="1842" vertical-scroll-proportion="-8.423077" vertical-offset="579" max-vertical-offset="2793">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../simple-form2/css/styles.css">
+    <entry file="file://$PROJECT_DIR$/../simple-form2/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="21" selection-start="165" selection-end="165" vertical-scroll-proportion="0.15447155" vertical-offset="76" max-vertical-offset="3952">
+        <state line="34" column="46" selection-start="1211" selection-end="1211" vertical-scroll-proportion="0.21212122" vertical-offset="513" max-vertical-offset="1349">
           <folding />
         </state>
       </provider>
