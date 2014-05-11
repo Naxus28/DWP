@@ -158,10 +158,22 @@ div#background{
 div#profile{
     width: 98%;
     float: left;
-    padding-left: 2%;
+    padding-left: 3%;
+}
+h2#welcomeMsg{
+    font-size: 1.3em;
+    margin-bottom: 20px;
 }
 img{
     width: 15%;
+    border-radius:5px;
+}
+p#header{
+    font-size: 1.25em;
+    text-decoration: underline;
+}
+p.profile_paragraphs{
+    font-size: 1.1em;
 }
 div#background2{
     position: absolute;

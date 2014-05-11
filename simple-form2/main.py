@@ -15,6 +15,7 @@
 # limitations under the License.
 #
 import webapp2
+import win32api
 from page import MyClass
 
 class MainHandler(webapp2.RequestHandler):
@@ -47,6 +48,7 @@ class MainHandler(webapp2.RequestHandler):
             else:
                 view = MyClass()
                 self.response.write(view.main())
+
         else:
             view = MyClass()
             self.response.write(view.main())

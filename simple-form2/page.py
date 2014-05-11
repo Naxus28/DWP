@@ -66,10 +66,10 @@ class MyClass(object):
         <div id="profile">
         '''
         self.open_h2 = '''
-            <h2 id="nameParagraph">
+            <h2 id="welcomeMsg">
             Welcome to The Soccer Network,
         '''
-        self.name_h2 = " " + name1 + " " + name2
+        self.name_h2 = " " + name1 + " " + name2 + "!"
 
         self.close_h2 = '''
             </h2>
@@ -85,12 +85,12 @@ class MyClass(object):
         '''
 
         self.paragraph1 = '''
-            <p>
+            <p class="profile_paragraphs" id="header">
             Here is your account information:
             </p>
         '''
         self.open_password_paragraph = '''
-         <p id="passwordParagraph">
+         <p class="profile_paragraphs">
         '''
         self.password_paragraph = "Password: " + key
 
@@ -99,7 +99,7 @@ class MyClass(object):
         '''
 
         self.open_gender = '''
-            <p id="gender">
+            <p class="profile_paragraphs">
         '''
         self.gender = "Gender: " + gender
 
@@ -108,9 +108,9 @@ class MyClass(object):
         '''
 
         self.open_reason = '''
-            <p id="gender">
+            <p class="profile_paragraphs">
         '''
-        self.reason = "The reason you signed up:" + reason
+        self.reason = "You signed up to " + reason
 
         self.close_reason = '''
             </p>
