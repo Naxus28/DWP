@@ -34,7 +34,7 @@ class MyClass(object):
                 <input class="name" type="text" name="firstName" placeholder="First Name">
                 <input class="name" type="text" name="lastName" placeholder="Last Name">
                 <input class="password" type="password" name="keyWord" placeholder="Password">
-                <input class="picture" type="text" name="picture" placeholder="Picture URL i.e. http://www.my_picture.com">
+                <input class="picture" type="text" name="picture" placeholder="Picture URL (i.e. http://www.my_picture.com)">
                 <p id="radio_par">
                     <input class="radio" type="radio" name="gender" id="female" value="Female" checked="checked"/> <label class="radio" for="female">Female</label>
                     <input class="radio" type="radio" name="gender" id="male" value="Male" /> <label class="radio" for="female">Male</label>
