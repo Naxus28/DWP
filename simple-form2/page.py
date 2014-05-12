@@ -39,7 +39,7 @@ class MyClass(object):
                 <input class="name" type="text" name="firstName" placeholder="First Name">
                 <input class="name" type="text" name="lastName" placeholder="Last Name">
                 <input class="password" type="password" name="keyWord" placeholder="Password">
-                <input class="picture" type="text" name="picture" placeholder="Picture URL (i.e. http://www.my_picture.com)">
+                <input class="picture" type="text" name="picture" placeholder="Picture URL (i.e. http://www.my_picture.com/picture.jpg)">
                 <p id="radio_par">
                     <input class="radio" type="radio" name="gender" id="male" value="Male" checked="checked" /> <label class="radio" for="male">Male</label>
                     <input class="radio" type="radio" name="gender" id="female" value="Female" /> <label class="radio" for="female">Female</label>
@@ -57,6 +57,24 @@ class MyClass(object):
                I agree with the <a href="#">terms of use</a></label></p>
                <input id="submit" type="submit" name="submit" value="Sign up"/>
             </form>
+        </div>
+        '''
+
+        self.content2 = '''
+        <div class="container" id="left_container">
+            <h2>WHAT YOU GET</h2>
+            <ul>
+                <li>Be part of the largest soccer network on the planet</li>
+                <li>Find people who share the same passion for soccer as you</li>
+                <li>Participate in soccer events with new friends</li>
+                <li>Keep informed about the latest soccer news</li>
+                <li>Have fun!</li>
+            </ul>
+        </div>
+        <div class="container" id="right_container">
+            <img id="ball" src="images/funny_ball.png" />
+            <h2 id="h2_error">An error occurred. Please fill out all form fields (you may leave the picture field empty).</h2>
+            <a href="http://localhost:9080">Back to Form</a>
         </div>
         '''
         #this div is used for the background picture; it allows me
@@ -123,12 +141,9 @@ class MyClass(object):
         self.close_date = '''
         </p>
         '''
-
-
         self.close_reason = '''
             </p>
         '''
-
         self.close_container2 = '''
         </div>
         '''
@@ -149,3 +164,7 @@ class MyClass(object):
                self.open_password_paragraph + self.password_paragraph +\
                self.close_password_paragraph + self.open_gender + self.gender + self.close_gender + self.open_reason + \
                self.reason + self.close_reason + self.open_date + self.date + self.close_date + self.close_container2 + self.background_div2 + self.close_page
+
+    def error(self):
+        return self.page_open + self.header_open + self.header_close + self.content2 + self.background_div + self.close_page
+

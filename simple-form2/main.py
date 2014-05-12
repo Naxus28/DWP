@@ -40,19 +40,15 @@ class MainHandler(webapp2.RequestHandler):
                 checkbox = False
 
             view = MyClass(name1, name2, keyword, gender, reason, picture, date)
-            if not checkbox:
-                view = MyClass()
-                self.response.write(view.main())
-            elif name1 and name2 and keyword and gender and reason and checkbox and picture:
+            if name1 and name2 and keyword and gender and reason and checkbox and picture:
                 self.response.write(view.page2())
-                print checkbox
             else:
                 view = MyClass()
-                self.response.write(view.main())
-
+                self.response.write(view.error())
         else:
             view = MyClass()
             self.response.write(view.main())
+
 
 app = webapp2.WSGIApplication([
     ('/', MainHandler)
