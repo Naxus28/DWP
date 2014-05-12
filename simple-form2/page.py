@@ -1,5 +1,5 @@
 class MyClass(object):
-    def __init__(self, name1=" ", name2=" ", key=" ", gender=" ", reason=" ", picture=" "):
+    def __init__(self, name1=" ", name2=" ", key=" ", gender=" ", reason=" ", picture=" ", date=" "):
         self.page_open = '''
 <!DOCTYPE html>
 <html>
@@ -114,7 +114,16 @@ class MyClass(object):
         self.open_reason = '''
             <p class="profile_paragraphs">
         '''
-        self.reason = "You signed up to " + reason
+        self.reason = "You are here to " + reason
+
+        self.open_date = '''
+        <p class="profile_paragraphs">
+        '''
+        self.date = "You are a member since " + str(date)
+        self.close_date = '''
+        </p>
+        '''
+
 
         self.close_reason = '''
             </p>
@@ -139,4 +148,4 @@ class MyClass(object):
                self.close_h2 + self.open_picture + self.picture + self.close_picture + self.paragraph1+ \
                self.open_password_paragraph + self.password_paragraph +\
                self.close_password_paragraph + self.open_gender + self.gender + self.close_gender + self.open_reason + \
-               self.reason + self.close_reason + self.close_container2 + self.background_div2 + self.close_page
+               self.reason + self.close_reason + self.open_date + self.date + self.close_date + self.close_container2 + self.background_div2 + self.close_page

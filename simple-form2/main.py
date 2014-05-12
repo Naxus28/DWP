@@ -15,17 +15,10 @@
 # limitations under the License.
 #
 import webapp2
-
-# from Tkinter import *
-# msg = Message(text="Please, make sure you fill out the boxes and agree with the terms")
-# msg.config(bg='green', font=('times', 16))
-# msg.pack()
-# mainloop()
-
 from page import MyClass
-
 class MainHandler(webapp2.RequestHandler):
     def get(self):
+        from datetime import date
         if self.request.GET:
             name1 = self.request.GET["firstName"]
             name2 = self.request.GET["lastName"]
@@ -33,6 +26,7 @@ class MainHandler(webapp2.RequestHandler):
             gender = self.request.GET["gender"]
             reason = self.request.GET["select"]
             picture = self.request.GET["picture"]
+            date = date.today()
 
             if not picture:
                 if gender == "Male":
@@ -45,7 +39,7 @@ class MainHandler(webapp2.RequestHandler):
             else:
                 checkbox = False
 
-            view = MyClass(name1, name2, keyword, gender, reason, picture)
+            view = MyClass(name1, name2, keyword, gender, reason, picture, date)
             if not checkbox:
                 view = MyClass()
                 self.response.write(view.main())
