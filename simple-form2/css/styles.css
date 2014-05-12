@@ -144,6 +144,9 @@ p#check{
     text-transform: uppercase;
     padding: 5px;
 }
+#submit:hover{
+    cursor: pointer;
+}
 div.container{
     font-size: 2em;
     color: #3961D4;
