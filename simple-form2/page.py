@@ -8,7 +8,12 @@ class MyClass(object):
         <link href='http://fonts.googleapis.com/css?family=Lato|Raleway' rel='stylesheet' type='text/css'>
         <title>The Soccer Network</title>
     </head>
-    <body>
+    '''
+        self.body1 = '''
+    <body id="body1">
+    '''
+        self.body2 = '''
+    <body id="body2">
     '''
         self.header_open = '''
         <header>
@@ -147,24 +152,29 @@ class MyClass(object):
         self.close_container2 = '''
         </div>
         '''
-        self.background_div2 = '''
-        <div id="background2"></div>
+        self.close_wrapper = '''
+        <div id="wrapper">
         '''
-        self.close_page = '''
+        self.close_body1 = '''
     </body>
+    '''
+        self.close_body2 = '''
+    </body>
+    '''
 
+        self.close_page = '''
 </html>
 '''
     def main(self):
-        return self.page_open + self.header_open + self.header_close + self.content + self.background_div + self.close_page
+        return self.page_open + self.body1 + self.header_open + self.header_close + self.content + self.background_div + self.close_body1 + self.close_page
 
     def page2(self):
-        return self.page_open + self.header_open + self.logout + self.header_close + self.open_container2 + self.open_h2 + self.name_h2 + \
+        return self.page_open + self.body2 + self.header_open + self.logout + self.header_close + self.open_container2 + self.open_h2 + self.name_h2 + \
                self.close_h2 + self.open_picture + self.picture + self.close_picture + self.paragraph1+ \
                self.open_password_paragraph + self.password_paragraph +\
                self.close_password_paragraph + self.open_gender + self.gender + self.close_gender + self.open_reason + \
-               self.reason + self.close_reason + self.open_date + self.date + self.close_date + self.close_container2 + self.background_div2 + self.close_page
+               self.reason + self.close_reason + self.open_date + self.date + self.close_date + self.close_container2 + self.close_body2 + self.close_page
 
     def error(self):
-        return self.page_open + self.header_open + self.header_close + self.content2 + self.background_div + self.close_page
+        return self.page_open + self.body1 + self.header_open + self.header_close + self.content2 + self.background_div + self.close_body1+ self.close_page
 

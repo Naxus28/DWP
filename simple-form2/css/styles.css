@@ -4,6 +4,9 @@ html, body{
     margin: 0;
     font-family: 'Raleway', sans-serif;
 }
+body#body2{
+     background: url(../images/congruent_pentagon.png);
+}
 header{
     width: 100%;
     margin: 0;
@@ -172,6 +175,7 @@ div#profile{
     width: 97%;
     float: left;
     padding-left: 3%;
+    overflow: hidden;
 }
 h2#welcomeMsg{
     font-size: 1.3em;
@@ -187,21 +191,6 @@ p#header{
 }
 p.profile_paragraphs{
     font-size: 1.1em;
-}
-div#background2{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url(../images/congruent_pentagon.png);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    opacity: .9;
-    z-index: -1;
-    margin: 0;
 }
 div#right_container #h2_error{
     font-size: .8em;
