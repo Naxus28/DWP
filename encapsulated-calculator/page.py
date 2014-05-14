@@ -67,6 +67,15 @@ class Phone(object):
     def film(self, new_film):
         self.__film = new_film
 
+    @property
+    def case(self):
+        return self.__case
+
+    @case.setter
+    def case(self, new_case):
+        self.__case = new_case
+
+   
 
     def printer(self):
         print self.__case
