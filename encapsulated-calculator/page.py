@@ -52,13 +52,24 @@ class Phone(object):
         self.__all = self.__open + self.header + self.__paragraphs + self.__close
 
     @property
-    def total_value(self):
-        return self.__all
+    def phone(self):
+        return self.__phone
 
-    @total_value.setter
-    def total_value(self, new_phone):
-        self.__all = new_phone
+    @phone.setter
+    def phone(self, new_phone):
+        self.__phone = new_phone
 
+    @property
+    def film(self):
+        return self.__film
+
+    @film.setter
+    def film(self, new_film):
+        self.__film = new_film
+
+
+    def printer(self):
+        print self.__case
 
     def print_out(self):
         self.update()
