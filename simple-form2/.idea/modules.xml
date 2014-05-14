@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../classes-review/.idea/classes-review.iml" filepath="$PROJECT_DIR$/../classes-review/.idea/classes-review.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../classes-review2/.idea/classes-review2.iml" filepath="$PROJECT_DIR$/../classes-review2/.idea/classes-review2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../encapsulated-calculator/.idea/encapsulated-calculator.iml" filepath="$PROJECT_DIR$/../encapsulated-calculator/.idea/encapsulated-calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../getters-setters/.idea/getters-setters.iml" filepath="$PROJECT_DIR$/../getters-setters/.idea/getters-setters.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/simple-form2.iml" filepath="$PROJECT_DIR$/.idea/simple-form2.iml" />
     </modules>
   </component>

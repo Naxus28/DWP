@@ -4,6 +4,10 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="encapsulated-calculator" />
+    <orderEntry type="module" module-name="classes-review2" />
+    <orderEntry type="module" module-name="classes-review" />
+    <orderEntry type="module" module-name="getters-setters" />
   </component>
 </module>
 

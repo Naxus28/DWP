@@ -1,0 +1,69 @@
+class Phone(object):
+    def __init__(self):
+        self.__phone = ""
+        self.__price = 0
+        self.__case = 0
+        self.__film = 0
+        self.__warranty = 0
+        self.__tax = 0
+        self.__total = 0
+        self.__open = '''
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/styles.css" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=Lato|Raleway' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Nobile' rel='stylesheet' type='text/css'>
+        <title>The Phone Page</title>
+    </head>
+    <body>
+        '''
+        self.header = '''
+        <header>
+            <h1>THE PHONE PAGE</h1>
+        </header>
+        '''
+        self.__paragraphs = '''
+        <div id="links">
+            <h2 id="firstH2">PHONE MODELS</h2>
+            <a href="?phone=iphone">iPhone 5s</a>
+            <a href="?phone=galaxy">Galaxy</a>
+            <a href="?phone=lg">LG</a>
+            <a href="?phone=nexus">Nexus 7</a>
+            <a href="?phone=windows">Windows Phone</a>
+       </div>
+       <div id="paragraphs">
+            <h2>PHONE INFO</h2>
+            <p id = brand>You are checking out the {self.phone}</p>
+            <p id="package">This is the cost of the full package:</p>
+            <p id = price>Phone: ${self.price}</p>
+            <p id = case>Case: ${self.case}</p>
+            <p id = film>Film: ${self.film}</p>
+            <p id = warranty>Warranty: ${self.warranty}</p>
+            <p id = tax>Tax: ${self.tax}</p>
+            <p id = total>Total: ${self.total}</p>
+        </div>
+        '''
+        self.__close = '''
+    </body>
+</html>
+        '''
+        self.__all = self.__open + self.header + self.__paragraphs + self.__close
+
+    @property
+    def total_value(self):
+        return self.__all
+
+    @total_value.setter
+    def total_value(self, new_phone):
+        self.__all = new_phone
+
+
+    def print_out(self):
+        self.update()
+        return self.__all
+
+    def update(self):
+        self.__all = self.__all.format(**locals())
+

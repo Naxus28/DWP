@@ -38,27 +38,27 @@ else:
 
 
 #array and dictionary - both store the data input by users
-array_noun = [first_noun,second_noun,third_noun,fourth_noun]
+array_noun = [first_noun, second_noun, third_noun, fourth_noun]
 
-integer = {'integer_one': first_integer, 'integer_two':second_integer,'integer_three':third_integer}
+integer = {'integer_one': first_integer, 'integer_two': second_integer, 'integer_three': third_integer}
 
 #this variable was needed to include an element of the dictionary in the text below
 # I didn't really understand why I couldn't use integer['integer_one'] instead
 new_integer = integer['integer_one']
 
 #for loop - this will allow me to select a different order of the array
-for i in range(0,2):
-    array_noun = [array_noun[3],array_noun[0], array_noun[1],array_noun[2]]
+for i in range(0, 2):
+    array_noun = [array_noun[3], array_noun[0], array_noun[1], array_noun[2]]
 
 #functions - functions return results from math operations with the input integers
-def integer_calc(x,y,z):
+def integer_calc(x, y, z):
     return x+y-z
-function_one_result = integer_calc(integer['integer_one'],integer['integer_two'],integer['integer_three'])
+function_one_result = integer_calc(integer['integer_one'], integer['integer_two'], integer['integer_three'])
 
 
 def integer_calc_two(x,y,z):
     return x*y-z
-function_two_result = integer_calc_two(first_integer,second_integer,third_integer)
+function_two_result = integer_calc_two(first_integer, second_integer, third_integer)
 
 message = '''
 This is my {array_noun[3]} madlib experience!

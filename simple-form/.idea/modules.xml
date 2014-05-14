@@ -3,9 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../Practice/.idea/Practice.iml" filepath="$PROJECT_DIR$/../Practice/.idea/Practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../classes-review/.idea/classes-review.iml" filepath="$PROJECT_DIR$/../classes-review/.idea/classes-review.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../classes-review2/.idea/classes-review2.iml" filepath="$PROJECT_DIR$/../classes-review2/.idea/classes-review2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../encapsulated-calculator/.idea/encapsulated-calculator.iml" filepath="$PROJECT_DIR$/../encapsulated-calculator/.idea/encapsulated-calculator.iml" />
       <module fileurl="file://$PROJECT_DIR$/../assignment-one/.idea/ferraz_gabriel_simpleForm.iml" filepath="$PROJECT_DIR$/../assignment-one/.idea/ferraz_gabriel_simpleForm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../getters-setters/.idea/getters-setters.iml" filepath="$PROJECT_DIR$/../getters-setters/.idea/getters-setters.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/simple-form.iml" filepath="$PROJECT_DIR$/.idea/simple-form.iml" />
       <module fileurl="file://$PROJECT_DIR$/../simple-form2/.idea/simple-form2.iml" filepath="$PROJECT_DIR$/../simple-form2/.idea/simple-form2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../test1/.idea/test1.iml" filepath="$PROJECT_DIR$/../test1/.idea/test1.iml" />
     </modules>
   </component>
 </project>
