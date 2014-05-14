@@ -75,7 +75,17 @@ class Phone(object):
     def case(self, new_case):
         self.__case = new_case
 
-   
+    @property
+    def total(self):
+        return self.__total
+
+    @total.setter
+    def total(self, new_total):
+        if new_total < 800:
+            self.__total = str(new_total) + " THIS IS A PROMOTION!"
+        else:
+            self.__total = new_total
+
 
     def printer(self):
         print self.__case
