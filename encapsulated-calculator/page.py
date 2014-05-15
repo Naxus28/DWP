@@ -87,8 +87,8 @@ class Phone(object):
             self.__total = new_total
 
 
-    def printer(self):
-        print self.__case
+    # def printer(self):
+    #     print self.__case
 
     def print_out(self):
         self.update()

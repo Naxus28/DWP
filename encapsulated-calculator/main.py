@@ -18,7 +18,7 @@ class MainHandler(webapp2.RequestHandler):
         iphone.film = 20.00
         iphone.warranty = 230.00
         iphone.tax = 0.13
-        iphone.printer()
+        # iphone.printer()
         iphone.final_tax = (iphone.price + iphone.case + iphone.film + iphone.warranty) * iphone.tax
         iphone.total = iphone.price + iphone.case + iphone.film + iphone.warranty + iphone.final_tax
 

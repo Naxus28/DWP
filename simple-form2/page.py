@@ -20,7 +20,7 @@ class MyClass(object):
             <h1>The Soccer Network</h1>
         '''
         self.logout = '''
-         <a href="http://localhost:9080">LOG OUT</a>
+         <a href="/">LOG OUT</a>
         '''
         self.header_close = '''
         </header>
@@ -79,7 +79,7 @@ class MyClass(object):
         <div class="container" id="right_container">
             <img id="ball" src="images/funny_ball.png" />
             <h2 id="h2_error">An error occurred. Please fill out all form fields (you may leave the picture field empty).</h2>
-            <a href="http://localhost:9080">Back to Form</a>
+            <a href="/">Back to Form</a>
         </div>
         '''
         #this div is used for the background picture; it allows me
