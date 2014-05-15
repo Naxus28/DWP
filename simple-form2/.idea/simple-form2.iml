@@ -8,6 +8,8 @@
     <orderEntry type="module" module-name="classes-review2" />
     <orderEntry type="module" module-name="classes-review" />
     <orderEntry type="module" module-name="getters-setters" />
+    <orderEntry type="module" module-name="fox" />
+    <orderEntry type="module" module-name="inheritance-abstraction" />
   </component>
 </module>
 
