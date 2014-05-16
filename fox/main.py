@@ -28,14 +28,14 @@ class MainHandler(webapp2.RequestHandler):
 
         if self.request.GET:
             animal = self.request.GET["animal"]
-            if animal == "fox":
-                self.response.write(the_animals[0].print_out())
+            if animal == "rabbit":
+                self.response.write(the_animals[2].print_out())
             elif animal == "wolf":
                 self.response.write(the_animals[1].print_out())
             else:
-                self.response.write(the_animals[2].print_out())
+                self.response.write(the_animals[0].print_out())
         else:
-            self.response.write(the_animals[0].print_out())
+            self.response.write(the_animals[2].print_out())
 
 
 

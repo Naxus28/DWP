@@ -15,9 +15,9 @@ class Animals(object):
         <h1>The Animals Page</h1>
         <nav>
             <ul>
-                <li><a href="?animal=fox">FOX</a></li>
-                <li><a href="?animal=wolf">WOLF</a></li>
                 <li><a href="?animal=rabbit">RABBIT</a></li>
+                <li><a href="?animal=wolf">WOLF</a></li>
+                <li><a href="?animal=fox">FOX</a></li>
             </ul>
         </nav>
     </header>
@@ -40,10 +40,11 @@ class Animals(object):
         <div id ="image">
             <h2 id="animal_image">This is the {self.animal}</h2>
             <figure>
-                <img id ="the_fox" src="{self._fox}" alt="{self.animal}">
+                <img id ="the_fox" src="{self._fox}" alt="">
                 <img id ="the_image" src="{self._url}" alt="{self.animal}">
                 <figcaption>Original image can be found at <a href ="{self._url}" target="_blank">{self._link}</a></figcaption>
             </figure>
+            <p id="my_bad">OPS...MY BAD!<span>(or maybe not ;)</span></p>
         </div>
         '''
 
