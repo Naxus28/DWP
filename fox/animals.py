@@ -14,6 +14,13 @@ class Animals(object):
     <body>
         '''
         self._content = '''
+        <div id="form">
+            <form method="GET" action"" >
+                <button name="fox"></button>
+                <button name="wolf"></button>
+                <button name="rabbit"></button>
+            <form>
+        </div>
         <div id="info">
             <h2>This is the {self.animal}</h2>
             <p>{self._phylum}</p>
