@@ -33,6 +33,7 @@ h1, h2{
 }
 h2{
     font-size: 1em;
+    margin-bottom: 5px;
 }
 h1{
     text-align: center;
@@ -48,15 +49,14 @@ div{
     margin-left:0;
     margin-right:0;
 }
-div#form{
-    width: 97%;
-    padding-left:3%;
-    padding-right:0;
-    margin-left:0;
-    margin-right:0;
+div#info p:first_of_type{
+    margin-top: 10px;
 }
 img{
     width: 80%;
+}
+figure{
+    margin-top: 10px;
 }
 figcaption{
     font-size: 1em;
