@@ -1,0 +1,70 @@
+body{
+    width: 100%;
+    overflow: scroll;
+    font-family: 'Henny Penny', cursive;
+    margin-left:0;
+}
+nav{
+    float: left;
+    width: 100%;
+    margin-left:0;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+ul{
+    padding-left:0;
+    overflow: hidden;
+}
+nav ul li{
+    list-style: none;
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    outline: 1px solid black;
+
+
+}
+nav ul li a{
+    font-size: 1.5em;
+    display:block;
+}
+h1, h2{
+    text-transform: uppercase;
+}
+h2{
+    font-size: 1em;
+}
+h1{
+    text-align: center;
+}
+h2#animal_image{
+    margin-left: 6.3%;
+}
+div{
+    width: 47%;
+    float: left;
+    padding-left:3%;
+    padding-right:0;
+    margin-left:0;
+    margin-right:0;
+}
+div#form{
+    width: 97%;
+    padding-left:3%;
+    padding-right:0;
+    margin-left:0;
+    margin-right:0;
+}
+img{
+    width: 80%;
+}
+figcaption{
+    font-size: 1em;
+    text-align: center;
+    width: 90%;
+}
+a{
+    text-decoration: none;
+}
+
+

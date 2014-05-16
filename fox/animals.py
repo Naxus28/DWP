@@ -7,7 +7,7 @@ class Animals(object):
     <head>
         <title>{self.title}</title>
         <link rel="stylesheet" type="text/css" href={self.css_url}>
-        <link href={self.__font} rel="stylesheet" type="text/css">
+        <link href={self._font} rel="stylesheet" type="text/css">
     </head>
     <header>
         <h1>The Animals Page</h1>
@@ -15,24 +15,30 @@ class Animals(object):
     <body>
         '''
         self._content = '''
-        <div id="form">
-           <a href="?animal=fox">FOX</a>
-            <a href="?animal=wolf">WOLF</a>
-            <a href="?animal=rabbit">RABBIT</a>
+        <nav>
+            <ul>
+                <li><a href="?animal=fox">FOX</a></li>
+                <li><a href="?animal=wolf">WOLF</a></li>
+                <li><a href="?animal=rabbit">RABBIT</a></li>
+            </ul>
+        </nav>
         </div>
         <div id="info">
-            <h2>This is the {self.animal}</h2>
-            <p>Phylum: {self._phylum}</p>
-            <p>Class: {self._class_}</p>
-            <p>Order: {self._order}</p>
-            <p>Family: {self._family}</p>
-            <p>Genus: {self._genus}</p>
-            <p>Average Life Span: {self._avg_lifespan}</p>
-            <p>Habitat: {self._habitat}</p>
-            <p>Geo Location: {self._geo_location}</p>
+            <h2>Information about the {self.animal}</h2>
+            <p><span>Phylum:</span> {self._phylum}</p>
+            <p><span>Class:</span> {self._class_}</p>
+            <p><span>Order:</span> {self._order}</p>
+            <p><span>Family:</span> {self._family}</p>
+            <p><span>Genus:</span> {self._genus}</p>
+            <p><span>Average Life Span:</span> {self._avg_lifespan}</p>
+            <p><span>Habitat:</span> {self._habitat}</p>
+            <p><span>Geo Location: {self._geo_location}</p>
+        </div>
+        <div id ="image">
+            <h2 id="animal_image">This is the {self.animal}</h2>
             <figure>
                 <img src="{self._url}" alt="{self.animal}">
-                <figcaption>This image was taken from: {self._url}</figcaption>
+                <figcaption>Original image can be found at <a href ="{self._url}" target="_blank">wikipedia.com</a></figcaption>
             </figure>
         </div>
         '''
@@ -41,7 +47,7 @@ class Animals(object):
     </body>
 </html>
         '''
-        self.__font = "http://fonts.googleapis.com/css?family=Lato|Raleway"
+        self._font = "http://fonts.googleapis.com/css?family=Henny+Penny|Unkempt|Gloria+Hallelujah|Indie+Flower|Shadows+Into+Light"
         self._animal = "The animal"
         self.css_url = "css/styles.css"
         self._title = "The Animals Page"
