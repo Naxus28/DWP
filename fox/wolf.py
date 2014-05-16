@@ -5,6 +5,7 @@ class Wolf(Animals):
         #call constructor function
         Animals.__init__(self)
         self._title = "The Grey Wolf"
+        self._animal = "GREY WOLF"
         self._phylum = "Chordata"
         self._class_ = "Mammalia"
         self._order = "Carnivora"

@@ -5,6 +5,7 @@ class Rabbit(Animals):
         #call constructor function
         Animals.__init__(self)
         self._title = "The Rabbit"
+        self._animal = "RABBIT"
         self._phylum = "Chordata"
         self._class_ = "Mammalia"
         self._order = "Lagomorpha"

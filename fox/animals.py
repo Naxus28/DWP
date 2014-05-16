@@ -15,23 +15,24 @@ class Animals(object):
         '''
         self._content = '''
         <div id="form">
-            <form method="GET" action"" >
-                <button name="fox"></button>
-                <button name="wolf"></button>
-                <button name="rabbit"></button>
-            <form>
+           <a href="?animal=fox">FOX</a>
+            <a href="?animal=wolf">WOLF</a>
+            <a href="?animal=rabbit">RABBIT</a>
         </div>
         <div id="info">
             <h2>This is the {self.animal}</h2>
-            <p>{self._phylum}</p>
-            <p>{self._class_}</p>
-            <p>{self._order}</p>
-            <p>{self._family}</p>
-            <p>{self._genus}</p>
-            <p>{self._avg_lifespan}</p>
-            <p>{self._habitat}</p>
-            <p>{self._geo_location}</p>
-            <p>{self._url}</p>
+            <p>Phylum: {self._phylum}</p>
+            <p>Class: {self._class_}</p>
+            <p>Order: {self._order}</p>
+            <p>Family: {self._family}</p>
+            <p>Genus: {self._genus}</p>
+            <p>Average Life Span: {self._avg_lifespan}</p>
+            <p>Habitat: {self._habitat}</p>
+            <p>Geo Location: {self._geo_location}</p>
+            <figure>
+                <img src="{self._url}" alt="{self.animal}">
+                <figcaption>This image was taken from: {self._url}</figcaption>
+            </figure>
         </div>
         '''
 
@@ -39,11 +40,10 @@ class Animals(object):
     </body>
 </html>
         '''
-        self.animal = "The animal"
+        self._animal = "The animal"
         self.css_url = "css/styles.css"
         self._title = "The Animals Page"
-        self.__sound = "animal sound"
-
+        self._sound = "animal sound"
     @property
     def title(self):
         return self._title
@@ -51,6 +51,22 @@ class Animals(object):
     @title.setter
     def title(self, new_title):
         self._title = new_title
+
+    @property
+    def animal(self):
+        return self._animal
+
+    @animal.setter
+    def animal(self, new_animal):
+        self._animal = new_animal
+
+    @property
+    def sound(self):
+        return self._sound
+
+    @sound.setter
+    def sound(self, new_sound):
+        self._sound = new_sound
 
     @property
     def css(self):
