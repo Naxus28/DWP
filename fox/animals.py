@@ -11,10 +11,6 @@ class Animals(object):
     </head>
     <header>
         <h1>The Animals Page</h1>
-    </header>
-    <body id="{self._body_id}">
-        '''
-        self._content = '''
         <nav>
             <ul>
                 <li><a href="?animal=fox">FOX</a></li>
@@ -22,6 +18,10 @@ class Animals(object):
                 <li><a href="?animal=rabbit">RABBIT</a></li>
             </ul>
         </nav>
+    </header>
+    <body id="{self._body_id}">
+        '''
+        self._content = '''
         </div>
         <div id="info">
             <h2>Information about the {self.animal}</h2>

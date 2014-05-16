@@ -3,14 +3,14 @@ body#rabbit{
     font-family: 'Henny Penny', cursive;
     color: rgb(245,245,245);
     margin-left:0;
-    background-color: #70bd6f;
-    background-image: url(http://www.transparenttextures.com/patterns/gplay.png);
+    margin-top:0;
+    background: url("../images/gplay1.png");
 }
 body#wolf{
     width: 100%;
     font-family: 'Henny Penny', cursive;
-
     margin-left:0;
+    margin-top:0;
     background-color: #dbdbdb;
     background-image: url("../images/skulls.png");
 }
@@ -19,14 +19,20 @@ body#fox{
     font-family: 'Henny Penny', cursive;
     color: rgb(245,245,245);
     margin-left:0;
+    margin-top:0;
     background-color: #dbdbdb;
     background-image: url(http://www.transparenttextures.com/patterns/nice-snow.png);
 }
+header{
+    overflow: hidden;
+    background: #5d8565;
+    margin-top: 0;
+}
+
 nav{
     float: left;
     width: 100%;
     margin-left:0;
-    margin-bottom: 30px;
 }
 ul{
     padding-left:0;
@@ -63,6 +69,7 @@ div{
     padding-right:0;
     margin-left:0;
     margin-right:0;
+    margin-top: 30px;
 }
 div#info p{
     margin-top: 10px;
