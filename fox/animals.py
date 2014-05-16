@@ -7,6 +7,7 @@ class Animals(object):
     <head>
         <title>{self.title}</title>
         <link rel="stylesheet" type="text/css" href={self.css_url}>
+        <link href={self.__font} rel="stylesheet" type="text/css">
     </head>
     <header>
         <h1>The Animals Page</h1>
@@ -40,6 +41,7 @@ class Animals(object):
     </body>
 </html>
         '''
+        self.__font = "http://fonts.googleapis.com/css?family=Lato|Raleway"
         self._animal = "The animal"
         self.css_url = "css/styles.css"
         self._title = "The Animals Page"
