@@ -25,10 +25,11 @@ body#fox{
 }
 header{
     overflow: hidden;
-    background: #5d8565;
     margin-top: 0;
 }
-
+#rabbit header{
+    background: rgba(66,94,72,.85);
+}
 nav{
     float: left;
     width: 100%;
@@ -42,12 +43,19 @@ nav ul li{
     width: 33.33%;
     float: left;
     text-align: center;
-    outline: 1px solid black;
+    box-shadow: 0 0 3px black;
     padding-top:10px;
+    margin-bottom: 3px;
+}
+#rabbit nav ul li{
+    background: rgb(240,240,240);
 }
 nav ul li a{
     font-size: 1.5em;
     display:block;
+}
+#rabbit nav ul li a{
+    color: rgba(240,240,240, 0);
 }
 h1, h2{
     text-transform: uppercase;

@@ -8,6 +8,21 @@ class Animals(object):
         <title>{self.title}</title>
         <link rel="stylesheet" type="text/css" href={self.css_url}>
         <link href={self._font} rel="stylesheet" type="text/css">
+        <script src="js/modernizr-1.6.min.js"></script>
+        <script>
+                Modernizr.addTest('backgroundclip',function() {
+
+                    var div = document.createElement('div');
+
+                    if ('backgroundClip' in div.style)
+                      return true;
+
+                    'Webkit Moz O ms Khtml'.replace(/([A-Za-z]*)/g,function(val) {
+                     if (val+'BackgroundClip' in div.style) return true;
+                     });
+
+                });
+</script>
     </head>
     <header>
         <h1>The Animals Page</h1>

@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94938cd2-ada0-4dcc-9f76-077739e00527" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fox/images/gplay.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fox/images/gplay1.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fox/animals.py" afterPath="$PROJECT_DIR$/fox/animals.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fox/css/styles.css" afterPath="$PROJECT_DIR$/fox/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DPW.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,22 +35,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="animals.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="animals.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fox/animals.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="14" selection-start="572" selection-end="572" vertical-scroll-proportion="-6.5636363" vertical-offset="0" max-vertical-offset="1881">
-              <folding>
-                <marker date="1400217364000" expanded="true" signature="22:2735" placeholder="..." />
-                <marker date="1400217364000" expanded="true" signature="46:2027" placeholder="..." />
-              </folding>
+            <state line="10" column="24" selection-start="301" selection-end="301" vertical-scroll-proportion="0.33216783" vertical-offset="0" max-vertical-offset="2166">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fox/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="4" selection-start="141" selection-end="141" vertical-scroll-proportion="0.15447155" vertical-offset="19" max-vertical-offset="1976">
+            <state line="57" column="32" selection-start="1154" selection-end="1154" vertical-scroll-proportion="-21.28" vertical-offset="551" max-vertical-offset="2128">
               <folding />
             </state>
           </provider>
@@ -139,14 +133,14 @@
         <option value="$PROJECT_DIR$/fox/fox.py" />
         <option value="$PROJECT_DIR$/fox/rabbit.py" />
         <option value="$PROJECT_DIR$/fox/wolf.py" />
-        <option value="$PROJECT_DIR$/fox/animals.py" />
         <option value="$PROJECT_DIR$/fox/css/styles.css" />
+        <option value="$PROJECT_DIR$/fox/animals.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="140" />
-    <option name="y" value="162" />
+    <option name="x" value="74" />
+    <option name="y" value="22" />
     <option name="width" value="1260" />
     <option name="height" value="760" />
   </component>
@@ -237,24 +231,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DPW" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DPW" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -285,6 +261,7 @@
       <recent name="$PROJECT_DIR$/fox/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/fox/js" />
       <recent name="$PROJECT_DIR$/fox/images" />
     </key>
   </component>
@@ -422,14 +399,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="140" y="162" width="1260" height="760" extended-state="0" />
-    <editor active="false" />
+    <frame x="74" y="22" width="1260" height="760" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -574,16 +551,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fox/animals.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="14" selection-start="572" selection-end="572" vertical-scroll-proportion="-6.5636363" vertical-offset="0" max-vertical-offset="1881">
-          <folding>
-            <marker date="1400217364000" expanded="true" signature="22:2735" placeholder="..." />
-            <marker date="1400217364000" expanded="true" signature="46:2027" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fox/images/gplay.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -596,7 +563,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fox/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="4" selection-start="141" selection-end="141" vertical-scroll-proportion="0.15447155" vertical-offset="19" max-vertical-offset="1976">
+        <state line="57" column="32" selection-start="1154" selection-end="1154" vertical-scroll-proportion="-21.28" vertical-offset="551" max-vertical-offset="2128">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fox/animals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="24" selection-start="301" selection-end="301" vertical-scroll-proportion="0.33216783" vertical-offset="0" max-vertical-offset="2166">
           <folding />
         </state>
       </provider>
