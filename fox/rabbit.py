@@ -4,8 +4,8 @@ class Rabbit(Animals):
     def __init__(self):
         #call constructor function
         Animals.__init__(self)
-        self._title = "The Rabbit"
-        self._animal = "RABBIT"
+        self.title = "The Rabbit"
+        self.animal = "RABBIT"
         self._phylum = "Chordata"
         self._class_ = "Mammalia"
         self._order = "Lagomorpha"
@@ -15,7 +15,7 @@ class Rabbit(Animals):
         self._avg_lifespan = "9 to 12 years"
         self._habitat = "Meadows, woods, forests, grasslands, deserts and wetlands."
         self._geo_location = "Planet Earth"
-        self._sound = "Honking"
+        self.sound = "Honking"
         self._body_id = "rabbit"
 
     def update(self):

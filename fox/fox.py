@@ -4,8 +4,8 @@ class Fox(Animals):
     def __init__(self):
         #call constructor function
         Animals.__init__(self)
-        self._title = "The Fox"
-        self._animal = "FOX"
+        self.title = "The Fox"
+        self.animal = "FOX"
         self._phylum = "Chordata"
         self._class_ = "Mammalia"
         self._order = "Carnivora"
@@ -15,7 +15,7 @@ class Fox(Animals):
         self._avg_lifespan = "5 years (In Wild)"
         self._habitat = "Wooded areas, prairies and farmland"
         self._geo_location = "Planet Earth"
-        self._sound = "Scream-y howl"
+        self.sound = "Scream-y howl"
         self._body_id = "fox"
 
     def update(self):

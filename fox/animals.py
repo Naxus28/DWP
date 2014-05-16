@@ -5,8 +5,8 @@ class Animals(object):
 <!DOCTYPE html>
 <html>
     <head>
-        <title>{self.title}</title>
-        <link rel="stylesheet" type="text/css" href={self.css_url}>
+        <title>{self.main_title} | {self.title}</title>
+        <link rel="stylesheet" type="text/css" href={self.css}>
         <link href={self._font} rel="stylesheet" type="text/css">
         <script src="js/modernizr.2.5.3.min.js"></script>
     </head>
@@ -40,7 +40,7 @@ class Animals(object):
             <h2 id="animal_image">This is the {self.animal}</h2>
             <figure>
                 <img src="{self._url}" alt="{self.animal}">
-                <figcaption>Original image can be found at <a href ="{self._url}" target="_blank">wikipedia.com</a></figcaption>
+                <figcaption>Original image can be found at <a href ="{self._url}" target="_blank">wikimedia.org</a></figcaption>
             </figure>
         </div>
         '''
@@ -53,9 +53,15 @@ class Animals(object):
         self._font = "http://fonts.googleapis.com/css?family=Henny+Penny|Unkempt|Gloria+Hallelujah|Indie+Flower|Shadows+Into+Light"
         self._animal = "The animal"
         self.css_url = "css/styles.css"
-        self._title = "The Animals Page"
+        self.__title1 = "The Animals Page"
+        self._title = ""
         self._sound = "animal sound"
         self._body_id = ""
+
+    @property
+    def main_title(self):
+        return self.__title1
+
     @property
     def title(self):
         return self._title

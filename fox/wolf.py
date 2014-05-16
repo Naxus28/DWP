@@ -4,8 +4,8 @@ class Wolf(Animals):
     def __init__(self):
         #call constructor function
         Animals.__init__(self)
-        self._title = "The Grey Wolf"
-        self._animal = "GREY WOLF"
+        self.title = "The Grey Wolf"
+        self.animal = "GREY WOLF"
         self._phylum = "Chordata"
         self._class_ = "Mammalia"
         self._order = "Carnivora"
@@ -15,7 +15,7 @@ class Wolf(Animals):
         self._avg_lifespan = "5 years (In Wild)"
         self._habitat = "Deserts, grasslands, forests and arctic tundras."
         self._geo_location = "North America and Europe"
-        self._sound = "Howl"
+        self.sound = "Howl"
         self._body_id = "wolf"
 
     def update(self):
