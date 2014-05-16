@@ -4,6 +4,7 @@
 
 #
 import webapp2
+
 from fox import Fox
 from rabbit import Rabbit
 from wolf import Wolf
