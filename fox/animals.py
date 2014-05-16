@@ -40,8 +40,9 @@ class Animals(object):
         <div id ="image">
             <h2 id="animal_image">This is the {self.animal}</h2>
             <figure>
-                <img src="{self._url}" alt="{self.animal}">
-                <figcaption>Original image can be found at <a href ="{self._url}" target="_blank">wikimedia.org</a></figcaption>
+                <img id ="the_fox" src="{self._fox}" alt="{self.animal}">
+                <img id ="the_image" src="{self._url}" alt="{self.animal}">
+                <figcaption>Original image can be found at <a href ="{self._url}" target="_blank">{self._link}</a></figcaption>
             </figure>
         </div>
         '''
@@ -54,11 +55,13 @@ class Animals(object):
         '''
         self._font = "http://fonts.googleapis.com/css?family=Henny+Penny|Unkempt|Gloria+Hallelujah|Indie+Flower|Shadows+Into+Light"
         self._animal = "The animal"
+        self._fox = ""
         self.css_url = "css/styles.css"
         self.__title1 = "The Animals Page"
         self._title = ""
         self._sound = "animal sound"
         self._body_id = ""
+        self._link = ""
 
     @property
     def main_title(self):
