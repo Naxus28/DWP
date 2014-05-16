@@ -1,19 +1,35 @@
-body{
+body#rabbit{
     width: 100%;
-    overflow: scroll;
     font-family: 'Henny Penny', cursive;
+    color: rgb(245,245,245);
     margin-left:0;
+    background-color: #70bd6f;
+    background-image: url(http://www.transparenttextures.com/patterns/gplay.png);
+}
+body#wolf{
+    width: 100%;
+    font-family: 'Henny Penny', cursive;
+
+    margin-left:0;
+    background-color: #dbdbdb;
+    background-image: url("../images/skulls.png");
+}
+body#fox{
+    width: 100%;
+    font-family: 'Henny Penny', cursive;
+    color: rgb(245,245,245);
+    margin-left:0;
+    background-color: #dbdbdb;
+    background-image: url(http://www.transparenttextures.com/patterns/nice-snow.png);
 }
 nav{
     float: left;
     width: 100%;
     margin-left:0;
-    overflow: hidden;
     margin-bottom: 30px;
 }
 ul{
     padding-left:0;
-    overflow: hidden;
 }
 nav ul li{
     list-style: none;
@@ -21,8 +37,7 @@ nav ul li{
     float: left;
     text-align: center;
     outline: 1px solid black;
-
-
+    padding-top:10px;
 }
 nav ul li a{
     font-size: 1.5em;
@@ -55,6 +70,8 @@ div#info p{
 }
 img{
     width: 78%;
+    border-radius: 10px;
+    box-shadow: 0 0 2px black;
 }
 figure{
     margin-top: 10px;

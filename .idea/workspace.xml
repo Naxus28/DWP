@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94938cd2-ada0-4dcc-9f76-077739e00527" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fox/images/grass.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fox/images/skulls.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fox/animals.py" afterPath="$PROJECT_DIR$/fox/animals.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fox/app.yaml" afterPath="$PROJECT_DIR$/fox/app.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fox/fox.py" afterPath="$PROJECT_DIR$/fox/fox.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fox/rabbit.py" afterPath="$PROJECT_DIR$/fox/rabbit.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fox/css/styles.css" afterPath="$PROJECT_DIR$/fox/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fox/wolf.py" afterPath="$PROJECT_DIR$/fox/wolf.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DPW.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,7 +45,7 @@
       <file leaf-file-name="animals.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fox/animals.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="51" selection-start="1251" selection-end="1251" vertical-scroll-proportion="-2.8" vertical-offset="511" max-vertical-offset="1862">
+            <state line="14" column="28" selection-start="378" selection-end="378" vertical-scroll-proportion="-4.836364" vertical-offset="0" max-vertical-offset="1881">
               <folding />
             </state>
           </provider>
@@ -47,7 +54,7 @@
       <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fox/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="13" selection-start="914" selection-end="914" vertical-scroll-proportion="0.598374" vertical-offset="848" max-vertical-offset="1520">
+            <state line="3" column="4" selection-start="75" selection-end="99" vertical-scroll-proportion="0.09268293" vertical-offset="0" max-vertical-offset="1843">
               <folding />
             </state>
           </provider>
@@ -65,7 +72,7 @@
       <file leaf-file-name="fox.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fox/fox.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="8" selection-start="649" selection-end="678" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="532">
+            <state line="18" column="28" selection-start="707" selection-end="707" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="551">
               <folding />
             </state>
           </provider>
@@ -74,7 +81,7 @@
       <file leaf-file-name="rabbit.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fox/rabbit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="848" selection-end="848" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="532">
+            <state line="18" column="31" selection-start="749" selection-end="749" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="551">
               <folding />
             </state>
           </provider>
@@ -83,7 +90,7 @@
       <file leaf-file-name="wolf.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fox/wolf.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="27" selection-start="794" selection-end="794" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="513">
+            <state line="18" column="29" selection-start="825" selection-end="825" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="532">
               <folding />
             </state>
           </provider>
@@ -105,7 +112,7 @@
       <file leaf-file-name="app.yaml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fox/app.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="118" selection-end="118" vertical-scroll-proportion="-6.84" vertical-offset="0" max-vertical-offset="494">
+            <state line="11" column="20" selection-start="154" selection-end="154" vertical-scroll-proportion="-8.36" vertical-offset="0" max-vertical-offset="551">
               <folding />
             </state>
           </provider>
@@ -134,18 +141,18 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/fox/main.py" />
-        <option value="$PROJECT_DIR$/fox/fox.py" />
         <option value="$PROJECT_DIR$/fox/app.yaml" />
-        <option value="$PROJECT_DIR$/fox/wolf.py" />
-        <option value="$PROJECT_DIR$/fox/rabbit.py" />
         <option value="$PROJECT_DIR$/fox/animals.py" />
+        <option value="$PROJECT_DIR$/fox/fox.py" />
+        <option value="$PROJECT_DIR$/fox/rabbit.py" />
+        <option value="$PROJECT_DIR$/fox/wolf.py" />
         <option value="$PROJECT_DIR$/fox/css/styles.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-34" />
-    <option name="y" value="22" />
+    <option name="x" value="-12" />
+    <option name="y" value="48" />
     <option name="width" value="1260" />
     <option name="height" value="760" />
   </component>
@@ -260,6 +267,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/fox/images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/fox/images" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="tests" factoryName="py.test">
@@ -395,7 +410,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-34" y="22" width="1260" height="760" extended-state="0" />
+    <frame x="-12" y="48" width="1260" height="760" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -515,42 +530,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fox/app.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="118" selection-end="118" vertical-scroll-proportion="-6.84" vertical-offset="0" max-vertical-offset="494">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fox/fox.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="8" selection-start="649" selection-end="678" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="532">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fox/wolf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="27" selection-start="794" selection-end="794" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="513">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fox/rabbit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="848" selection-end="848" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="532">
+        <state line="11" column="20" selection-start="154" selection-end="154" vertical-scroll-proportion="-8.36" vertical-offset="0" max-vertical-offset="551">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fox/animals.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="51" selection-start="1251" selection-end="1251" vertical-scroll-proportion="-2.8" vertical-offset="511" max-vertical-offset="1862">
+        <state line="14" column="28" selection-start="378" selection-end="378" vertical-scroll-proportion="-4.836364" vertical-offset="0" max-vertical-offset="1881">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fox/fox.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="28" selection-start="707" selection-end="707" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="551">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fox/rabbit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="31" selection-start="749" selection-end="749" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="551">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fox/wolf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="29" selection-start="825" selection-end="825" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="532">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fox/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="13" selection-start="914" selection-end="914" vertical-scroll-proportion="0.598374" vertical-offset="848" max-vertical-offset="1520">
+        <state line="3" column="4" selection-start="75" selection-end="99" vertical-scroll-proportion="0.09268293" vertical-offset="0" max-vertical-offset="1843">
           <folding />
         </state>
       </provider>

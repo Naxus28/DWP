@@ -16,6 +16,7 @@ class Rabbit(Animals):
         self._habitat = "Meadows, woods, forests, grasslands, deserts and wetlands."
         self._geo_location = "Planet Earth"
         self._sound = "Honking"
+        self._body_id = "rabbit"
 
     def update(self):
         self.all = self._open + self._content + self._close

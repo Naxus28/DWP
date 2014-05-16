@@ -12,7 +12,7 @@ class Animals(object):
     <header>
         <h1>The Animals Page</h1>
     </header>
-    <body>
+    <body id="{self._body_id}">
         '''
         self._content = '''
         <nav>
@@ -53,6 +53,7 @@ class Animals(object):
         self.css_url = "css/styles.css"
         self._title = "The Animals Page"
         self._sound = "animal sound"
+        self._body_id = ""
     @property
     def title(self):
         return self._title

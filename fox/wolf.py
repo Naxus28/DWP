@@ -16,6 +16,7 @@ class Wolf(Animals):
         self._habitat = "Deserts, grasslands, forests and arctic tundras."
         self._geo_location = "North America and Europe"
         self._sound = "Howl"
+        self._body_id = "wolf"
 
     def update(self):
         self.all = self._open + self._content + self._close

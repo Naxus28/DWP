@@ -16,6 +16,7 @@ class Fox(Animals):
         self._habitat = "Wooded areas, prairies and farmland"
         self._geo_location = "Planet Earth"
         self._sound = "Scream-y howl"
+        self._body_id = "fox"
 
     def update(self):
         self.all = self._open + self._content + self._close
