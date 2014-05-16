@@ -49,11 +49,12 @@ div{
     margin-left:0;
     margin-right:0;
 }
-div#info p:first-of-type{
+div#info p{
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 img{
-    width: 80%;
+    width: 78%;
 }
 figure{
     margin-top: 10px;
@@ -61,10 +62,13 @@ figure{
 figcaption{
     font-size: 1em;
     text-align: center;
-    width: 90%;
+    width: 78%;
 }
 a{
     text-decoration: none;
+}
+span{
+    font-size: 1.2em;
 }
 
 

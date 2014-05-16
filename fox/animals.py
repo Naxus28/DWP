@@ -32,8 +32,8 @@ class Animals(object):
             <p><span>Genus:</span> {self._genus}</p>
             <p><span>Average Life Span:</span> {self._avg_lifespan}</p>
             <p><span>Habitat:</span> {self._habitat}</p>
-            <p><span>Geo Location: {self._geo_location}</p>
-             <p><span>Typical sound emitted: {self._sound}</p>
+            <p><span>Geo Location:</span> {self._geo_location}</p>
+             <p><span>Typical sound emitted:</span> {self._sound}</p>
         </div>
         <div id ="image">
             <h2 id="animal_image">This is the {self.animal}</h2>
