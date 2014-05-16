@@ -9,6 +9,7 @@ class Animals(object):
         <link rel="stylesheet" type="text/css" href={self.css}>
         <link href={self._font} rel="stylesheet" type="text/css">
         <script src="js/modernizr.2.5.3.min.js"></script>
+
     </head>
     <header>
         <h1>The Animals Page</h1>
@@ -46,7 +47,8 @@ class Animals(object):
         '''
 
         self._close = '''
-        <script src="js/init.js"></script>
+        <script src="js/jquery-1.11.0.min.js"></script>
+        <script src="js/initial.js"></script>
     </body>
 </html>
         '''
