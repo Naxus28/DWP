@@ -15,6 +15,7 @@ class Rabbit(Animals):
         self._avg_lifespan = "9 to 12 years"
         self._habitat = "Meadows, woods, forests, grasslands, deserts and wetlands."
         self._geo_location = "Planet Earth"
+        self._sound = "Honking"
 
     def update(self):
         self.all = self._open + self._content + self._close

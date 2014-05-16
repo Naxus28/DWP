@@ -49,7 +49,7 @@ div{
     margin-left:0;
     margin-right:0;
 }
-div#info p:first_of_type{
+div#info p:first-of-type{
     margin-top: 10px;
 }
 img{

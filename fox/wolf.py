@@ -15,6 +15,7 @@ class Wolf(Animals):
         self._avg_lifespan = "5 years (In Wild)"
         self._habitat = "Deserts, grasslands, forests and arctic tundras."
         self._geo_location = "North America and Europe"
+        self._sound = "Howl"
 
     def update(self):
         self.all = self._open + self._content + self._close
