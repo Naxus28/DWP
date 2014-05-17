@@ -11,8 +11,9 @@ body#wolf{
     font-family: 'Henny Penny', cursive;
     margin-left:0;
     margin-top:0;
-    background-color: #dbdbdb;
-    background-image: url("../images/skulls.png");
+    color: rgb(245,245,245);
+    background-color: #757575;
+    background-image: url(http://www.transparenttextures.com/patterns/gplay.png);
 }
 body#fox{
     width: 100%;
@@ -20,8 +21,7 @@ body#fox{
     color: rgb(245,245,245);
     margin-left:0;
     margin-top:0;
-    background-color: #dbdbdb;
-    background-image: url(http://www.transparenttextures.com/patterns/nice-snow.png);
+    background-image: url("../images/gplay-fox.png");
 }
 header{
     overflow: hidden;
@@ -37,6 +37,12 @@ h1{
 }
 #rabbit h1{
    background: rgba(66,94,72,.8);
+}
+#fox h1{
+   background: rgba(77,69,14,.8);
+}
+#wolf h1{
+   background: rgba(96,96,96,.8);
 }
 nav{
     float: left;
@@ -70,6 +76,20 @@ nav ul li a{
    color: rgb(46,74,52);
    background: rgba(240,240,240, .8);
 }
+#fox nav ul li a{
+   color: rgb(107,99,44);
+}
+#fox nav ul li a:hover{
+   color: rgb(77,69,14);
+   background: rgba(240,240,240, .8);
+}
+#wolf nav ul li a{
+   color: rgb(102,102,102);
+}
+#wolf nav ul li a:hover{
+   color: rgb(76,76,76);
+   background: rgba(240,240,240, .8);
+}
 h1, h2{
     text-transform: uppercase;
 }
@@ -88,11 +108,11 @@ div{
     padding-right:0;
     margin-left:0;
     margin-right:0;
-    margin-top: 30px;
+    margin-top: 25px;
 }
 div#info p{
-    margin-top: 11px;
-    margin-bottom: 11px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 img{
     width: 77%;
@@ -101,6 +121,7 @@ img{
 }
 figure{
     margin-top: 10px;
+    margin-bottom: 0;
 }
 figcaption{
     font-size: 1em;
@@ -110,7 +131,14 @@ figcaption{
 #rabbit figcaption a{
     color: rgb(6,34,2);
 }
-#rabbit figcaption a:hover{
+#fox figcaption a{
+    color: rgb(57,49,4);
+}
+#wolf figcaption a{
+    color: rgb(46,46,46);
+}
+
+div a:hover{
     text-decoration: underline;
 }
 a{
@@ -137,7 +165,6 @@ span{
     margin-bottom: 5px;
     padding-bottom:5px;
 }
-
 #fox #my_bad span{
     font-size: .6em;
     width: 100%;

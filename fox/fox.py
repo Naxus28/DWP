@@ -11,7 +11,7 @@ class Fox(Animals):
         self._order = "Carnivora"
         self._family = "Canidae"
         self._genus = "Vulpes"
-        self._url = "images/fox4.jpg"
+        self._url = "images/fox-4.png"
         self._fox = "images/megan_fox.jpeg"
         self._avg_lifespan = "5 years (In Wild)"
         self._habitat = "Wooded areas, prairies and farmland"

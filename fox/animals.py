@@ -15,9 +15,9 @@ class Animals(object):
         <h1>The Animals Page</h1>
         <nav>
             <ul>
-                <li><a href="?animal=rabbit">RABBIT</a></li>
-                <li><a href="?animal=wolf">WOLF</a></li>
-                <li><a href="?animal=fox">FOX</a></li>
+                <li><a href="?animal=rabbit">THE RABBIT</a></li>
+                <li><a href="?animal=wolf">THE WOLF</a></li>
+                <li><a href="?animal=fox">THE FOX</a></li>
             </ul>
         </nav>
     </header>
