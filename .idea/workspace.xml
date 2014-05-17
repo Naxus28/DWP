@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94938cd2-ada0-4dcc-9f76-077739e00527" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fox/images/gplay-fox.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fox/animals.py" afterPath="$PROJECT_DIR$/fox/animals.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fox/fox.py" afterPath="$PROJECT_DIR$/fox/fox.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fox/js/jquery-1.11.0.min.js" afterPath="$PROJECT_DIR$/fox/js/jquery-1.11.0.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fox/css/styles.css" afterPath="$PROJECT_DIR$/fox/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DPW.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,7 +57,7 @@
       <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fox/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="110" column="18" selection-start="2049" selection-end="2049" vertical-scroll-proportion="0.6837121" vertical-offset="1729" max-vertical-offset="3458">
+            <state line="33" column="21" selection-start="761" selection-end="761" vertical-scroll-proportion="0.47727272" vertical-offset="375" max-vertical-offset="3458">
               <folding />
             </state>
           </provider>
@@ -600,7 +595,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fox/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="18" selection-start="2049" selection-end="2049" vertical-scroll-proportion="0.6837121" vertical-offset="1729" max-vertical-offset="3458">
+        <state line="33" column="21" selection-start="761" selection-end="761" vertical-scroll-proportion="0.47727272" vertical-offset="375" max-vertical-offset="3458">
           <folding />
         </state>
       </provider>
