@@ -175,9 +175,10 @@ figure{
     margin-bottom: 0;
 }
 figcaption{
-    font-size: 1em;
+    font-size: .9em;
     text-align: center;
     width: 78%;
+    font-style: oblique;
 }
 #rabbit figcaption a{
     color: rgb(6,34,2);

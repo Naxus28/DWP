@@ -3,7 +3,7 @@ from html import Html
 
 class Fox(Animal, Html):
     def __init__(self):
-        #call constructor function
+        #call constructor functions
         Animal.__init__(self)
         Html.__init__(self)
         #the property below is just a test to make sure my main stylesheet was protected

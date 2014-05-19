@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94938cd2-ada0-4dcc-9f76-077739e00527" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fox/fox.py" afterPath="$PROJECT_DIR$/fox/fox.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fox/css/styles.css" afterPath="$PROJECT_DIR$/fox/css/styles.css" />
     </list>
     <ignored path="DPW.iws" />
@@ -46,7 +47,7 @@
       <file leaf-file-name="fox.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fox/fox.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="14" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="722">
+            <state line="5" column="35" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="722">
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -68,7 +69,7 @@
       <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fox/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="36" selection-start="965" selection-end="965" vertical-scroll-proportion="-5.6911488" vertical-offset="3934" max-vertical-offset="4465">
+            <state line="177" column="17" selection-start="2817" selection-end="2817" vertical-scroll-proportion="0.2843691" vertical-offset="3212" max-vertical-offset="4484">
               <folding />
             </state>
           </provider>
@@ -614,7 +615,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fox/fox.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="14" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="722">
+        <state line="5" column="35" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="722">
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -623,7 +624,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fox/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="36" selection-start="965" selection-end="965" vertical-scroll-proportion="-5.6911488" vertical-offset="3934" max-vertical-offset="4465">
+        <state line="177" column="17" selection-start="2817" selection-end="2817" vertical-scroll-proportion="0.2843691" vertical-offset="3212" max-vertical-offset="4484">
           <folding />
         </state>
       </provider>
