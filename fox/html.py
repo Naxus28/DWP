@@ -1,5 +1,5 @@
-# I tried to create a class to handle the html but didn't know how to make this page
-# talk to the other subclasses
+# This class handles the html template. It works as a super class and has to be
+#passed into each one of the animals subclasses just like the Animal class itself.
 
 class Html(object):
     def __init__(self):

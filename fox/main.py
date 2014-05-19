@@ -2,9 +2,7 @@
 # Date: 05/14/2014
 # Assignment: What does the Fox say?
 
-#
 import webapp2
-
 from fox import Fox
 from rabbit import Rabbit
 from wolf import Wolf
