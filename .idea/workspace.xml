@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94938cd2-ada0-4dcc-9f76-077739e00527" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fox/fox.py" afterPath="$PROJECT_DIR$/fox/fox.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fox/html.py" afterPath="$PROJECT_DIR$/fox/html.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fox/js/jquery-1.11.0.min.js" afterPath="$PROJECT_DIR$/fox/js/jquery-1.11.0.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fox/css/styles.css" afterPath="$PROJECT_DIR$/fox/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DPW.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,7 +40,7 @@
       <file leaf-file-name="html.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fox/html.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="82" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1216">
+            <state line="25" column="26" selection-start="860" selection-end="860" vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="1216">
               <folding />
             </state>
           </provider>
@@ -69,7 +71,7 @@
       <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fox/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="177" column="17" selection-start="2817" selection-end="2817" vertical-scroll-proportion="0.2843691" vertical-offset="3212" max-vertical-offset="4484">
+            <state line="201" column="1" selection-start="3165" selection-end="3165" vertical-scroll-proportion="0.2843691" vertical-offset="3668" max-vertical-offset="4503">
               <folding />
             </state>
           </provider>
@@ -78,7 +80,7 @@
       <file leaf-file-name="jquery-1.11.0.min.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fox/js/jquery-1.11.0.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="26" selection-start="96535" selection-end="96535" vertical-scroll-proportion="-6.84" vertical-offset="0" max-vertical-offset="456">
+            <state line="15" column="3" selection-start="96725" selection-end="96725" vertical-scroll-proportion="-11.4" vertical-offset="0" max-vertical-offset="475">
               <folding />
             </state>
           </provider>
@@ -137,14 +139,14 @@
       <list>
         <option value="$PROJECT_DIR$/fox/app.yaml" />
         <option value="$PROJECT_DIR$/fox/js/init.js" />
-        <option value="$PROJECT_DIR$/fox/js/jquery-1.11.0.min.js" />
         <option value="$PROJECT_DIR$/Practice/test.py" />
         <option value="$PROJECT_DIR$/fox/rabbit.py" />
         <option value="$PROJECT_DIR$/fox/wolf.py" />
         <option value="$PROJECT_DIR$/fox/animals.py" />
-        <option value="$PROJECT_DIR$/fox/html.py" />
         <option value="$PROJECT_DIR$/fox/main.py" />
         <option value="$PROJECT_DIR$/fox/fox.py" />
+        <option value="$PROJECT_DIR$/fox/html.py" />
+        <option value="$PROJECT_DIR$/fox/js/jquery-1.11.0.min.js" />
         <option value="$PROJECT_DIR$/fox/css/styles.css" />
       </list>
     </option>
@@ -210,6 +212,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="fox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DPW" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DPW" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -560,13 +580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fox/js/jquery-1.11.0.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="26" selection-start="96535" selection-end="96535" vertical-scroll-proportion="-6.84" vertical-offset="0" max-vertical-offset="456">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Practice/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="214" column="0" selection-start="3980" selection-end="3980" vertical-scroll-proportion="0.0" vertical-offset="3913" max-vertical-offset="4332">
@@ -587,13 +600,6 @@
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fox/html.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="82" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1216">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -622,9 +628,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/fox/js/jquery-1.11.0.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="3" selection-start="96725" selection-end="96725" vertical-scroll-proportion="-11.4" vertical-offset="0" max-vertical-offset="475">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fox/html.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="26" selection-start="860" selection-end="860" vertical-scroll-proportion="0.0" vertical-offset="209" max-vertical-offset="1216">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/fox/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="177" column="17" selection-start="2817" selection-end="2817" vertical-scroll-proportion="0.2843691" vertical-offset="3212" max-vertical-offset="4484">
+        <state line="201" column="1" selection-start="3165" selection-end="3165" vertical-scroll-proportion="0.2843691" vertical-offset="3668" max-vertical-offset="4503">
           <folding />
         </state>
       </provider>

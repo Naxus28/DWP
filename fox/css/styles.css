@@ -1,3 +1,4 @@
+
 /*
 =======styles for the body of each animals' page======
 */
@@ -26,7 +27,6 @@ body#fox{
     margin-top:0;
     background-image: url("../images/gplay-fox.png");
 }
-
 
 /*
 =======main style for header and h1======
@@ -199,13 +199,15 @@ div a:hover{
 }
 a{
     text-decoration: none;
-
-
+}
+/*
 =======styles for the image and paragraph with jQuery on the fox page======
+*/
+
 #fox div{
     position: relative;
 }
-#fox #my_bad{
+#fox p#my_bad{
     width: 58%;
     position: absolute;
     bottom: 100px;
@@ -219,12 +221,11 @@ a{
     margin-bottom: 5px;
     padding-bottom:5px;
 }
-#fox #my_bad span{
-    font-size: .6em;
+#fox p#my_bad span{
+    font-size: .8em;
     width: 100%;
     float: left;
     margin-top: 5px;
     text-align: center;
 }
-
 
