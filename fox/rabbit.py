@@ -6,8 +6,8 @@ class Rabbit(Animal, Html):
         #call constructor function
         Animal.__init__(self)
         Html.__init__(self)
-        self._title = "The Rabbit"
-        self._animal = "RABBIT"
+        self.title = "The Rabbit"
+        self.animal = "RABBIT"
         self._phylum = "Chordata"
         self._class_ = "Mammalia"
         self._order = "Lagomorpha"

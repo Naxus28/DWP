@@ -6,8 +6,8 @@ class Wolf(Animal, Html):
         #call constructor function
         Animal.__init__(self)
         Html.__init__(self)
-        self._title = "The Grey Wolf"
-        self._animal = "GREY WOLF"
+        self.title = "The Grey Wolf"
+        self.animal = "GREY WOLF"
         self._phylum = "Chordata"
         self._class_ = "Mammalia"
         self._order = "Carnivora"

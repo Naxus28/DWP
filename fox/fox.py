@@ -9,8 +9,8 @@ class Fox(Animal, Html):
         #the property below is just a test to make sure my main stylesheet was protected
         self.__css_url = ""
 
-        self._title = "The Fox"
-        self._animal = "FOX"
+        self.title = "The Fox"
+        self.animal = "FOX"
         self._phylum = "Chordata"
         self._class_ = "Mammalia"
         self._order = "Carnivora"
