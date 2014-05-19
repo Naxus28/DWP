@@ -158,3 +158,65 @@ def apply(function, a, b):
 print apply(add, 5, 4)
 
 print apply(subtract, 5, 4)
+
+
+class Pet:
+    number_of_legs = 4
+    def sleep(self):
+        return "zzzzzzzzz"
+    def pet_legs(self, new_number):
+        return self.number_of_legs + new_number
+    def pet_legs2(self, new_legs):
+        print new_legs
+
+
+
+dog = Pet()
+#print "Doug has %s legs." % doug.number_of_legs
+print dog.sleep()
+print dog.pet_legs(0)
+
+bird = Pet()
+print "Birds have %s legs." % bird.pet_legs(-2)
+#bird.number_of_legs = 2
+print "new number of birds legs is %s" % bird.pet_legs(3)
+bird.pet_legs2(3)
+
+
+class player():
+    age = 0
+    legs = 2
+    speed = 0
+    ability = 0
+    quality = 0
+    weight = 0
+    def player_speed(self, player_age, player_speed, player_weight, player_ability):
+        if player_age >= 30:
+            self.quality = player_age + player_speed*player_weight + player_ability
+            return self.quality
+        else:
+            self.quality = player_age + player_speed*player_weight + player_ability
+            return self.quality
+
+Joe = player()
+print "This is Joe's overall quality as a field player is: %s" % Joe.player_speed(30, 0.3, 180, 5)
+
+Schmo = player()
+print "This is Schmo's overall quality as a field player is: %s" % Schmo.player_speed(23, 0.5, 165, 3)
+
+
+class goalie(player):
+    def special_permission(self):
+        return "can touch the ball with his hands"
+    def field_ability(self):
+        return self.player_speed(23, .13, 190, 1)
+    def keeper_ability(self, jump, stretch, anticipation):
+        return jump + stretch + anticipation
+
+
+
+Charlie_the_goalie = goalie()
+print "Charlie " + Charlie_the_goalie.special_permission()
+
+print "Charlie' ability as a field player sucks. It is %s pts." % Charlie_the_goalie.field_ability() + \
+      " However, his ability as a goalie is great: %s pts. The average is 195 pts." % Charlie_the_goalie.keeper_ability(20, 180, 15)

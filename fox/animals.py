@@ -1,4 +1,4 @@
-class Animals(object):
+class Animal(object):
     def __init__(self):
 
         self._open = '''
@@ -54,12 +54,20 @@ class Animals(object):
     </body>
 </html>
         '''
-        self._font = "http://fonts.googleapis.com/css?family=Henny+Penny|Unkempt|Gloria+Hallelujah|Indie+Flower|Shadows+Into+Light"
-        self._animal = "The animal"
-        self._fox = ""
         self.css_url = "css/styles.css"
         self.__title1 = "The Animals Page"
         self._title = ""
+        self._font = "http://fonts.googleapis.com/css?family=Henny+Penny|Unkempt|Gloria+Hallelujah|Indie+Flower|Shadows+Into+Light|Droid+Serif"
+        self._animal = "The animal"
+        self._fox = ""
+        self._phylum = ""
+        self._class_ = ""
+        self._order = ""
+        self._family = ""
+        self._genus = ""
+        self._avg_lifespan = ""
+        self._habitat = ""
+        self._geo_location = ""
         self._sound = "animal sound"
         self._body_id = ""
         self._link = ""

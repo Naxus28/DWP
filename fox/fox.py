@@ -1,9 +1,9 @@
-from animals import Animals
+from animals import Animal
 
-class Fox(Animals):
+class Fox(Animal):
     def __init__(self):
         #call constructor function
-        Animals.__init__(self)
+        Animal.__init__(self)
         self.title = "The Fox"
         self.animal = "FOX"
         self._phylum = "Chordata"
