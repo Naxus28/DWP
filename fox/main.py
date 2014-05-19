@@ -9,23 +9,18 @@ from fox import Fox
 from rabbit import Rabbit
 from wolf import Wolf
 
-
-
-
 class MainHandler(webapp2.RequestHandler):
     def get(self):
-        # self.response.write('Hello world!')
-
+        #objects made from the subclasses
         f = Fox()
         w = Wolf()
         r = Rabbit()
+
+        #array made from the objects instantiated above
         the_animals = [f, w, r]
 
-        # print f.title
-        # self.response.write(f.print_out())
-        # self.response.write(r.print_out())
-        # self.response.write(w.print_out())
-
+        # conditions for the pages to be printed out according to the link clicked
+        # defaults to the rabbit page
         if self.request.GET:
             animal = self.request.GET["animal"]
             if animal == "rabbit":
@@ -36,8 +31,6 @@ class MainHandler(webapp2.RequestHandler):
                 self.response.write(the_animals[0].print_out())
         else:
             self.response.write(the_animals[2].print_out())
-
-
 
 app = webapp2.WSGIApplication([
     ('/', MainHandler)
