@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94938cd2-ada0-4dcc-9f76-077739e00527" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/second-quiz/players.py" afterPath="$PROJECT_DIR$/second-quiz/players.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/second-quiz/striker.py" afterPath="$PROJECT_DIR$/second-quiz/striker.py" />
     </list>
     <ignored path="DPW.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,10 +46,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="goalie.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="goalie.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/second-quiz/goalie.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="8" selection-start="288" selection-end="300" vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="437">
+            <state line="10" column="8" selection-start="288" selection-end="300" vertical-scroll-proportion="0.38229376" vertical-offset="0" max-vertical-offset="497">
               <folding />
             </state>
           </provider>
@@ -58,7 +58,7 @@
       <file leaf-file-name="striker.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/second-quiz/striker.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="8" selection-start="328" selection-end="340" vertical-scroll-proportion="0.0" vertical-offset="16" max-vertical-offset="513">
+            <state line="12" column="0" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456">
               <folding />
             </state>
           </provider>
@@ -73,10 +73,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="players.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="players.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/second-quiz/players.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="22" selection-start="512" selection-end="512" vertical-scroll-proportion="0.42052314" vertical-offset="19" max-vertical-offset="551">
+            <state line="23" column="61" selection-start="1183" selection-end="1183" vertical-scroll-proportion="-7.0" vertical-offset="52" max-vertical-offset="551">
               <folding />
             </state>
           </provider>
@@ -149,9 +149,9 @@
         <option value="$PROJECT_DIR$/weather-app-minidom-json/page.py" />
         <option value="$PROJECT_DIR$/weather-app-minidom-json/main.py" />
         <option value="$PROJECT_DIR$/second-quiz/main.py" />
-        <option value="$PROJECT_DIR$/second-quiz/striker.py" />
         <option value="$PROJECT_DIR$/second-quiz/goalie.py" />
         <option value="$PROJECT_DIR$/second-quiz/players.py" />
+        <option value="$PROJECT_DIR$/second-quiz/striker.py" />
       </list>
     </option>
   </component>
@@ -721,23 +721,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/second-quiz/goalie.py">
+    <entry file="file://$PROJECT_DIR$/second-quiz/players.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="8" selection-start="288" selection-end="300" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="437">
+        <state line="23" column="61" selection-start="1183" selection-end="1183" vertical-scroll-proportion="-7.0" vertical-offset="52" max-vertical-offset="551">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/second-quiz/striker.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="8" selection-start="328" selection-end="340" vertical-scroll-proportion="0.0" vertical-offset="16" max-vertical-offset="513">
+        <state line="12" column="0" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/second-quiz/players.py">
+    <entry file="file://$PROJECT_DIR$/second-quiz/goalie.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="22" selection-start="512" selection-end="512" vertical-scroll-proportion="0.42052314" vertical-offset="19" max-vertical-offset="551">
+        <state line="10" column="8" selection-start="288" selection-end="300" vertical-scroll-proportion="0.38229376" vertical-offset="0" max-vertical-offset="497">
           <folding />
         </state>
       </provider>

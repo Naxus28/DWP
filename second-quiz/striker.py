@@ -11,9 +11,6 @@ class Striker(Player):
         self._catch = "Can't put his hands on the ball"
         self._titles = "Five Times World Champion"
 
-def print_out(self):
-        self.update()
-        return self.all
 
 def update(self):
         self.all = "</br>" + "Player Name: " + self._name + "</br>Player Age: " + str(self._age) + \
