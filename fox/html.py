@@ -46,13 +46,13 @@ class Html(object):
                 <img id ="the_image" src="{self._url}" alt="{self.animal}">
                 <figcaption>Original image can be found at <a href ="{self._url}" target="_blank">{self._link}</a></figcaption>
             </figure>
-            <p id="my_bad">OPS...MY BAD!<span>(or maybe not ;)</span></p>
+            <p id="my_bad">OOPS...MY BAD!<span>(or maybe not ;)</span></p>
         </div>
         '''
 
         self._close = '''
         <script src="js/jquery-1.11.0.min.js"></script>
-        <script src="js/initial.js"></script>
+        <script src="js/init.js"></script>
     </body>
 </html>
         '''

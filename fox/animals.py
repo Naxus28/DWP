@@ -14,7 +14,7 @@ class Animal(object):
         self._avg_lifespan = ""
         self._habitat = ""
         self._geo_location = ""
-        self._sound = "animal sound"
+        self.__sound = "animal sound"
         self._body_id = ""
         self._link = ""
         self._open = ""
@@ -46,17 +46,21 @@ class Animal(object):
 
     @animal.setter
     def animal(self, new_animal):
-        self._animal = new_animal
+        if new_animal == "":
+            self._animal = self._animal
+        else:
+            self._animal = new_animal
+
 
      #functions that 1)get and then 2)set the sound of the animal for specific pages (i.e. Honking).
     # This attribute is private, thus can be overwritten outside this class
     @property
     def sound(self):
-        return self._sound
+        return self.__sound
 
     @sound.setter
     def sound(self, new_sound):
-        self._sound = new_sound
+        self.__sound = new_sound
 
     @property
     def css(self):
