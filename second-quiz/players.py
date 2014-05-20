@@ -6,11 +6,11 @@ class Player(object):
         self._speed = 0
         self._dribble = ""
         self._catch = ""
-        self._team = "This player doesn't have this information"
-        self._salary = "This player doesn't Have this information"
-        self._team = "This player doesn't have this information"
-        self._titles = "This player doesn't have this information"
-        self._age = "This player doesn't have this information"
+        self._team = " This player doesn't have this information"
+        self._salary = " This player doesn't Have this information"
+        self._team = " This player doesn't have this information"
+        self._titles = " This player doesn't have this information"
+        self._age = " This player doesn't have this information"
 
     def print_out(self):
         self.update()
