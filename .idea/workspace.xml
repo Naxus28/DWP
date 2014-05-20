@@ -2,53 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94938cd2-ada0-4dcc-9f76-077739e00527" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/second-quiz/goalie.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather-app-minidom/page.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/second-quiz/players.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/second-quiz/striker.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ferraz_gabriel_theFox.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ferraz_gabriel_theFox/fox/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ferraz_gabriel_theFox/fox/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ferraz_gabriel_theFox/fox/.idea/fox.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ferraz_gabriel_theFox/fox/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ferraz_gabriel_theFox/fox/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ferraz_gabriel_theFox/fox/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ferraz_gabriel_theFox/fox/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ferraz_gabriel_theFox/fox/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ferraz_gabriel_theFox/fox/animals.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ferraz_gabriel_theFox/fox/app.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ferraz_gabriel_theFox/fox/css/styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ferraz_gabriel_theFox/fox/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ferraz_gabriel_theFox/fox/fox.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ferraz_gabriel_theFox/fox/html.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ferraz_gabriel_theFox/fox/images/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ferraz_gabriel_theFox/fox/images/favicon_bird.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ferraz_gabriel_theFox/fox/images/favicon_hippo.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ferraz_gabriel_theFox/fox/images/favicon_mammoth.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ferraz_gabriel_theFox/fox/images/fox-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ferraz_gabriel_theFox/fox/images/fox.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ferraz_gabriel_theFox/fox/images/fox1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ferraz_gabriel_theFox/fox/images/fox2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ferraz_gabriel_theFox/fox/images/fox3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ferraz_gabriel_theFox/fox/images/fox4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ferraz_gabriel_theFox/fox/images/gplay-fox.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ferraz_gabriel_theFox/fox/images/gplay.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ferraz_gabriel_theFox/fox/images/gplay1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ferraz_gabriel_theFox/fox/images/grass.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ferraz_gabriel_theFox/fox/images/megan_fox.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ferraz_gabriel_theFox/fox/images/skulls.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ferraz_gabriel_theFox/fox/index.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ferraz_gabriel_theFox/fox/js/init.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ferraz_gabriel_theFox/fox/js/jquery-1.11.0.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ferraz_gabriel_theFox/fox/js/modernizr.2.5.3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ferraz_gabriel_theFox/fox/main.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ferraz_gabriel_theFox/fox/rabbit.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ferraz_gabriel_theFox/fox/wolf.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fox/animals.py" afterPath="$PROJECT_DIR$/fox/animals.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fox/fox.py" afterPath="$PROJECT_DIR$/fox/fox.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fox/html.py" afterPath="$PROJECT_DIR$/fox/html.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fox/js/init.js" afterPath="$PROJECT_DIR$/fox/js/init.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/second-quiz/players.py" afterPath="$PROJECT_DIR$/second-quiz/players.py" />
     </list>
     <ignored path="DPW.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -98,7 +52,7 @@
       <file leaf-file-name="goalie.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/second-quiz/goalie.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="19" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="437">
+            <state line="10" column="8" selection-start="288" selection-end="300" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="437">
               <folding />
             </state>
           </provider>
@@ -125,7 +79,7 @@
       <file leaf-file-name="players.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/second-quiz/players.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="78" selection-start="685" selection-end="685" vertical-scroll-proportion="0.68812877" vertical-offset="0" max-vertical-offset="497">
+            <state line="19" column="87" selection-start="718" selection-end="718" vertical-scroll-proportion="0.7263582" vertical-offset="0" max-vertical-offset="497">
               <folding />
             </state>
           </provider>
@@ -751,14 +705,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/second-quiz/goalie.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="19" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="437">
+        <state line="10" column="8" selection-start="288" selection-end="300" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="437">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/second-quiz/players.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="78" selection-start="685" selection-end="685" vertical-scroll-proportion="0.68812877" vertical-offset="0" max-vertical-offset="497">
+        <state line="19" column="87" selection-start="718" selection-end="718" vertical-scroll-proportion="0.7263582" vertical-offset="0" max-vertical-offset="497">
           <folding />
         </state>
       </provider>

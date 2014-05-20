@@ -8,6 +8,7 @@ class Player(object):
         self._catch = ""
         self._team = ""
         self._salary = ""
+        self._team = ""
 
     def print_out(self):
         self.update()
@@ -16,4 +17,4 @@ class Player(object):
     def update(self):
         self.all = self.__title + "</br>" + "Player Name: " + self._name +"</br>Player Position: " + self._position +\
                    "</br>Player Speed: " + str(self._speed) + "km/h" + "</br>Player Dribble Level: " + self._dribble + \
-                   "</br>Player Catch Level: " + self._catch + str(self._salary) + "</br> </br>"
+                   "</br>Player Catch Level: " + self._catch + "This is the salary:" + str(self._salary) + "</br> </br>"
