@@ -9,12 +9,11 @@ class MainHandler(webapp2.RequestHandler):
         if self.request.GET:
             count = self.request.GET['name']
             if count == "the_function":
-                p.title = "new TITLE"
+                p.number = 1
                 self.response.write(p.print_out())
             else:
                 self.response.write(p.print_out())
         else:
-            p.number = 1
             self.response.write(p.print_out())
 
 

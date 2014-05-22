@@ -10,14 +10,14 @@ class Page(object):
     </head>
     <body>
         '''
-        self._number_one = "<p>{self.number}</p></br></br>"
-        self._button = "<a href='?name=the_function'" + "{self.number}>""CLICK</a>"
+        self._number_one = "<p>{self.number}</p></br>"
+        self._button = "<a href='?name=the_function'" + "{self.number}>""Count Up</a>"
         self.__close = '''
     </body>
 </html>
         '''
         self._count = 0
-        self.__all = self.__open + self._button + str(self._count) + self.__close
+        self.__all = self.__open + self._number_one + self._button + self.__close
         self.title = "Change Number"
 
     @property
