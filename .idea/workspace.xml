@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94938cd2-ada0-4dcc-9f76-077739e00527" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/practice-quiz/main.py" afterPath="$PROJECT_DIR$/practice-quiz/main.py" />
-    </list>
+    <list default="true" id="94938cd2-ada0-4dcc-9f76-077739e00527" name="Default" comment="" />
     <ignored path="DPW.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -57,7 +55,7 @@
       <file leaf-file-name="page.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/practice-quiz/page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="23" selection-start="410" selection-end="410" vertical-scroll-proportion="0.13669065" vertical-offset="266" max-vertical-offset="912">
+            <state line="23" column="21" selection-start="512" selection-end="512" vertical-scroll-proportion="0.30755395" vertical-offset="266" max-vertical-offset="912">
               <folding />
             </state>
           </provider>
@@ -789,7 +787,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/practice-quiz/page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="23" selection-start="410" selection-end="410" vertical-scroll-proportion="0.13669065" vertical-offset="266" max-vertical-offset="912">
+        <state line="23" column="21" selection-start="512" selection-end="512" vertical-scroll-proportion="0.30755395" vertical-offset="266" max-vertical-offset="912">
           <folding />
         </state>
       </provider>
