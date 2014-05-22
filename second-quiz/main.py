@@ -15,7 +15,7 @@ class MainHandler(webapp2.RequestHandler):
         g = Goalie()
         print g.print_out()
 
-        content = s.print_out() + g.print_out()
+        #content = s.print_out() + g.print_out()
 
         self.response.write(s.print_out())
         self.response.write(g.print_out())

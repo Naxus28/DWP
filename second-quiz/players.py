@@ -11,6 +11,7 @@ class Player(object):
         self._team = " This player doesn't have this information"
         self._titles = " This player doesn't have this information"
         self._age = " This player doesn't have this information"
+        self.all = ""
 
     def print_out(self):
         self.update()
