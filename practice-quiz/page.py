@@ -10,8 +10,8 @@ class Page(object):
     </head>
     <body>
         '''
+        self._number_one = "<p>{self.number}</p></br></br>"
         self._button = "<a href='?name=the_function'" + "{self.number}>""CLICK</a>"
-        self._number_one = "<p>{self.number}</p>"
         self.__close = '''
     </body>
 </html>
@@ -20,7 +20,21 @@ class Page(object):
         self.__all = self.__open + self._button + str(self._count) + self.__close
         self.title = "Change Number"
 
+    @property
+    def number(self):
+        return self._count
 
+    @number.setter
+    def number(self, new_number):
+        self._count = self._count + new_number
+
+    def print_out(self):
+        self.update()
+        return self.__all
+
+    def update(self):
+        #replaces all the {} with the values of the corresponding variables
+        self.__all = self.__all.format(**locals())
 
 
 
