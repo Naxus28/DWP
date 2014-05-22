@@ -1,15 +1,14 @@
-from page import Page
+from page import Counter
 import webapp2
 
 class MainHandler(webapp2.RequestHandler):
     def get(self):
-        p = Page()
+        p = Counter()
 
         if self.request.GET:
             count = self.request.GET['name']
             if count == "the_function":
-                if count == 0:
-                    p.number = 1
+                p.number = 1
                 self.response.write(p.print_out())
             else:
                 self.response.write(p.print_out())

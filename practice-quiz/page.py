@@ -1,4 +1,4 @@
-class Page(object):
+class Counter(object):
     def __init__(self):
         self.__title = "Home Page"
         self.__open = '''
