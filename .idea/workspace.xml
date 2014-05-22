@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="94938cd2-ada0-4dcc-9f76-077739e00527" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/practice-quiz/main.py" afterPath="$PROJECT_DIR$/practice-quiz/main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/practice-quiz/page.py" afterPath="$PROJECT_DIR$/practice-quiz/page.py" />
     </list>
     <ignored path="DPW.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -103,7 +102,7 @@
       <file leaf-file-name="main.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/practice-quiz/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="33" selection-start="371" selection-end="371" vertical-scroll-proportion="0.4442446" vertical-offset="0" max-vertical-offset="556">
+            <state line="12" column="17" selection-start="300" selection-end="300" vertical-scroll-proportion="0.41007194" vertical-offset="0" max-vertical-offset="589">
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -788,7 +787,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/practice-quiz/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="33" selection-start="371" selection-end="371" vertical-scroll-proportion="0.4442446" vertical-offset="0" max-vertical-offset="556">
+        <state line="12" column="17" selection-start="300" selection-end="300" vertical-scroll-proportion="0.41007194" vertical-offset="0" max-vertical-offset="589">
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
