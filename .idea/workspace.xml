@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="94938cd2-ada0-4dcc-9f76-077739e00527" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/practice-quiz/main.py" afterPath="$PROJECT_DIR$/practice-quiz/main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/practice-quiz/page.py" afterPath="$PROJECT_DIR$/practice-quiz/page.py" />
     </list>
     <ignored path="DPW.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,10 +54,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="page.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/practice-quiz/page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="15" selection-start="609" selection-end="609" vertical-scroll-proportion="0.0" vertical-offset="209" max-vertical-offset="912">
+            <state line="18" column="23" selection-start="410" selection-end="410" vertical-scroll-proportion="0.13669065" vertical-offset="266" max-vertical-offset="912">
               <folding />
             </state>
           </provider>
@@ -100,10 +99,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/practice-quiz/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="34" selection-start="368" selection-end="368" vertical-scroll-proportion="0.47841728" vertical-offset="0" max-vertical-offset="627">
+            <state line="11" column="32" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -160,8 +159,8 @@
         <option value="$PROJECT_DIR$/weather-app-MVC/page.py" />
         <option value="$PROJECT_DIR$/weather-app-MVC/model.py" />
         <option value="$PROJECT_DIR$/weather-app-MVC/main.py" />
-        <option value="$PROJECT_DIR$/practice-quiz/page.py" />
         <option value="$PROJECT_DIR$/practice-quiz/main.py" />
+        <option value="$PROJECT_DIR$/practice-quiz/page.py" />
       </list>
     </option>
   </component>
@@ -779,19 +778,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practice-quiz/page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="15" selection-start="609" selection-end="609" vertical-scroll-proportion="0.0" vertical-offset="209" max-vertical-offset="912">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/practice-quiz/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="34" selection-start="368" selection-end="368" vertical-scroll-proportion="0.47841728" vertical-offset="0" max-vertical-offset="627">
+        <state line="11" column="32" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice-quiz/page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="23" selection-start="410" selection-end="410" vertical-scroll-proportion="0.13669065" vertical-offset="266" max-vertical-offset="912">
+          <folding />
         </state>
       </provider>
     </entry>
