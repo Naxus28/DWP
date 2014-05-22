@@ -17,7 +17,7 @@ class Page(object):
 </html>
         '''
         self._count = 0
-        self.__all = self.__open + self._number_one + self._button + self.__close
+        self.__all = ""
         self.title = "Change Number App"
 
     @property
@@ -34,6 +34,7 @@ class Page(object):
 
     def update(self):
         #replaces all the {} with the values of the corresponding variables
+        self.__all = self.__open + self._number_one + self._button + self.__close
         self.__all = self.__all.format(**locals())
 
 
