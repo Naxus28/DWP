@@ -11,7 +11,7 @@ class Page(object):
     <body>
         '''
         self._number_one = "<p>{self.number}</p>"
-        self._button = "<a href='?name=the_function/{self.number}'>Count Up</a>"
+        self._button = "<a href='?name=the_function'>Count Up</a>"
         self.__close = '''
     </body>
 </html>
