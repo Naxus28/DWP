@@ -55,10 +55,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="page.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/practice-quiz/page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="53" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="893">
+            <state line="32" column="25" selection-start="786" selection-end="786" vertical-scroll-proportion="0.75179857" vertical-offset="190" max-vertical-offset="893">
               <folding />
             </state>
           </provider>
@@ -100,10 +100,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/practice-quiz/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="8" selection-start="149" selection-end="149" vertical-scroll-proportion="0.2733813" vertical-offset="0" max-vertical-offset="570">
+            <state line="10" column="27" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="551">
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -160,13 +160,13 @@
         <option value="$PROJECT_DIR$/weather-app-MVC/page.py" />
         <option value="$PROJECT_DIR$/weather-app-MVC/model.py" />
         <option value="$PROJECT_DIR$/weather-app-MVC/main.py" />
-        <option value="$PROJECT_DIR$/practice-quiz/page.py" />
         <option value="$PROJECT_DIR$/practice-quiz/main.py" />
+        <option value="$PROJECT_DIR$/practice-quiz/page.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="18" />
+    <option name="x" value="13" />
     <option name="y" value="22" />
     <option name="width" value="1276" />
     <option name="height" value="676" />
@@ -436,7 +436,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="18" y="22" width="1276" height="676" extended-state="0" />
+    <frame x="13" y="22" width="1276" height="676" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -779,19 +779,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practice-quiz/page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="53" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="893">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/practice-quiz/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="8" selection-start="149" selection-end="149" vertical-scroll-proportion="0.2733813" vertical-offset="0" max-vertical-offset="570">
+        <state line="10" column="27" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="551">
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice-quiz/page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="25" selection-start="786" selection-end="786" vertical-scroll-proportion="0.75179857" vertical-offset="190" max-vertical-offset="893">
+          <folding />
         </state>
       </provider>
     </entry>
