@@ -22,7 +22,8 @@ class MainHandler(webapp2.RequestHandler):
             opener_one = urllib2.build_opener()
             #this is going to get the information for us
             data_one = opener_one.open(req_one)
-            #parse it
+
+            #parse
             jsondoc_one = json.load(data_one)
             for photo in range(0, 10):
                 the_search_urls = []
@@ -30,11 +31,11 @@ class MainHandler(webapp2.RequestHandler):
                 server_one = jsondoc_one['photos']['photo'][photo]['server']
                 the_id_one = jsondoc_one['photos']['photo'][photo]['id']
                 secret_one = jsondoc_one['photos']['photo'][photo]['secret']
-                the_search_urls = the_search_urls.append("http://farm"+str(farm_one)+".staticflickr.com/"+str(server_one)+"/"+str(the_id_one)+"_"+str(secret_one)+".jpg")
-                
-        for the_search_url in range(0, 10):
-            view.new_page_content += "<div class='img-container'><a href='"+the_search_urls[the_search_url]+"'><img src ='"+\
-                the_search_urls[the_search_url]+"'></a></div>"
+                the_search_urls.append("http://farm"+str(farm_one)+".staticflickr.com/"+str(server_one)+"/"+str(the_id_one)+"_"+str(secret_one)+".jpg")
+
+            for the_search_url in range(0, 10):
+                view.new_page_content += "<div class='img-container'><a href='"+the_search_urls[the_search_url]+"'><img src ='"+\
+                    the_search_urls[the_search_url]+"'></a></div>"
 
 
 
