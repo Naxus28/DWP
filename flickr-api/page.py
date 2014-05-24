@@ -41,11 +41,11 @@ class Page(object):
         return self.all
 
     def update(self):
-        self.all = self._open + self._content + self.searched_pictures + self._close
+        self.all = self._open + self._content + self._close
         self.all = self.all.format(**locals())
 
-    def print_out_new_pics(self):
-        return self.searched_pictures
+    # def print_out_new_pics(self):
+    #     return self.searched_pictures
 
 
 
@@ -54,20 +54,25 @@ class FormPage(Page):
     def __init__(self):
         #call constructor function
         Page.__init__(self)
+        self.form_header = "<h1>{self.header}</h1>"
         self.__form_open = '<form method=GET action="">'
         self.__inputs = '''
         <input id = "textfield" type = 'text' name='query' placeholder='Search Term'>
         <input id = "button" type = 'submit'>
         '''
         self.__form_close = '</form>'
-        self.form_header = "<h1>FUN PICS APP</h1>"
         self._content = self.form_header + self.__form_open + self.__inputs + self.__form_close
         self.all = ""
+
+    @property
+    def header(self):
+        return self.form_header
 
     def update(self):
         self.all = self._open + self.form_header + self.__form_open + self.__inputs + self.__form_close + \
             self.page_content + self.searched_pictures + self._close
         self.all = self.all.format(**locals())
 
-        # print self._content
+
+
 

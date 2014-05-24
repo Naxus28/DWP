@@ -42,10 +42,14 @@ form input#button{
     height: 50px;
 }
 div.new_pictures{
-    width: 100%;
+    width:23%;
+    margin:1%;
     height: 200px;
     overflow: hidden;
     background: blue;
     float: left;
-    clear: both;
+}
+div.new_pic_container img{
+    min-width:100%;
+    min-height:100%;
 }

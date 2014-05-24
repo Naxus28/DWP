@@ -39,8 +39,8 @@ class MainHandler(webapp2.RequestHandler):
         for the_url in range(0, 40):
             view.page_content += "<div class='img-container'><a href='"+the_urls[the_url]+"'><img src ='"+the_urls[the_url]+"'></a></div>"
 
-        #print view.page_content
         self.response.write(view.print_out())
+
 
         #=============flickr.photos.search API============
         #API web page: https://www.flickr.com/services/api/explore/flickr.photos.search
@@ -82,7 +82,7 @@ class MainHandler(webapp2.RequestHandler):
             for the_search_url in range(0, 20):
                 view.searched_pictures += "<div class='new_pictures'><a href='"+the_search_urls[the_search_url]+"'><img src ='"+the_search_urls[the_search_url]+"'></a></div>"
 
-            self.response.write(view.print_out_new_pics())
+            self.response.write(view.print_out())
 
 
 

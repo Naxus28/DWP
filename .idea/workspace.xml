@@ -5,6 +5,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flickr-api/main.py" afterPath="$PROJECT_DIR$/flickr-api/main.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flickr-api/page.py" afterPath="$PROJECT_DIR$/flickr-api/page.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flickr-api/css/styles.css" afterPath="$PROJECT_DIR$/flickr-api/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DPW.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,11 +40,9 @@
       <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flickr-api/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="55" selection-start="3710" selection-end="3710" vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="1843">
+            <state line="41" column="45" selection-start="1583" selection-end="1583" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="1843">
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
-                <marker date="1400958696000" expanded="true" signature="176:3889" placeholder="..." />
-                <marker date="1400958696000" expanded="true" signature="195:3889" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -70,7 +69,7 @@
       <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/flickr-api/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="4" selection-start="720" selection-end="720" vertical-scroll-proportion="0.6097946" vertical-offset="431" max-vertical-offset="1064">
+            <state line="45" column="12" selection-start="761" selection-end="761" vertical-scroll-proportion="0.549763" vertical-offset="507" max-vertical-offset="1140">
               <folding />
             </state>
           </provider>
@@ -115,11 +114,8 @@
       <file leaf-file-name="page.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flickr-api/page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="34" selection-start="354" selection-end="354" vertical-scroll-proportion="15.653846" vertical-offset="654" max-vertical-offset="1501">
-              <folding>
-                <marker date="1400958696000" expanded="true" signature="19:1101" placeholder="..." />
-                <marker date="1400958696000" expanded="true" signature="1063:1101" placeholder="..." />
-              </folding>
+            <state line="48" column="0" selection-start="1081" selection-end="1081" vertical-scroll-proportion="-31.846153" vertical-offset="84" max-vertical-offset="1596">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -454,7 +450,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="14" y="22" width="1276" height="778" extended-state="7" />
+    <frame x="14" y="22" width="1276" height="778" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -763,30 +759,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flickr-api/main.py">
+    <entry file="file://$PROJECT_DIR$/flickr-api/page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="55" selection-start="3710" selection-end="3710" vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="1843">
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <marker date="1400958696000" expanded="true" signature="176:3889" placeholder="..." />
-            <marker date="1400958696000" expanded="true" signature="195:3889" placeholder="..." />
-          </folding>
+        <state line="48" column="0" selection-start="1081" selection-end="1081" vertical-scroll-proportion="-31.846153" vertical-offset="84" max-vertical-offset="1596">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flickr-api/page.py">
+    <entry file="file://$PROJECT_DIR$/flickr-api/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="34" selection-start="354" selection-end="354" vertical-scroll-proportion="15.653846" vertical-offset="654" max-vertical-offset="1501">
+        <state line="41" column="45" selection-start="1583" selection-end="1583" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="1843">
           <folding>
-            <marker date="1400958696000" expanded="true" signature="19:1101" placeholder="..." />
-            <marker date="1400958696000" expanded="true" signature="1063:1101" placeholder="..." />
+            <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/flickr-api/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="4" selection-start="720" selection-end="720" vertical-scroll-proportion="0.6097946" vertical-offset="431" max-vertical-offset="1064">
+        <state line="45" column="12" selection-start="761" selection-end="761" vertical-scroll-proportion="0.549763" vertical-offset="507" max-vertical-offset="1140">
           <folding />
         </state>
       </provider>
