@@ -28,7 +28,7 @@
       <file leaf-file-name="main.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/flickr-api/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="89" selection-start="2330" selection-end="2330" vertical-scroll-proportion="0.58914727" vertical-offset="627" max-vertical-offset="1292">
+            <state line="64" column="32" selection-start="2898" selection-end="2898" vertical-scroll-proportion="0.6775194" vertical-offset="779" max-vertical-offset="1463">
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -770,7 +770,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/flickr-api/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="89" selection-start="2330" selection-end="2330" vertical-scroll-proportion="0.58914727" vertical-offset="627" max-vertical-offset="1292">
+        <state line="64" column="32" selection-start="2898" selection-end="2898" vertical-scroll-proportion="0.6775194" vertical-offset="779" max-vertical-offset="1463">
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
