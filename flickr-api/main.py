@@ -11,6 +11,8 @@ class MainHandler(webapp2.RequestHandler):
         view = FormPage()
         view.form_header = ""
 
+
+
         #if there is an input
         if self.request.GET:
             query = self.request.GET['query']
@@ -22,19 +24,22 @@ class MainHandler(webapp2.RequestHandler):
             data_one = opener_one.open(req_one)
             #parse it
             jsondoc_one = json.load(data_one)
+            for photo in range(0, 10):
+                the_search_urls = []
+                farm_one = jsondoc_one['photos']['photo'][photo]['farm']
+                server_one = jsondoc_one['photos']['photo'][photo]['server']
+                the_id_one = jsondoc_one['photos']['photo'][photo]['id']
+                secret_one = jsondoc_one['photos']['photo'][photo]['secret']
+                the_search_urls = the_search_urls.append("http://farm"+str(farm_one)+".staticflickr.com/"+str(server_one)+"/"+str(the_id_one)+"_"+str(secret_one)+".jpg")
+                
+        for the_search_url in range(0, 10):
+            view.new_page_content += "<div class='img-container'><a href='"+the_search_urls[the_search_url]+"'><img src ='"+\
+                the_search_urls[the_search_url]+"'></a></div>"
 
-        the_search_urls = []
-        for photo in range(0, 40):
-            farm_one = jsondoc['photos']['photo'][photo]['farm']
-            server_one = jsondoc['photos']['photo'][photo]['server']
-            the_id_one = jsondoc['photos']['photo'][photo]['id']
-            secret_one = jsondoc['photos']['photo'][photo]['secret']
-            the_search_urls = the_search_urls.append("http://farm"+str(farm_one)+".staticflickr.com/"+str(server_one)+"/"+str(the_id_one)+"_"+str(secret_one)+".jpg")
 
-        for the_url in range(0, 40):
-            view.page_content += "<div class='img-container'><a href='"+the_urls[the_url]+ "'><img src ='"+the_urls[the_url]+"'></a></div>"
 
-        #get the api info
+
+        #get the  api info
         url = "https://api.flickr.com/services/rest/?method=flickr.photos.getRecent&api_key=84c81a688848153a0fa4db04702b63fd&format=json&nojsoncallback=1"
         req = urllib2.Request(url)
         opener = urllib2.build_opener()
@@ -54,7 +59,6 @@ class MainHandler(webapp2.RequestHandler):
             server = jsondoc['photos']['photo'][photo]['server']
             the_id = jsondoc['photos']['photo'][photo]['id']
             secret = jsondoc['photos']['photo'][photo]['secret']
-
             #append the pictures to the array
             the_urls.append("http://farm"+str(farm)+".staticflickr.com/"+str(server)+"/"+str(the_id)+"_"+str(secret)+".jpg")
 
