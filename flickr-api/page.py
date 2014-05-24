@@ -11,7 +11,7 @@ class Page(object):
         '''
         self._content = "This is my content"
         self.page_content = ""
-        self.searched_pictures = "<div id='new_pictures'></div>"
+        self.searched_pictures = ""
         self._close = '''
     </body>
 </html>
@@ -41,8 +41,11 @@ class Page(object):
         return self.all
 
     def update(self):
-        self.all = self._open + self._content + self.searched_pictures  + self._close
+        self.all = self._open + self._content + self.searched_pictures + self._close
         self.all = self.all.format(**locals())
+
+    def print_out_new_pics(self):
+        return self.searched_pictures
 
 
 
