@@ -68,9 +68,9 @@ class MainHandler(webapp2.RequestHandler):
             print jsondoc
             print url
 
+            the_search_urls = []
             #loop through the pictures and get the necessary info to "build" 20 pictures
             for photo in range(0, 20):
-                the_search_urls = []
                 farm = jsondoc['photos']['photo'][photo]['farm']
                 server = jsondoc['photos']['photo'][photo]['server']
                 the_id = jsondoc['photos']['photo'][photo]['id']
