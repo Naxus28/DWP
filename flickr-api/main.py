@@ -25,6 +25,7 @@ class MainHandler(webapp2.RequestHandler):
 
             #parse
             jsondoc_one = json.load(data_one)
+            print url_search
             for photo in range(0, 10):
                 the_search_urls = []
                 farm_one = jsondoc_one['photos']['photo'][photo]['farm']
@@ -32,14 +33,14 @@ class MainHandler(webapp2.RequestHandler):
                 the_id_one = jsondoc_one['photos']['photo'][photo]['id']
                 secret_one = jsondoc_one['photos']['photo'][photo]['secret']
                 the_search_urls.append("http://farm"+str(farm_one)+".staticflickr.com/"+str(server_one)+"/"+str(the_id_one)+"_"+str(secret_one)+".jpg")
+                print the_search_urls
 
             for the_search_url in range(0, 10):
-                view.new_page_content += "<div class='img-container'><a href='"+the_search_urls[the_search_url]+"'><img src ='"+\
-                    the_search_urls[the_search_url]+"'></a></div>"
+                view.new_page_content += "<div class='img-container'><a href='"+the_search_urls[the_search_url]+"'><img src ='"+the_search_urls[the_search_url]+"'></a></div>"
 
+            print view.new_page_content
 
-
-
+        self.response.write(view.print_out())
         #get the  api info
         url = "https://api.flickr.com/services/rest/?method=flickr.photos.getRecent&api_key=84c81a688848153a0fa4db04702b63fd&format=json&nojsoncallback=1"
         req = urllib2.Request(url)

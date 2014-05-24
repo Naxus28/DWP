@@ -41,7 +41,7 @@ class Page(object):
         return self.all
 
     def update(self):
-        self.all = self._open + self._content + self.page_new_content + self._close
+        self.all = self._open + self._content + self._close
         self.all = self.all.format(**locals())
 
 
@@ -54,7 +54,7 @@ class FormPage(Page):
         self.__form_open = '<form method=GET action="">'
         self.__inputs = '''
         <input id = "textfield" type = 'text' name='query' placeholder='Search Term'>
-        <input id = "button" type = 'submit' name='submit' value="SEARCH">
+        <input id = "button" type = 'submit'>
         '''
         self.__form_close = '</form>'
         self.form_header = ""

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="94938cd2-ada0-4dcc-9f76-077739e00527" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flickr-api/main.py" afterPath="$PROJECT_DIR$/flickr-api/main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flickr-api/page.py" afterPath="$PROJECT_DIR$/flickr-api/page.py" />
     </list>
     <ignored path="DPW.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,7 +38,7 @@
       <file leaf-file-name="main.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/flickr-api/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="18" selection-start="916" selection-end="916" vertical-scroll-proportion="0.29302326" vertical-offset="286" max-vertical-offset="1558">
+            <state line="42" column="45" selection-start="1869" selection-end="1869" vertical-scroll-proportion="-0.031007752" vertical-offset="818" max-vertical-offset="1577">
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -111,7 +112,7 @@
       <file leaf-file-name="page.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flickr-api/page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="29" selection-start="349" selection-end="349" vertical-scroll-proportion="-9.5" vertical-offset="0" max-vertical-offset="1444">
+            <state line="13" column="32" selection-start="332" selection-end="352" vertical-scroll-proportion="-4.8076925" vertical-offset="122" max-vertical-offset="1444">
               <folding />
             </state>
           </provider>
@@ -171,7 +172,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="33" />
+    <option name="x" value="10" />
     <option name="y" value="22" />
     <option name="width" value="1276" />
     <option name="height" value="778" />
@@ -447,7 +448,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="33" y="22" width="1276" height="778" extended-state="0" />
+    <frame x="10" y="22" width="1276" height="778" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -747,13 +748,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flickr-api/page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="29" selection-start="349" selection-end="349" vertical-scroll-proportion="-9.5" vertical-offset="0" max-vertical-offset="1444">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/weather-app-minidom-json/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="0" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.0" vertical-offset="64" max-vertical-offset="969">
@@ -768,9 +762,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/flickr-api/page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="32" selection-start="332" selection-end="352" vertical-scroll-proportion="-4.8076925" vertical-offset="122" max-vertical-offset="1444">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/flickr-api/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="18" selection-start="916" selection-end="916" vertical-scroll-proportion="0.29302326" vertical-offset="286" max-vertical-offset="1558">
+        <state line="42" column="45" selection-start="1869" selection-end="1869" vertical-scroll-proportion="-0.031007752" vertical-offset="818" max-vertical-offset="1577">
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
