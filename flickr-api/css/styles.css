@@ -44,5 +44,8 @@ form input#button{
 div#new_pictures{
     width: 100%;
     height: 200px;
+    overflow: hidden;
     background: blue;
+    float: left;
+    clear: both;
 }

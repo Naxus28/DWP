@@ -11,7 +11,7 @@ class Page(object):
         '''
         self._content = "This is my content"
         self.page_content = ""
-        self.new_page_content = "<div id='new_pictures'></div>"
+        self.searched_pictures = "<div id='new_pictures'></div>"
         self._close = '''
     </body>
 </html>
@@ -41,7 +41,7 @@ class Page(object):
         return self.all
 
     def update(self):
-        self.all = self._open + self._content + self.new_page_content + self._close
+        self.all = self._open + self._content + self.searched_pictures  + self._close
         self.all = self.all.format(**locals())
 
 
@@ -63,7 +63,7 @@ class FormPage(Page):
 
     def update(self):
         self.all = self._open + self.form_header + self.__form_open + self.__inputs + self.__form_close + \
-            self.page_content + self.new_page_content + self._close
+            self.page_content + self.searched_pictures + self._close
         self.all = self.all.format(**locals())
 
         # print self._content
