@@ -13,11 +13,11 @@ class MainHandler(webapp2.RequestHandler):
 
 
 
-        #if there is an input
+         #if there is an input
         if self.request.GET:
             query = self.request.GET['query']
             #get the api info
-            url_search = "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=922fd10874987e031bb23715c945c8de&tags="+query+"&text="+query+"&content_type="+query+"&format=json&nojsoncallback=1&auth_token=72157644817258645-6445e7bd8ad6d5c9&api_sig=092c8362a74e4bed99152093fe3b36b0"
+            url_search = "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=01b1c8d61f0ee804f95f20fe64fba996&tags="+query+"&text="+query+"&content_type="+query+"&format=json&nojsoncallback=1&auth_token=72157644817258645-6445e7bd8ad6d5c9&api_sig=092c8362a74e4bed99152093fe3b36b0"
             req_one = urllib2.Request(url_search)
             opener_one = urllib2.build_opener()
             #this is going to get the information for us
@@ -26,24 +26,25 @@ class MainHandler(webapp2.RequestHandler):
             #parse
             jsondoc_one = json.load(data_one)
             print url_search
-            for photo in range(0, 1):
+            for photo in range(0, 10):
                 the_search_urls = []
                 farm_one = jsondoc_one['photos']['photo'][photo]['farm']
                 server_one = jsondoc_one['photos']['photo'][photo]['server']
                 the_id_one = jsondoc_one['photos']['photo'][photo]['id']
                 secret_one = jsondoc_one['photos']['photo'][photo]['secret']
                 the_search_urls.append("http://farm"+str(farm_one)+".staticflickr.com/"+str(server_one)+"/"+str(the_id_one)+"_"+str(secret_one)+".jpg")
-
                 print the_search_urls
 
-            for the_search_url in range(0, 1):
+            for the_search_url in range(0, 10):
                 view.new_page_content += "<div class='img-container'><a href='"+the_search_urls[the_search_url]+"'><img src ='"+the_search_urls[the_search_url]+"'></a></div>"
 
             print view.new_page_content
 
-        self.response.write(view.print_out())
+
+
+
         #get the  api info
-        url = "https://api.flickr.com/services/rest/?method=flickr.photos.getRecent&api_key=84c81a688848153a0fa4db04702b63fd&format=json&nojsoncallback=1"
+        url = "https://api.flickr.com/services/rest/?method=flickr.photos.getRecent&api_key=01b1c8d61f0ee804f95f20fe64fba996&format=json&nojsoncallback=1"
         req = urllib2.Request(url)
         opener = urllib2.build_opener()
 
@@ -67,7 +68,7 @@ class MainHandler(webapp2.RequestHandler):
 
         #push the pictures to the view
         for the_url in range(0, 40):
-            view.page_content += "<div class='img-container'><a href='"+the_urls[the_url]+ "'><img src ='"+the_urls[the_url]+"'></a></div>"
+            view.page_content += "<div class='img-container'><a href='"+the_urls[the_url]+"'><img src ='"+the_urls[the_url]+"'></a></div>"
 
         #print view.page_content
 
