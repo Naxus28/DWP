@@ -56,7 +56,7 @@ class MainHandler(webapp2.RequestHandler):
         if self.request.GET:
             query = self.request.GET['query']
             #get the api info
-            url= "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=01b1c8d61f0ee804f95f20fe64fba996&tags="+query+"&text="+query+"&content_type="+query+"&format=json&nojsoncallback=1&auth_token=72157644817258645-6445e7bd8ad6d5c9&api_sig=092c8362a74e4bed99152093fe3b36b0"
+            url= "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=2d9100ce42b3b10a133615817fc58c66&tags="+query+"&text="+query+"&content_type="+query+"&format=json&nojsoncallback=1"
             req = urllib2.Request(url)
             opener = urllib2.build_opener()
             #this is going to get the information for us
@@ -66,23 +66,23 @@ class MainHandler(webapp2.RequestHandler):
             jsondoc = json.load(data)
             #farm = jsondoc['photos']
             print jsondoc
+            print url
 
-            # print url_search
-            # #loop through the pictures and get the necessary info to "build" 20 pictures
-            # for photo in range(0, 20):
-            #     the_search_urls = []
-            #     farm = jsondoc['photos']['photo'][photo]['farm']
-            #     server= jsondoc['photos']['photo'][photo]['server']
-            #     the_id= jsondoc['photos']['photo'][photo]['id']
-            #     secret = jsondoc['photos']['photo'][photo]['secret']
-            #     the_search_urls.append("http://farm"+str(farm_one)+".staticflickr.com/"+str(server_one)+"/"+
-            #                            str(the_id_one)+"_"+str(secret_one)+".jpg")
-            #     print the_search_urls
-            #
-            # for the_search_url in range(0, 20):
-            #     view.searched_pictures += "<div class='searched-img-container'><a href='"+the_search_urls[the_search_url]+"'><img src ='"+the_search_urls[the_search_url]+"'></a></div>"
-            #
-            # print view.searched_pictures
+            #loop through the pictures and get the necessary info to "build" 20 pictures
+            for photo in range(0, 20):
+                the_search_urls = []
+                farm = jsondoc['photos']['photo'][photo]['farm']
+                server = jsondoc['photos']['photo'][photo]['server']
+                the_id = jsondoc['photos']['photo'][photo]['id']
+                secret = jsondoc['photos']['photo'][photo]['secret']
+                the_search_urls.append("http://farm"+str(farm)+".staticflickr.com/"+str(server)+"/"+
+                                       str(the_id)+"_"+str(secret)+".jpg")
+                print the_search_urls
+
+            for the_search_url in range(0, 20):
+                view.searched_pictures += "<div class='searched-img-container'><a href='"+the_search_urls[the_search_url]+"'><img src ='"+the_search_urls[the_search_url]+"'></a></div>"
+
+            print view.searched_pictures
 
 
 
