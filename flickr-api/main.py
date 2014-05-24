@@ -43,6 +43,15 @@ class MainHandler(webapp2.RequestHandler):
 
 
         #=============flickr.photos.search API============
+        #API web page: https://www.flickr.com/services/api/explore/flickr.photos.search
+        #This is what the json file looks like (only one object in the array for this example):
+    #     { "photos": { "page": 1, "pages": "527848", "perpage": 100, "total": "52784744",
+    #           "photo": [
+    #                    { "id": "14072114588", "owner": "107424305@N06", "secret": "2416c1e0b4",
+    #  "server": "3674", "farm": 4, "title": "Mi avistamiento de Flash (en moto) - Flash in Motorcycle",
+    # "ispublic": 1, "isfriend": 0, "isfamily": 0 }
+                          #  ]}
+    #
          #if there is an input
         if self.request.GET:
             query = self.request.GET['query']
