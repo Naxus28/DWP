@@ -10,8 +10,9 @@ h1{
     text-transform: uppercase;
     position: absolute;
     font-size: 3em;
-    margin-top: 20%;
+    margin-top: 30%;
     left: 30%;
+    z-index: 2;
 }
 .img-container{
     float: left;

@@ -40,7 +40,7 @@ class MainHandler(webapp2.RequestHandler):
         for the_url in range(0, 30):
             view.page_content += "<div class='img-container'><a href='"+the_urls[the_url]+"'><img src ='"+the_urls[the_url]+"'></a></div>"
 
-        self.response.write(view.print_out())
+
         #=============flickr.photos.search API============
         #API web page: https://www.flickr.com/services/api/explore/flickr.photos.search
         #This is what the json file looks like (only one object in the array for this example):
@@ -66,7 +66,6 @@ class MainHandler(webapp2.RequestHandler):
 
             #parse the returned data
             jsondoc = json.load(data)
-            #farm = jsondoc['photos']
             print jsondoc
 
 
@@ -83,6 +82,9 @@ class MainHandler(webapp2.RequestHandler):
 
             for the_search_url in range(0, 20):
                 view.searched_pictures += "<div class='new_pictures'><a href='"+the_search_urls[the_search_url]+"'><img src ='"+the_search_urls[the_search_url]+"'></a></div>"
+
+        self.response.write(view.print_out())
+
 
 
 app = webapp2.WSGIApplication([

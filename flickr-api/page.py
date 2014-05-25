@@ -11,12 +11,12 @@ class Page(object):
         '''
         self.header = "<h1>Picture Mosaic API</h1>"
         self._content = ""
-        self.page_content = ""
-        self.searched_pictures = ""
         self._close = '''
     </body>
 </html>
         '''
+        self.searched_pictures = ""
+        self.page_content = ""
         self._css_url = ""
         self._title = ""
         self.all = self._open + self.header + self._content + self._close
