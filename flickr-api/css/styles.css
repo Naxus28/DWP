@@ -6,6 +6,8 @@ body{
     position: relative;
     font-family: 'Libre Baskerville', serif;
 }
+
+/*===========mosaic styles===============*/
 h1{
     color: white;
     position: absolute;
@@ -60,11 +62,20 @@ form input#textfield{
 }
 form input#button{
     width: 101%;
-    height: 30px;
+    height: 40px;
     margin-top: 5px;
     text-transform: uppercase;
-    font-size: 1em;
+    font-size: 1.5em;
+    background: rgb(21,56,137);
+    color: rgb(250,250,250);
+    font-weight: bold;
+    border:0;
 }
+form input#button{
+    cursor:pointer;
+}
+
+/*===========search results styles===============*/
 div.picture_container{
     position: relative;
     width:23%;
@@ -72,6 +83,11 @@ div.picture_container{
     height: 200px;
     overflow: hidden;
     float: left;
+    transition: outline .6s ease;
+    outline: 0;
+}
+div.picture_container:hover{
+    outline: 1.5px solid white;
 }
 div.picture_container .new_pictures img{
     min-width:100%;
@@ -81,7 +97,7 @@ div#users{
     position: absolute;
     top: 155px;
     text-align: center;
-    background: rgba(0,0,0,.7);
+    background: rgba(0,0,0,.8);
     width: 100%;
     padding-bottom: 5%;
     padding-top: 5%;
@@ -89,9 +105,9 @@ div#users{
 div#users a{
     color: rgb(245,245,245);
     text-decoration: none;
-    font-style: oblique;
 }
 div#users{
+    transition: opacity .9s ease;
     opacity:0;
 }
 div#users:hover{

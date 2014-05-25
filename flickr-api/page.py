@@ -60,7 +60,7 @@ class FormPage(Page):
         self.__form_open = '<form method=GET action="">'
         self.__inputs = '''
         <input id = "textfield" type = 'text' name='query' placeholder='Search Term'>
-        <input id = "button" type = 'submit'>
+        <input id = "button" type = 'submit' value="SEARCH">
         '''
         self.__form_close = '</form>'
         self._content = self.__form_open + self.__inputs + self.__form_close

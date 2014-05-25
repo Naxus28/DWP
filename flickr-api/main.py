@@ -38,7 +38,7 @@ class MainHandler(webapp2.RequestHandler):
 
         #push the pictures to the view
         for the_url in range(0, 50):
-            view.page_content += "<div class='img-container'><a href='"+the_urls[the_url]+"'><img src ='"+the_urls[the_url]+"'></a></div>"
+            view.page_content += "<div class='img-container'><a href='"+the_urls[the_url]+"'target='_blank'><img src ='"+the_urls[the_url]+"'></a></div>"
 
 
         #=============flickr.photos.search API============
@@ -91,9 +91,9 @@ class MainHandler(webapp2.RequestHandler):
                     view.searched_pictures += '''
                         <div class='picture_container'>
                             <div class='new_pictures'>
-                                <a href='''+the_search_urls[the_search_url]+'''><img src ='''+the_search_urls[the_search_url]+'''></a>"
+                                <a href='''+the_search_urls[the_search_url]+''' target='_blank'><img src ='''+the_search_urls[the_search_url]+'''></a>"
                                 <div id='users'>
-                                    <a href='''+users_urls[the_search_url]+''' target='_blank'>Photographer's Profile</a>
+                                    <a href='''+users_urls[the_search_url]+''' target='_blank'>Photographer's Flickr Profile</a>
                                 </div>
                             </div>
                         </div>
