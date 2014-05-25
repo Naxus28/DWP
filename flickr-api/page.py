@@ -13,6 +13,8 @@ class Page(object):
         self.header = "<h1>Picture Mosaic App</h1>"
         self._content = ""
         self._close = '''
+        # <script src="js/jquery-1.11.0.min.js"></script>
+        # <script src="js/init.js"></script>
     </body>
 </html>
         '''
