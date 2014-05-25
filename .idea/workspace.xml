@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94938cd2-ada0-4dcc-9f76-077739e00527" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flickr-api/page.py" afterPath="$PROJECT_DIR$/flickr-api/page.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flickr-api/css/styles.css" afterPath="$PROJECT_DIR$/flickr-api/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DPW.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -94,7 +94,7 @@
       <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/flickr-api/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="15" selection-start="757" selection-end="757" vertical-scroll-proportion="0.09952607" vertical-offset="697" max-vertical-offset="1444">
+            <state line="61" column="16" selection-start="1114" selection-end="1114" vertical-scroll-proportion="0.45971563" vertical-offset="868" max-vertical-offset="1501">
               <folding />
             </state>
           </provider>
@@ -112,7 +112,7 @@
       <file leaf-file-name="page.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flickr-api/page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="173" selection-start="382" selection-end="382" vertical-scroll-proportion="-5.8461537" vertical-offset="0" max-vertical-offset="1577">
+            <state line="8" column="131" selection-start="340" selection-end="340" vertical-scroll-proportion="-5.8461537" vertical-offset="0" max-vertical-offset="1577">
               <folding />
             </state>
           </provider>
@@ -165,8 +165,8 @@
         <option value="$PROJECT_DIR$/weather-app-minidom-json-flickr/main.py" />
         <option value="$PROJECT_DIR$/flickr-api/app.yaml" />
         <option value="$PROJECT_DIR$/weather-app-minidom/page.py" />
-        <option value="$PROJECT_DIR$/flickr-api/page.py" />
         <option value="$PROJECT_DIR$/flickr-api/main.py" />
+        <option value="$PROJECT_DIR$/flickr-api/page.py" />
         <option value="$PROJECT_DIR$/flickr-api/css/styles.css" />
       </list>
     </option>
@@ -760,13 +760,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flickr-api/page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="173" selection-start="382" selection-end="382" vertical-scroll-proportion="-5.8461537" vertical-offset="0" max-vertical-offset="1577">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/simple-form2/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="38" selection-start="767" selection-end="767" vertical-scroll-proportion="0.0" vertical-offset="95" max-vertical-offset="893">
@@ -783,9 +776,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/flickr-api/page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="131" selection-start="340" selection-end="340" vertical-scroll-proportion="-5.8461537" vertical-offset="0" max-vertical-offset="1577">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/flickr-api/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="15" selection-start="757" selection-end="757" vertical-scroll-proportion="0.09952607" vertical-offset="697" max-vertical-offset="1444">
+        <state line="61" column="16" selection-start="1114" selection-end="1114" vertical-scroll-proportion="0.45971563" vertical-offset="868" max-vertical-offset="1501">
           <folding />
         </state>
       </provider>
