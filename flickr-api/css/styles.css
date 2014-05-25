@@ -71,6 +71,7 @@ div.new_pictures{
     height: 200px;
     overflow: hidden;
     float: left;
+
 }
 div.new_pic_container img{
     min-width:100%;

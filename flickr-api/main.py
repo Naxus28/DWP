@@ -58,7 +58,7 @@ class MainHandler(webapp2.RequestHandler):
                 self.response.write(view.print_out())
             else:
                 #get the api info
-                url= "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=2d9100ce42b3b10a133615817fc58c66&tags="+query+"&tag_mode=all&text="+query+"&content_type="+query+"&format=json&nojsoncallback=1"
+                url = "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=01b1c8d61f0ee804f95f20fe64fba996&tags="+query+"&tag_mode=&text="+query+"&content_type="+query+"&format=json&nojsoncallback=1"
 
                 url_safe = url.replace(" ", "%20")
 
@@ -73,18 +73,22 @@ class MainHandler(webapp2.RequestHandler):
 
 
                 the_search_urls = []
+                users_urls = []
                 #loop through the pictures and get the necessary info to "build" 20 pictures
                 for photo in range(0, 52):
                     farm = jsondoc['photos']['photo'][photo]['farm']
                     server = jsondoc['photos']['photo'][photo]['server']
                     the_id = jsondoc['photos']['photo'][photo]['id']
                     secret = jsondoc['photos']['photo'][photo]['secret']
+                    owner = jsondoc['photos']['photo'][photo]['owner']
                     the_search_urls.append("http://farm"+str(farm)+".staticflickr.com/"+str(server)+"/"+
                                            str(the_id)+"_"+str(secret)+".jpg")
+                    users_urls.append("https://www.flickr.com/people/"+owner)
                     print the_search_urls
 
+
                 for the_search_url in range(0, 52):
-                    view.searched_pictures += "<div class='new_pictures'><a href='"+the_search_urls[the_search_url]+"'><img src ='"+the_search_urls[the_search_url]+"'></a></div>"
+                    view.searched_pictures += "<div class='new_pictures'><span id='users'><a href="+users_urls[the_search_url]+" target='_blank'>Photographer's Profile</a></span><a href='"+the_search_urls[the_search_url]+"'><img src ='"+the_search_urls[the_search_url]+"'></a></div>"
 
         self.response.write(view.print_out())
 
