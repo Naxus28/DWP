@@ -75,7 +75,6 @@ class MainHandler(webapp2.RequestHandler):
                 #array that holds users URL
                 users_urls = []
 
-
                 #loop through the pictures and get the necessary info to "build" 20 pictures
                 for photo in range(0, 52):
                     farm = jsondoc['photos']['photo'][photo]['farm']
