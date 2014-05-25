@@ -8,32 +8,36 @@ body{
 }
 h1{
     color: white;
-
     position: absolute;
     font-size: 4em;
     margin-top: 22%;
     left: 25%;
     z-index: 2;
+    text-shadow: 0 0 20px white;
 }
 .img-container{
     float: left;
     width: 10%;
-    height: 13px;
-    padding-bottom:10%;
+    height: 145px;
     overflow:hidden;
 }
 .img-container img{
     min-width:100%;
     min-height:100%;
-    opacity:.6;
     -moz-filter: blur(7px);
+    -webkit-transition: blur 1s ease;
     -webkit-filter: blur(7px);
     -o-filter: blur(7px);
     filter: blur(7px);
+    -moz-transition: opacity 1s ease;
+    -webkit-transition: opacity 1s ease;
+    -o-transition: opacity 1s ease;
+    transition: opacity 1s ease;
+    opacity:.5;
 }
 .img-container img:hover{
-    opacity:.9;
-     -moz-filter: blur(1px);
+    opacity:1;
+    -moz-filter: blur(1px);
     -webkit-filter: blur(1px);
     -o-filter: blur(1px);
 }
