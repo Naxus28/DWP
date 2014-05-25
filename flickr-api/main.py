@@ -88,7 +88,16 @@ class MainHandler(webapp2.RequestHandler):
 
 
                 for the_search_url in range(0, 52):
-                    view.searched_pictures += "<div class='new_pictures'><span id='users'><a href="+users_urls[the_search_url]+" target='_blank'>Photographer's Profile</a></span><a href='"+the_search_urls[the_search_url]+"'><img src ='"+the_search_urls[the_search_url]+"'></a></div>"
+                    view.searched_pictures += '''
+                        <div class='picture_container'>
+                            <div class='new_pictures'>
+                                <a href='''+the_search_urls[the_search_url]+'''><img src ='''+the_search_urls[the_search_url]+'''></a>"
+                                <div id='users'>
+                                    <a href='''+users_urls[the_search_url]+''' target='_blank'>Photographer's Profile</a>
+                                </div>
+                            </div>
+                        </div>
+                        '''
 
         self.response.write(view.print_out())
 

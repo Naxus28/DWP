@@ -65,15 +65,38 @@ form input#button{
     text-transform: uppercase;
     font-size: 1em;
 }
-div.new_pictures{
+div.picture_container{
+    position: relative;
     width:23%;
     margin:1%;
     height: 200px;
     overflow: hidden;
     float: left;
-
 }
-div.new_pic_container img{
+div.picture_container .new_pictures img{
     min-width:100%;
     min-height:100%;
+}
+div#users{
+    position: absolute;
+    top: 155px;
+    text-align: center;
+    background: rgba(0,0,0,.7);
+    width: 100%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+div#users a{
+    color: rgb(245,245,245);
+    text-decoration: none;
+    font-style: oblique;
+}
+div#users{
+    opacity:0;
+}
+div#users:hover{
+    opacity:1;
+}
+div.picture_container:hover div#users{
+    opacity:1;
 }
