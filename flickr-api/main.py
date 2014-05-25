@@ -10,7 +10,6 @@ import json
 class MainHandler(webapp2.RequestHandler):
     def get(self):
         view = FormPage()
-        view.form_header = ""
 
         #=============flickr.photos.getRecent API============
         #get the api info
@@ -69,11 +68,17 @@ class MainHandler(webapp2.RequestHandler):
 
                 #parse the returned data
                 jsondoc = json.load(data)
-                print jsondoc
 
-
+                #array that holds the pictures URLs
                 the_search_urls = []
+
+                #array that holds users URL
                 users_urls = []
+                #lenght of the array
+                array_length = len(the_search_urls)
+                #H2 for the search results, displaying the number of pictures that is generated dynamically
+                view.search_header_update = "<h2>Search Results: %s pictures</h2>" % array_length
+
                 #loop through the pictures and get the necessary info to "build" 20 pictures
                 for photo in range(0, 52):
                     farm = jsondoc['photos']['photo'][photo]['farm']
@@ -85,7 +90,6 @@ class MainHandler(webapp2.RequestHandler):
                                            str(the_id)+"_"+str(secret)+".jpg")
                     users_urls.append("https://www.flickr.com/people/"+owner)
                     print the_search_urls
-
 
                 for the_search_url in range(0, 52):
                     view.searched_pictures += '''

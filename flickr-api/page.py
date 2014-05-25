@@ -10,7 +10,7 @@ class Page(object):
     </head>
     <body>
         '''
-        self.header = "<h1>Picture Mosaic API</h1>"
+        self.header = "<h1>Picture Mosaic App</h1>"
         self._content = ""
         self._close = '''
     </body>
@@ -18,17 +18,12 @@ class Page(object):
         '''
         self.searched_pictures = ""
         self.page_content = ""
-        self._css_url = ""
-        self._title = ""
+        self._title = "Picture Mosaic App | Powered by Flickr"
         self.all = self._open + self.header + self._content + self._close
 
     @property
     def title(self):
         return self._title
-
-    @title.setter
-    def title(self, t):
-        self._title = t
 
     @property
     def css_url(self):
@@ -65,13 +60,20 @@ class FormPage(Page):
         self.__form_close = '</form>'
         self._content = self.__form_open + self.__inputs + self.__form_close
         self.all = ""
-
+        self.search_results_header = ""
 
     def update(self):
         self.all = self._open + self.header + self.__form_open + self.__inputs + self.__form_close + \
-            self.page_content + self.searched_pictures + self._close
+            self.page_content + self.search_results_header + self.searched_pictures + self._close
         self.all = self.all.format(**locals())
 
+    @property
+    def search_header_update(self):
+        return self.search_results_header
+
+    @search_header_update.setter
+    def search_header_update(self, new_header):
+        self.search_results_header = new_header
 
 
 
