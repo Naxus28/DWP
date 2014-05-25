@@ -4,14 +4,15 @@ body{
     margin-top: 0;
     background: black;
     position: relative;
+    font-family: 'Architects Daughter', cursive;
 }
 h1{
     color: white;
     text-transform: uppercase;
     position: absolute;
-    font-size: 3em;
-    margin-top: 30%;
-    left: 30%;
+    font-size: 4em;
+    margin-top: 22%;
+    left: 25%;
     z-index: 2;
 }
 .img-container{
@@ -38,7 +39,7 @@ form{
     width: 50%;
     height: 10%;
     position: absolute;
-    margin-top: 35%;
+    margin-top: 28%;
     left: 25%;
     z-index: 2;
 }

@@ -6,6 +6,7 @@ class Page(object):
     <head>
         <title>{self.title}</title>
         <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link href='http://fonts.googleapis.com/css?family=Lustria|Marcellus+SC|Brawler|Fontdiner+Swanky|Handlee|Architects+Daughter|Forum' rel='stylesheet' type='text/css'>
     </head>
     <body>
         '''

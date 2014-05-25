@@ -28,7 +28,7 @@ class MainHandler(webapp2.RequestHandler):
         jsondoc = json.load(data)
 
         #loop through the pictures and get the necessary info to "build" 40 pictures
-        for photo in range(0, 30):
+        for photo in range(0, 20):
             farm = jsondoc['photos']['photo'][photo]['farm']
             server = jsondoc['photos']['photo'][photo]['server']
             the_id = jsondoc['photos']['photo'][photo]['id']
@@ -37,7 +37,7 @@ class MainHandler(webapp2.RequestHandler):
             the_urls.append("http://farm"+str(farm)+".staticflickr.com/"+str(server)+"/"+str(the_id)+"_"+str(secret)+".jpg")
 
         #push the pictures to the view
-        for the_url in range(0, 30):
+        for the_url in range(0, 20):
             view.page_content += "<div class='img-container'><a href='"+the_urls[the_url]+"'><img src ='"+the_urls[the_url]+"'></a></div>"
 
 
