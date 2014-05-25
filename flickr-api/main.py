@@ -74,10 +74,7 @@ class MainHandler(webapp2.RequestHandler):
 
                 #array that holds users URL
                 users_urls = []
-                #lenght of the array
-                array_length = len(the_search_urls)
-                #H2 for the search results, displaying the number of pictures that is generated dynamically
-                view.search_header_update = "<h2>Search Results: %s pictures</h2>" % array_length
+
 
                 #loop through the pictures and get the necessary info to "build" 20 pictures
                 for photo in range(0, 52):
@@ -90,6 +87,11 @@ class MainHandler(webapp2.RequestHandler):
                                            str(the_id)+"_"+str(secret)+".jpg")
                     users_urls.append("https://www.flickr.com/people/"+owner)
                     print the_search_urls
+
+                #lenght of the array
+                array_length = len(the_search_urls)
+                #H2 for the search results, displaying the number of pictures that is generated dynamically
+                view.search_header_update = "<h2>Search Results: %s pictures</h2>" % array_length
 
                 for the_search_url in range(0, 52):
                     view.searched_pictures += '''
