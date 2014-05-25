@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94938cd2-ada0-4dcc-9f76-077739e00527" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flickr-api/main.py" afterPath="$PROJECT_DIR$/flickr-api/main.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flickr-api/css/styles.css" afterPath="$PROJECT_DIR$/flickr-api/css/styles.css" />
     </list>
     <ignored path="DPW.iws" />
@@ -64,7 +65,7 @@
       <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flickr-api/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="41" selection-start="953" selection-end="953" vertical-scroll-proportion="0.0" vertical-offset="343" max-vertical-offset="1862">
+            <state line="30" column="31" selection-start="908" selection-end="908" vertical-scroll-proportion="0.0" vertical-offset="380" max-vertical-offset="1862">
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -93,7 +94,7 @@
       <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/flickr-api/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="23" selection-start="552" selection-end="552" vertical-scroll-proportion="0.6003159" vertical-offset="171" max-vertical-offset="1406">
+            <state line="3" column="10" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0900474" vertical-offset="0" max-vertical-offset="1406">
               <folding />
             </state>
           </provider>
@@ -775,7 +776,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/flickr-api/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="41" selection-start="953" selection-end="953" vertical-scroll-proportion="0.0" vertical-offset="343" max-vertical-offset="1862">
+        <state line="30" column="31" selection-start="908" selection-end="908" vertical-scroll-proportion="0.0" vertical-offset="380" max-vertical-offset="1862">
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
@@ -784,7 +785,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/flickr-api/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="23" selection-start="552" selection-end="552" vertical-scroll-proportion="0.6003159" vertical-offset="171" max-vertical-offset="1406">
+        <state line="3" column="10" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0900474" vertical-offset="0" max-vertical-offset="1406">
           <folding />
         </state>
       </provider>
