@@ -3,6 +3,7 @@ from page import Page
 from page import FormPage
 
 #libraries for working with xml in python
+import urllib
 import urllib2
 import json
 
@@ -40,8 +41,6 @@ class MainHandler(webapp2.RequestHandler):
             view.page_content += "<div class='img-container'><a href='"+the_urls[the_url]+"'><img src ='"+the_urls[the_url]+"'></a></div>"
 
         self.response.write(view.print_out())
-
-
         #=============flickr.photos.search API============
         #API web page: https://www.flickr.com/services/api/explore/flickr.photos.search
         #This is what the json file looks like (only one object in the array for this example):
@@ -57,7 +56,10 @@ class MainHandler(webapp2.RequestHandler):
             query = self.request.GET['query']
             #get the api info
             url= "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=2d9100ce42b3b10a133615817fc58c66&tags="+query+"&tag_mode=all&text="+query+"&content_type="+query+"&format=json&nojsoncallback=1"
-            req = urllib2.Request(url)
+
+            url_safe = url.replace(" ", "%20")
+
+            req = urllib2.Request(url_safe)
             opener = urllib2.build_opener()
             #this is going to get the information for us
             data = opener.open(req)
@@ -66,7 +68,7 @@ class MainHandler(webapp2.RequestHandler):
             jsondoc = json.load(data)
             #farm = jsondoc['photos']
             print jsondoc
-            print url
+
 
             the_search_urls = []
             #loop through the pictures and get the necessary info to "build" 20 pictures
@@ -81,9 +83,6 @@ class MainHandler(webapp2.RequestHandler):
 
             for the_search_url in range(0, 20):
                 view.searched_pictures += "<div class='new_pictures'><a href='"+the_search_urls[the_search_url]+"'><img src ='"+the_search_urls[the_search_url]+"'></a></div>"
-
-            self.response.write(view.print_out())
-
 
 
 app = webapp2.WSGIApplication([

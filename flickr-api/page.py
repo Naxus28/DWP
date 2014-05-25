@@ -9,7 +9,8 @@ class Page(object):
     </head>
     <body>
         '''
-        self._content = "This is my content"
+        self.header = "<h1>Picture Mosaic API</h1>"
+        self._content = ""
         self.page_content = ""
         self.searched_pictures = ""
         self._close = '''
@@ -18,7 +19,7 @@ class Page(object):
         '''
         self._css_url = ""
         self._title = ""
-        # self.all = self._open + self._content + self._close
+        self.all = self._open + self.header + self._content + self._close
 
     @property
     def title(self):
@@ -54,22 +55,19 @@ class FormPage(Page):
     def __init__(self):
         #call constructor function
         Page.__init__(self)
-        self.form_header = "<h1>{self.header}</h1>"
+
         self.__form_open = '<form method=GET action="">'
         self.__inputs = '''
         <input id = "textfield" type = 'text' name='query' placeholder='Search Term'>
         <input id = "button" type = 'submit'>
         '''
         self.__form_close = '</form>'
-        self._content = self.form_header + self.__form_open + self.__inputs + self.__form_close
+        self._content = self.__form_open + self.__inputs + self.__form_close
         self.all = ""
 
-    @property
-    def header(self):
-        return self.form_header
 
     def update(self):
-        self.all = self._open + self.form_header + self.__form_open + self.__inputs + self.__form_close + \
+        self.all = self._open + self.header + self.__form_open + self.__inputs + self.__form_close + \
             self.page_content + self.searched_pictures + self._close
         self.all = self.all.format(**locals())
 
