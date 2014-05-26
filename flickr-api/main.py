@@ -1,6 +1,7 @@
 import webapp2
 from page import Page
 from page import FormPage
+from page import Results
 
 #libraries for working with xml in python
 import urllib
@@ -10,6 +11,7 @@ import json
 class MainHandler(webapp2.RequestHandler):
     def get(self):
         view = FormPage()
+        search_results = Results()
 
         #=============flickr.photos.getRecent API============
         #get the api info
@@ -39,7 +41,7 @@ class MainHandler(webapp2.RequestHandler):
         for the_url in range(0, 50):
             view.page_content += "<div class='img-container'><a href='"+the_urls[the_url]+"'target='_blank'><img src ='"+the_urls[the_url]+"'></a></div>"
 
-
+        self.response.write(view.print_out())
         #=============flickr.photos.search API============
         #API web page: https://www.flickr.com/services/api/explore/flickr.photos.search
         #This is what the json file looks like (only one object in the array for this example):
@@ -76,7 +78,7 @@ class MainHandler(webapp2.RequestHandler):
                 users_urls = []
 
                 #loop through the pictures and get the necessary info to "build" 20 pictures
-                for photo in range(0, 52):
+                for photo in range(0, 1):
                     farm = jsondoc['photos']['photo'][photo]['farm']
                     server = jsondoc['photos']['photo'][photo]['server']
                     the_id = jsondoc['photos']['photo'][photo]['id']
@@ -92,8 +94,8 @@ class MainHandler(webapp2.RequestHandler):
                 #H2 for the search results, displaying the number of pictures that is generated dynamically
                 view.search_header_update = "<h2>Search Results: %s pictures</h2>" % array_length
 
-                for the_search_url in range(0, 52):
-                    view.searched_pictures += '''
+                for the_search_url in range(0, 1):
+                    search_results.search_results = '''
                         <div class='picture_container'>
                             <div class='new_pictures'>
                                 <a href='''+the_search_urls[the_search_url]+''' target='_blank'><img src ='''+the_search_urls[the_search_url]+'''></a>"
@@ -103,8 +105,9 @@ class MainHandler(webapp2.RequestHandler):
                             </div>
                         </div>
                         '''
+        self.response.write(search_results.search_results())
 
-        self.response.write(view.print_out())
+
 
 
 

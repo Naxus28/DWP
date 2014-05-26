@@ -11,7 +11,7 @@ body{
 h1{
     color: white;
     position: absolute;
-    font-size: 4em;
+    font-size: 3.93em;
     margin-top: 22%;
     left: 25%;
     z-index: 2;
@@ -26,9 +26,12 @@ h1{
 .img-container img{
     min-width:100%;
     min-height:100%;
-    -moz-filter: blur(7px);
     -webkit-transition: blur 1s ease;
+    -moz-transition: blur 1s ease;
+    -o-transition: blur 1s ease;
+    transition: blur 1s ease;
     -webkit-filter: blur(7px);
+    -moz-filter: blur(7px);
     -o-filter: blur(7px);
     filter: blur(7px);
     -moz-transition: opacity 1s ease;
