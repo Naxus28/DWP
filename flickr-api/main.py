@@ -13,7 +13,7 @@ class MainHandler(webapp2.RequestHandler):
 
         #=============flickr.photos.getRecent API============
         #get the api info
-        url = "https://api.flickr.com/services/rest/?method=flickr.photos.getRecent&api_key=01b1c8d61f0ee804f95f20fe64fba996&format=json&nojsoncallback=1"
+        url = "https://api.flickr.com/services/rest/?method=flickr.photos.getRecent&api_key=01b1c8d61f0ee804f95f20fe64fba996&format=json&extras=views&nojsoncallback=1"
         req = urllib2.Request(url)
         opener = urllib2.build_opener()
 
@@ -57,7 +57,7 @@ class MainHandler(webapp2.RequestHandler):
                 self.response.write(view.print_out())
             else:
                 #get the api info
-                url = "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=01b1c8d61f0ee804f95f20fe64fba996&tags="+query+"&tag_mode=&text="+query+"&content_type="+query+"&format=json&nojsoncallback=1"
+                url = "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=01b1c8d61f0ee804f95f20fe64fba996&tags="+query+"&tag_mode=&text="+query+"&sort=interestingness-desc&content_type="+query+"&format=json&nojsoncallback=1"
 
                 url_safe = url.replace(" ", "%20")
 
