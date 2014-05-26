@@ -68,7 +68,7 @@ class FormPage(Page):
         self._content = self.__form_open + self.__inputs + self.__form_close
         self.all = ""
         self.search_results_header = ""
-        self._arrow = "<img id = 'arrow' src = 'images/arrow1.png'/>"
+        self._arrow = ""
 
     def update(self):
         self.all = self._open + self.header + self.__form_open + self.__inputs + self.__form_close + \
@@ -83,3 +83,11 @@ class FormPage(Page):
     @search_header_update.setter
     def search_header_update(self, new_header):
         self.search_results_header = new_header
+
+    @property
+    def arrow_up(self):
+        return self._arrow
+
+    @arrow_up.setter
+    def arrow_up(self, new_arrow):
+        self._arrow = new_arrow

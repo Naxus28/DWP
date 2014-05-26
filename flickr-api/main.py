@@ -92,7 +92,8 @@ class MainHandler(webapp2.RequestHandler):
                 #H2 for the search results, displaying the number of pictures that is generated dynamically
                 view.search_header_update = "<h2>Search Result: %s pictures" % array_length + "<span id='more_pics'> \
                                              (for more pictures on this topic, visit <a href= 'https://www.flickr.com/search/?q=%s' target = '_blank'>Flickr.com</a>)</span></h2>" % query
-                print "this is the "+ query
+                view.arrow_up = "<img id = 'arrow' src = 'images/arrow1.png'/>"
+
                 for the_search_url in range(0, 100):
                     view.searched_pictures += '''
                         <div class='picture_container'>

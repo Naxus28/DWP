@@ -154,7 +154,6 @@ div#users:hover{
 div.picture_container:hover div#users{
     opacity:1;
 }
-
 img#arrow{
     position: fixed;
     right: 3%;
@@ -163,4 +162,5 @@ img#arrow{
 }
 img#arrow:hover{
     cursor: pointer;
+    opacity: 1;
 }
