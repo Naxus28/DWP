@@ -74,7 +74,7 @@ form input#button{
     font-weight: bold;
     border:0;
 }
-form input#button{
+form input#button:hover{
     cursor:pointer;
 }
 
@@ -101,6 +101,7 @@ span#more_pics a{
 div#results_wrapper{
     background: #202122;
     float: left;
+    position: relative;
 }
 div.picture_container{
     position: relative;
@@ -152,4 +153,14 @@ div#users:hover{
 }
 div.picture_container:hover div#users{
     opacity:1;
+}
+
+img#arrow{
+    position: fixed;
+    right: 3%;
+    top:50%;
+    opacity: .85;
+}
+img#arrow:hover{
+    cursor: pointer;
 }

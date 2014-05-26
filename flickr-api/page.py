@@ -68,11 +68,12 @@ class FormPage(Page):
         self._content = self.__form_open + self.__inputs + self.__form_close
         self.all = ""
         self.search_results_header = ""
+        self._arrow = "<img id = 'arrow' src = 'images/arrow1.png'/>"
 
     def update(self):
         self.all = self._open + self.header + self.__form_open + self.__inputs + self.__form_close + \
             self.page_content + self.open_pictures_container + self.search_results_header + self.searched_pictures + \
-            self.close_pictures_container + self._close
+            self._arrow + self.close_pictures_container + self._close
         self.all = self.all.format(**locals())
 
     @property
