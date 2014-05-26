@@ -13,11 +13,13 @@ class Page(object):
         self.header = "<h1>The Picture Mosaic</h1>"
         self._content = ""
         self._close = '''
-        # <script src="js/jquery-1.11.0.min.js"></script>
-        # <script src="js/init.js"></script>
+        <script src="js/jquery-1.11.0.min.js"></script>
+        <script src="js/init.js"></script>
     </body>
 </html>
         '''
+        self.open_pictures_container = ""
+        self.close_pictures_container = ""
         self.searched_pictures = ""
         self.page_content = ""
         self._title = "The Picture Mosaic | Powered by Flickr"
@@ -40,7 +42,7 @@ class Page(object):
         return self.all
 
     def update(self):
-        self.all = self._open + self._content + self._close
+        self.all = self._open + self._content + self.open_pictures_container + self.close_pictures_container + self._close
         self.all = self.all.format(**locals())
 
     # def print_out_new_pics(self):
@@ -56,20 +58,22 @@ class FormPage(Page):
 
         self.__form_open = '<form method=GET action="">'
         self.__inputs = '''
-        <input id = "textfield" type = 'text' name='query' placeholder='Search Pictures'>
+        <input id = "textfield" type = 'text' name='query' placeholder='Search Picture'>
         <input id = "button" type = 'submit' value="SEARCH">
         '''
         self.__form_close = '</form>'
+        self.open_pictures_container = "<div id = 'results_wrapper'>"
+        self.close_pictures_container = "</div>"
+
         self._content = self.__form_open + self.__inputs + self.__form_close
         self.all = ""
         self.search_results_header = ""
-        self.searched_pictures = ""
 
     def update(self):
         self.all = self._open + self.header + self.__form_open + self.__inputs + self.__form_close + \
-            self.page_content + self._close
+            self.page_content + self.open_pictures_container + self.search_results_header + self.searched_pictures + \
+            self.close_pictures_container + self._close
         self.all = self.all.format(**locals())
-
 
     @property
     def search_header_update(self):
@@ -78,23 +82,3 @@ class FormPage(Page):
     @search_header_update.setter
     def search_header_update(self, new_header):
         self.search_results_header = new_header
-
-class Results(FormPage):
-    def __init__(self):
-        FormPage.__init__(self)
-
-    def update(self):
-        self.all = self._open + self.header + self.__form_open + self.__inputs + self.__form_close + \
-            self.page_content + self.searched_pictures + self._close
-        self.all = self.all.format(**locals())
-
-    @property
-    def search_results(self):
-        return self.searched_pictures
-
-    @search_results.setter
-    def search_results(self, new_pictures):
-        self.searched_pictures = new_pictures
-
-
-
