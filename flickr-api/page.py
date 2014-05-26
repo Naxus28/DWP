@@ -23,6 +23,7 @@ class Page(object):
         self.close_pictures_container = ""
         self.searched_pictures = ""
         self.page_content = ""
+        self.alert_msg = ""
         self._title = "The Picture Mosaic | Powered by Flickr"
         self.all = self._open + self.header + self._content + self._close
 
@@ -65,14 +66,15 @@ class FormPage(Page):
         self.__form_close = '</form>'
         self.open_pictures_container = "<div id = 'results_wrapper'>"
         self.close_pictures_container = "</div>"
-
+        self.alert_msg = "<p id='alert'>Click and drag to explore or click for full view</p>"
         self._content = self.__form_open + self.__inputs + self.__form_close
         self.all = ""
         self.search_results_header = ""
         self._arrow = ""
 
+
     def update(self):
-        self.all = self._open + self.header + self.__form_open + self.__inputs + self.__form_close + \
+        self.all = self._open + self.header + self.alert_msg + self.__form_open + self.__inputs + self.__form_close + \
             self.page_content + self.open_pictures_container + self.search_results_header + self.searched_pictures + \
             self._arrow + self.close_pictures_container + self._close
         self.all = self.all.format(**locals())

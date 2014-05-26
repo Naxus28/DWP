@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94938cd2-ada0-4dcc-9f76-077739e00527" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flickr-api/js/jquery-ui-1.10.4.custom.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flickr-api/main.py" afterPath="$PROJECT_DIR$/flickr-api/main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flickr-api/page.py" afterPath="$PROJECT_DIR$/flickr-api/page.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flickr-api/css/styles.css" afterPath="$PROJECT_DIR$/flickr-api/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="94938cd2-ada0-4dcc-9f76-077739e00527" name="Default" comment="" />
     <ignored path="DPW.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,7 +26,7 @@
       <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flickr-api/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="149" selection-start="474" selection-end="474" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2280">
+            <state line="39" column="47" selection-start="1442" selection-end="1442" vertical-scroll-proportion="0.0" vertical-offset="304" max-vertical-offset="2280">
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -43,7 +37,7 @@
       <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/flickr-api/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="16" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.50082374" vertical-offset="646" max-vertical-offset="3287">
+            <state line="107" column="30" selection-start="2169" selection-end="2169" vertical-scroll-proportion="0.69984204" vertical-offset="1590" max-vertical-offset="3477">
               <folding />
             </state>
           </provider>
@@ -70,7 +64,7 @@
       <file leaf-file-name="jquery-1.11.0.min.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flickr-api/js/jquery-1.11.0.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="7" selection-start="96936" selection-end="96936" vertical-scroll-proportion="-15.2" vertical-offset="0" max-vertical-offset="627">
+            <state line="14" column="5" selection-start="96571" selection-end="96571" vertical-scroll-proportion="-10.64" vertical-offset="0" max-vertical-offset="798">
               <folding />
             </state>
           </provider>
@@ -79,7 +73,7 @@
       <file leaf-file-name="jquery-ui-1.10.4.custom.min.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flickr-api/js/jquery-ui-1.10.4.custom.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="22" selection-start="228565" selection-end="228565" vertical-scroll-proportion="-7.6" vertical-offset="0" max-vertical-offset="304">
+            <state line="13" column="18" selection-start="228586" selection-end="228586" vertical-scroll-proportion="-9.88" vertical-offset="0" max-vertical-offset="361">
               <folding />
             </state>
           </provider>
@@ -119,7 +113,7 @@
       <file leaf-file-name="page.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flickr-api/page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="18" selection-start="559" selection-end="559" vertical-scroll-proportion="-10.961538" vertical-offset="0" max-vertical-offset="1881">
+            <state line="68" column="88" selection-start="2210" selection-end="2210" vertical-scroll-proportion="-10.653846" vertical-offset="1015" max-vertical-offset="1919">
               <folding />
             </state>
           </provider>
@@ -182,7 +176,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="74" />
+    <option name="x" value="-42" />
     <option name="y" value="22" />
     <option name="width" value="1276" />
     <option name="height" value="778" />
@@ -486,7 +480,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="74" y="22" width="1276" height="778" extended-state="0" />
+    <frame x="-42" y="22" width="1276" height="778" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32863188" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -811,39 +805,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/flickr-api/js/jquery-1.11.0.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="5" selection-start="96571" selection-end="96571" vertical-scroll-proportion="-10.64" vertical-offset="0" max-vertical-offset="798">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flickr-api/page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="88" selection-start="2210" selection-end="2210" vertical-scroll-proportion="-10.653846" vertical-offset="1015" max-vertical-offset="1919">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/flickr-api/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="149" selection-start="474" selection-end="474" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2280">
+        <state line="39" column="47" selection-start="1442" selection-end="1442" vertical-scroll-proportion="0.0" vertical-offset="304" max-vertical-offset="2280">
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flickr-api/page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="18" selection-start="559" selection-end="559" vertical-scroll-proportion="-10.961538" vertical-offset="0" max-vertical-offset="1881">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flickr-api/js/jquery-1.11.0.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="7" selection-start="96936" selection-end="96936" vertical-scroll-proportion="-15.2" vertical-offset="0" max-vertical-offset="627">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/flickr-api/js/jquery-ui-1.10.4.custom.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="22" selection-start="228565" selection-end="228565" vertical-scroll-proportion="-7.6" vertical-offset="0" max-vertical-offset="304">
+        <state line="13" column="18" selection-start="228586" selection-end="228586" vertical-scroll-proportion="-9.88" vertical-offset="0" max-vertical-offset="361">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/flickr-api/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="16" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.50082374" vertical-offset="646" max-vertical-offset="3287">
+        <state line="107" column="30" selection-start="2169" selection-end="2169" vertical-scroll-proportion="0.69984204" vertical-offset="1590" max-vertical-offset="3477">
           <folding />
         </state>
       </provider>

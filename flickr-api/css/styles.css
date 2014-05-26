@@ -17,6 +17,15 @@ h1{
     z-index: 2;
     text-shadow: 0 0 20px white;
 }
+p#alert{
+    color: white;
+    position: absolute;
+    margin-top: 18.7%;
+    left: 20.7%;
+    z-index: 2;
+    font-size: 2em;
+    text-shadow: 0 0 10px white;
+}
 .img-container{
     float: left;
     width: 10%;
@@ -48,10 +57,10 @@ h1{
 }
 form{
     width: 50%;
-    padding: 1%;
+    padding: 2%;
     position: absolute;
     margin-top: 28.5%;
-    left: 25%;
+    left: 23%;
     overflow: hidden;
     z-index: 2;
     cursor: move;
@@ -91,8 +100,9 @@ h2{
    text-transform: uppercase;
    float: left;
    clear: both;
+   text-decoration: underline;
 }
-span#more_pics{
+h2 span#more_pics{
     font-size:.7em;
     font-style: oblique;
     text-transform: lowercase;
@@ -164,5 +174,5 @@ img#arrow{
 }
 img#arrow:hover{
     cursor: pointer;
-    opacity: 1;
+    opacity: .9;
 }
