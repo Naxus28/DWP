@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="94938cd2-ada0-4dcc-9f76-077739e00527" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flickr-api-MVC/js/jquery-1.11.0.min.js" afterPath="$PROJECT_DIR$/flickr-api-MVC/js/jquery-1.11.0.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flickr-api-MVC/js/jquery-ui-1.10.4.custom.min.js" afterPath="$PROJECT_DIR$/flickr-api-MVC/js/jquery-ui-1.10.4.custom.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flickr-api-MVC/css/styles.css" afterPath="$PROJECT_DIR$/flickr-api-MVC/css/styles.css" />
     </list>
     <ignored path="DPW.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,10 +36,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flickr-api-MVC/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="166" column="16" selection-start="3118" selection-end="3118" vertical-scroll-proportion="0.8306595" vertical-offset="2688" max-vertical-offset="3287">
+            <state line="166" column="16" selection-start="3118" selection-end="3118" vertical-scroll-proportion="-9.137255" vertical-offset="2688" max-vertical-offset="3287">
               <folding />
             </state>
           </provider>
@@ -65,10 +63,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery-1.11.0.min.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="jquery-1.11.0.min.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/flickr-api-MVC/js/jquery-1.11.0.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="42" selection-start="97562" selection-end="97562" vertical-scroll-proportion="-18.4" vertical-offset="338" max-vertical-offset="1064">
+            <state line="40" column="9" selection-start="97473" selection-end="97473" vertical-scroll-proportion="0.6358885" vertical-offset="395" max-vertical-offset="1102">
               <folding />
             </state>
           </provider>
@@ -183,8 +181,8 @@
         <option value="$PROJECT_DIR$/flickr-api-MVC/model.py" />
         <option value="$PROJECT_DIR$/flickr-api-MVC/page.py" />
         <option value="$PROJECT_DIR$/flickr-api-MVC/js/jquery-ui-1.10.4.custom.min.js" />
-        <option value="$PROJECT_DIR$/flickr-api-MVC/js/jquery-1.11.0.min.js" />
         <option value="$PROJECT_DIR$/flickr-api-MVC/css/styles.css" />
+        <option value="$PROJECT_DIR$/flickr-api-MVC/js/jquery-1.11.0.min.js" />
       </list>
     </option>
   </component>
@@ -891,16 +889,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flickr-api-MVC/js/jquery-1.11.0.min.js">
+    <entry file="file://$PROJECT_DIR$/flickr-api-MVC/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="42" selection-start="97562" selection-end="97562" vertical-scroll-proportion="-18.4" vertical-offset="338" max-vertical-offset="1064">
+        <state line="166" column="16" selection-start="3118" selection-end="3118" vertical-scroll-proportion="-9.137255" vertical-offset="2688" max-vertical-offset="3287">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flickr-api-MVC/css/styles.css">
+    <entry file="file://$PROJECT_DIR$/flickr-api-MVC/js/jquery-1.11.0.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="166" column="16" selection-start="3118" selection-end="3118" vertical-scroll-proportion="0.8306595" vertical-offset="2688" max-vertical-offset="3287">
+        <state line="40" column="9" selection-start="97473" selection-end="97473" vertical-scroll-proportion="0.6358885" vertical-offset="395" max-vertical-offset="1102">
           <folding />
         </state>
       </provider>
