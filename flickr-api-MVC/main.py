@@ -25,7 +25,7 @@ class MainHandler(webapp2.RequestHandler):
             flickr_view2.api_view2 = flickr_model2.flkrdata2
 
             flickr_view2.update_api_view2()
-            view.searched_pictures = flickr_view2.api_header2 + flickr_view2.api_content2
+            view.searched_pictures = flickr_view2.full_content
 
         self.response.write(view.print_out())
 

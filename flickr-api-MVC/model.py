@@ -80,6 +80,7 @@ class FlickrModel(object):
 
         #creates another instance of the query to create a ling to the searched topic on Flickr
         self.__flkrdata2.query = self.query
+        print self.__flkrdata2.query
 
          #loop through the pictures and get the necessary info to "build" 20 pictures
         for photo in range(0, 100):
@@ -123,5 +124,4 @@ class FlickrDataObject2(object):
         self.secret = ""
         self.the_search_urls = []
         self.users_urls = []
-        self.query = []
         self.picture_array_length = ""
