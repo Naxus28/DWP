@@ -100,8 +100,10 @@ class FormPage(Page):
 
 class FlickrView(object):
     def __init__(self):
-        self.api_view = FlickrModel()
+        self.api_view = FlickrDataObject()
         self.api_content = ""
+
+    def update_api_view(self):
         for url in range(0, 50):
             #push the pictures to the view
             self.api_content += '''
