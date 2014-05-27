@@ -95,7 +95,7 @@ class FlickrModel(object):
 
             #append users urls to the array
             self.__flkrdata2.users_urls.append("https://www.flickr.com/people/"+self.__flkrdata2.owner)
-            print self.__flkrdata2.the_search_urls
+            #print self.__flkrdata2.the_search_urls
 
             #lenght of the pictures array to be updated according to the number of pictures displayed
             self.__flkrdata2.picture_array_length = len(self.__flkrdata2.the_search_urls)
@@ -121,4 +121,5 @@ class FlickrDataObject2(object):
         self.server = ""
         self.the_id = ""
         self.secret = ""
-        self.the_urls = []
+        self.the_search_urls = []
+        self.users_urls = []

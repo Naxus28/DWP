@@ -2,6 +2,7 @@ import webapp2
 from page import FormPage
 from model import FlickrModel
 from page import FlickrView
+from page import FlickrView2
 
 class MainHandler(webapp2.RequestHandler):
     def get(self):
@@ -11,15 +12,22 @@ class MainHandler(webapp2.RequestHandler):
         flickr_model.send_request()
         flickr_view = FlickrView()
         flickr_view.api_view = flickr_model.flkrdata
+        #print flickr_view.api_view
         flickr_view.update_api_view()
         view.page_content = flickr_view.api_content
 
+        #=========data transfer for flickr.photos.Search API========
         if self.request.GET:
-            flickr_model2 = 
-            api2 = self.
+            flickr_model2 = FlickrModel()
+            flickr_model2.query = self.request.GET['query']
+            flickr_model2.send_request2()
+            flickr_view2 = FlickrView2()
+            flickr_view2.api_view2 = flickr_model2.flkrdata2
 
+            flickr_view2.update_api_view2()
+            view.searched_pictures = flickr_view2.api_content2
 
-    self.response.write(view.print_out())
+        self.response.write(view.print_out())
 
 
 
