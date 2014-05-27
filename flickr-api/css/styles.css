@@ -15,7 +15,6 @@ h1{
     margin-top: 5.5%;
     left: 25%;
     z-index: 2;
-    text-shadow: 0 0 20px white;
 }
 p#alert{
     color: white;
@@ -24,7 +23,6 @@ p#alert{
     left: 15%;
     z-index: 2;
     font-size: 2em;
-    text-shadow: 0 0 10px white;
 }
 .img-container{
     float: left;
@@ -35,6 +33,7 @@ p#alert{
 .img-container img{
     min-width:100%;
     min-height:100%;
+    /*
     -webkit-transition: blur 1s ease;
     -moz-transition: blur 1s ease;
     -o-transition: blur 1s ease;
@@ -43,17 +42,18 @@ p#alert{
     -moz-filter: blur(7px);
     -o-filter: blur(7px);
     filter: blur(7px);
+    */
     -moz-transition: opacity 1s ease;
     -webkit-transition: opacity 1s ease;
     -o-transition: opacity 1s ease;
     transition: opacity 1s ease;
-    opacity:.5;
+    opacity:.4;
 }
 .img-container img:hover{
     opacity:1;
-    -moz-filter: blur(1px);
+    /*-moz-filter: blur(1px);
     -webkit-filter: blur(1px);
-    -o-filter: blur(1px);
+    -o-filter: blur(1px); */
 }
 form{
     width: 50%;
