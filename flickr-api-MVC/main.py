@@ -1,47 +1,52 @@
 import webapp2
 from page import Page
 from page import FormPage
+from model import FlickrModel
 
 #libraries for working with xml in python
-import urllib
-import urllib2
-import json
+
+# import urllib2
+# import json
 
 class MainHandler(webapp2.RequestHandler):
     def get(self):
         view = FormPage()
+        photos_data = FlickrModel()
+        print photos_data.flkrdata()
+        print photos_data.the_urls
 
-        #=============flickr.photos.getRecent API============
-        #get the api info
-        url = "https://api.flickr.com/services/rest/?method=flickr.photos.getRecent&api_key=01b1c8d61f0ee804f95f20fe64fba996&format=json&extras=views&nojsoncallback=1"
-        req = urllib2.Request(url)
-        opener = urllib2.build_opener()
 
-        #this is going to get the information
-        data = opener.open(req)
-
-        #array to hold the pictures returned
-        the_urls = []
-
-        #parse the data
-        jsondoc = json.load(data)
-
-        #loop through the pictures and get the necessary info to "build" 40 pictures
-        for photo in range(0, 50):
-            farm = jsondoc['photos']['photo'][photo]['farm']
-            server = jsondoc['photos']['photo'][photo]['server']
-            the_id = jsondoc['photos']['photo'][photo]['id']
-            secret = jsondoc['photos']['photo'][photo]['secret']
-            #append the pictures to the array
-            the_urls.append("http://farm"+str(farm)+".staticflickr.com/"+str(server)+"/"+str(the_id)+"_"+str(secret)+".jpg")
-
-        #push the pictures to the view
-        for the_url in range(0, 50):
-            view.page_content += '''
-            <div class='img-container'>
-                <a href='''+the_urls[the_url]+''' target='_blank'><img src ='''+the_urls[the_url]+'''></a>
-            </div>'''
-
+        # #=============flickr.photos.getRecent API============
+        # #get the api info
+        # url = "https://api.flickr.com/services/rest/?method=flickr.photos.getRecent&api_key=01b1c8d61f0ee804f95f20fe64fba996&format=json&extras=views&nojsoncallback=1"
+        # req = urllib2.Request(url)
+        # opener = urllib2.build_opener()
+        #
+        # #this is going to get the information
+        # data = opener.open(req)
+        #
+        # #array to hold the pictures returned
+        # the_urls = []
+        #
+        # #parse the data
+        # jsondoc = json.load(data)
+        #
+        # #loop through the pictures and get the necessary info to "build" 40 pictures
+        # for photo in range(0, 50):
+        #     farm = jsondoc['photos']['photo'][photo]['farm']
+        #     server = jsondoc['photos']['photo'][photo]['server']
+        #     the_id = jsondoc['photos']['photo'][photo]['id']
+        #     secret = jsondoc['photos']['photo'][photo]['secret']
+        #     #append the pictures to the array
+        #     the_urls.append("http://farm"+str(farm)+".staticflickr.com/"+str(server)+"/"+str(the_id)+"_"+str(secret)+".jpg")
+        #
+        # #push the pictures to the view
+        # for the_url in range(0, 50):
+        #     view.page_content += '''
+        #     <div class='img-container'>
+        #         <a href='''+the_urls[the_url]+''' target='_blank'><img src ='''+the_urls[the_url]+'''></a>
+        #     </div>'''
+        #
 
         #=============flickr.photos.search API============
         #API web page: https://www.flickr.com/services/api/explore/flickr.photos.search

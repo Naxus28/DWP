@@ -1,3 +1,5 @@
+from model import FlickrDataObject
+
 class Page(object):
     def __init__(self):
         self._open = '''
@@ -94,3 +96,15 @@ class FormPage(Page):
     @arrow_up.setter
     def arrow_up(self, new_arrow):
         self._arrow = new_arrow
+
+class FlickerView(object):
+    def __init__(self):
+        self.api_view = FlickrDataObject()
+        self.api_content = ""
+        for url in range(0, 50):
+            #push the pictures to the view
+            self.api_content += '''
+            <div class='img-container'>
+                <a href={self.the_urls['''+str(url)+''']} target='_blank'><img src = {self.the_urls['''+str(url)+''']}></a>
+            </div>
+        '''

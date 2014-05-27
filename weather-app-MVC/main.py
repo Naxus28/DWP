@@ -2,9 +2,6 @@ import webapp2
 from page import Page
 from page import FormPage
 from model import WeatherDataObject
-
-#libraries for working with xml in python
-
 from model import WeatherModel
 
 
@@ -17,7 +14,7 @@ class MainHandler(webapp2.RequestHandler):
             w_model.code = self.request.GET['code']
             w_model.send_req() #connect to API
             w_view = WeatherView()#the view that is going to sshow my info
-            w_view.wdo = w_model.wdo # transfer wdo from model to view
+            w_view.wdo_one = w_model.wdo # transfer wdo from model to view
             w_view.update_view()
             view.page_content = w_view.content #creates html using our wdo
 
@@ -27,15 +24,15 @@ class MainHandler(webapp2.RequestHandler):
 class WeatherView(object):
     '''This class is showing JUST the weather information from the API '''
     def __init__(self):
-        self.wdo = WeatherDataObject()
+        self.wdo_one = WeatherDataObject()
         self.content = ''
     def update_view(self):
         self.content = '''
         <div>
-            <h3>{self.wdo.location}</h3>
+            <h3>{self.wdo_one.location}</h3>
                 <ul>
-                    <li><strong>Temperature: </strong> {self.wdo.temp}</li>
-                    <li><strong> City: </strong> {self.wdo.location} </li>
+                    <li><strong>Temperature: </strong> {self.wdo_one.temp}</li>
+                    <li><strong> City: </strong> {self.wdo_one.location} </li>
                 </ul>
         </div>
         '''
