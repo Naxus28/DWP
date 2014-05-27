@@ -117,15 +117,16 @@ class FlickrView2(object):
         self.api_view2 = FlickrDataObject2()
         self.api_header2 = ""
         self.api_content2 = ""
-        #self.full_content = ""
+        self.full_content = ""
+        print self.api_view2.query
 
     def update_api_view2(self):
+        # self.api_header2 = '''
+        #     <h2>Search Result:{self.api_view2.picture_array_length} pictures  <span id='more_pics'>(for more pictures on this topic, visit <a href= 'https://www.flickr.com/search/
+        #                                      ?q={self.api_view2.query}' target = '_blank'>Flickr.com</a>)</span></h2>'''
         for search_url in range(0, 100):
+
             #create the h2 and push the pictures to the view
-            self.api_header2 = '''
-            <h2>Search Result: {self.api_header2.picture_array_length} pictures <span id='more_pics'> \
-                                             (for more pictures on this topic, visit <a href= 'https://www.flickr.com/search/
-                                             ?q={api_view2.query}' target = '_blank'>Flickr.com</a>)</span></h2>'''
             self.api_content2 += '''
              <div class='picture_container'>
                  <div class='new_pictures'>
@@ -138,6 +139,8 @@ class FlickrView2(object):
               </div>
           '''
         self.api_content2 = self.api_content2.format(**locals())
+        #self.full_content = self.api_header2 + self.api_content2
+
 
 
 
