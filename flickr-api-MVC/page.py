@@ -108,7 +108,7 @@ class FlickrView(object):
             #push the pictures to the view
             self.api_content += '''
             <div class='img-container'>
-                <a href={self.api_view.the_urls['''+str(url)+''']} target='_blank'><img src = {self.the_urls['''+str(url)+''']}></a>
+                <a href={self.api_view.the_urls['''+str(url)+''']} target='_blank'><img src = {self.api_view.the_urls['''+str(url)+''']}></a>
             </div>
         '''
         self.api_content = self.api_content.format(**locals())

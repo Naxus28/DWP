@@ -66,7 +66,7 @@ class FormPage(Page):
         self.__form_close = '</form>'
         self.open_pictures_container = "<div id = 'results_wrapper'>"
         self.close_pictures_container = "</div>"
-        self.alert_msg = "<p id='alert'>Click and drag to explore or click for full view</p>"
+        self.alert_msg = "<p id='alert'>Click and drag to build your mosaic or click for full view</p>"
         self._content = self.__form_open + self.__inputs + self.__form_close
         self.all = ""
         self.search_results_header = ""
