@@ -78,6 +78,9 @@ class FlickrModel(object):
         #array that holds users URL
         self.__flkrdata2.users_urls = []
 
+        #creates another instance of the query to create a ling to the searched topic on Flickr
+        self.__flkrdata2.query = self.query
+
          #loop through the pictures and get the necessary info to "build" 20 pictures
         for photo in range(0, 100):
             self.__flkrdata2.farm = jsondoc['photos']['photo'][photo]['farm']
@@ -93,6 +96,9 @@ class FlickrModel(object):
             #append users urls to the array
             self.__flkrdata2.users_urls.append("https://www.flickr.com/people/"+self.__flkrdata2.owner)
             print self.__flkrdata2.the_search_urls
+
+            #lenght of the pictures array to be updated according to the number of pictures displayed
+            self.__flkrdata2.picture_array_length = len(self.__flkrdata2.the_search_urls)
 
     @property
     def flkrdata2(self):

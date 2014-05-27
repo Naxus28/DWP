@@ -1,5 +1,5 @@
 from model import FlickrDataObject
-from model import FlickrModel
+from model import FlickrDataObject2
 
 class Page(object):
     def __init__(self):
@@ -73,7 +73,7 @@ class FormPage(Page):
         self._content = self.__form_open + self.__inputs + self.__form_close
         self.all = ""
         self.search_results_header = ""
-        self._arrow = ""
+        self._arrow = "<img id = 'arrow' src = 'images/arrow1.png'/>"
 
 
     def update(self):
@@ -98,6 +98,8 @@ class FormPage(Page):
     def arrow_up(self, new_arrow):
         self._arrow = new_arrow
 
+
+#object that shows the flickr.getRecent API data
 class FlickrView(object):
     def __init__(self):
         self.api_view = FlickrDataObject()
@@ -112,4 +114,40 @@ class FlickrView(object):
             </div>
         '''
         self.api_content = self.api_content.format(**locals())
-        print self.api_content
+        #print self.api_content
+
+#object that shows the flickr.photo.Search API data
+class FlickrView2(object):
+    def __init__(self):
+        self.api_view2 = FlickrDataObject2()
+        self.api_header2 = ""
+        self.api_content2 = ""
+        self.api_topic = ""
+
+    def update_api_view(self):
+        for search_url in range(0, 100):
+            #create the h2 and push the pictures to the view
+            self.api_header2 = '''
+            <h2>Search Result: {self.api_header2.picture_array_length} pictures <span id='more_pics'> \
+                                             (for more pictures on this topic, visit <a href= 'https://www.flickr.com/search/
+                                             ?q={api_api_topic.query}' target = '_blank'>Flickr.com</a>)</span></h2>'''
+            self.api_content2 += '''
+           <div class='picture_container'>
+                <div class='new_pictures'>
+                    <a href={self.api_content2.the_search_urls['''+str(search_url)+''']}
+                    target='_blank'><img src ={self.api_content2.the_search_urls['''+str(search_url)+''']}></a>"
+                </div>
+                <div id='users'>
+                   <a href={self.api_content2.users_urls['''+str(search_url)+''']} target='_blank'>Photographer's Flickr Profile</a>
+                </div>
+            </div>
+        '''
+        self.api_content2 = self.api_content2.format(**locals())
+
+
+
+
+                #H2 for the search results, displaying the number of pictures that is generated dynamically
+
+
+
