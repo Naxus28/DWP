@@ -20,12 +20,16 @@ class MainHandler(webapp2.RequestHandler):
         if self.request.GET:
             flickr_model2 = FlickrModel()
             flickr_model2.query = self.request.GET['query']
-            flickr_model2.send_request2()
-            flickr_view2 = FlickrView2()
-            flickr_view2.api_view2 = flickr_model2.flkrdata2
+            if flickr_model2.query == "":
 
-            flickr_view2.update_api_view2()
-            view.searched_pictures = flickr_view2.full_content
+                self.response.write(view.print_out())
+            else:
+                view.arrow = "<img id = 'arrow' src = 'images/arrow1.png'/>"
+                flickr_model2.send_request2()
+                flickr_view2 = FlickrView2()
+                flickr_view2.api_view2 = flickr_model2.flkrdata2
+                flickr_view2.update_api_view2()
+                view.searched_pictures = flickr_view2.full_content
 
         self.response.write(view.print_out())
 

@@ -68,7 +68,7 @@ class FormPage(Page):
         self._content = self.__form_open + self.__inputs + self.__form_close
         self.all = ""
         self.search_results_header = ""
-        self._arrow = "<img id = 'arrow' src = 'images/arrow1.png'/>"
+        self._arrow = ""
         self.searched_pictures = ""
 
     def update(self):
@@ -78,20 +78,12 @@ class FormPage(Page):
         self.all = self.all.format(**locals())
 
     @property
-    def search_header_update(self):
-        return self.search_results_header
-
-    @search_header_update.setter
-    def search_header_update(self, new_header):
-        self.search_results_header = new_header
-
-    @property
-    def arrow_up(self):
+    def arrow(self):
         return self._arrow
-
-    @arrow_up.setter
-    def arrow_up(self, new_arrow):
+    @arrow.setter
+    def arrow(self, new_arrow):
         self._arrow = new_arrow
+
 
 
 #object that shows the flickr.getRecent API data
