@@ -119,11 +119,11 @@ class FlickrView2(object):
         self.api_content2 = ""
         self.full_content = ""
         print self.api_view2.query
+        print self.api_view2.picture_array_length
 
     def update_api_view2(self):
-        # self.api_header2 = '''
-        #     <h2>Search Result:{self.api_view2.picture_array_length} pictures  <span id='more_pics'>(for more pictures on this topic, visit <a href= 'https://www.flickr.com/search/
-        #                                      ?q={self.api_view2.query}' target = '_blank'>Flickr.com</a>)</span></h2>'''
+        self.api_header2 = '''
+            <h2>Search Result: 100 pictures'''
         for search_url in range(0, 100):
 
             #create the h2 and push the pictures to the view
