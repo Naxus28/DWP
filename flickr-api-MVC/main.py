@@ -1,19 +1,12 @@
 import webapp2
-from page import Page
 from page import FormPage
 from model import FlickrModel
 from page import FlickrView
-import urllib2
-import json
-
-#libraries for working with xml in python
-
-# import urllib2
-# import json
 
 class MainHandler(webapp2.RequestHandler):
     def get(self):
         view = FormPage()
+        #=========data transfer for flickr.photos.getRecent API========
         flickr_model = FlickrModel()
         flickr_model.send_request()
         flickr_view = FlickrView()
@@ -22,10 +15,6 @@ class MainHandler(webapp2.RequestHandler):
         view.page_content = flickr_view.api_content
 
         self.response.write(view.print_out())
-
-
-        #print api_view.api_view
-
 
 
          #if there is an input
