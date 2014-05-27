@@ -127,16 +127,16 @@ class FlickrView2(object):
                                              (for more pictures on this topic, visit <a href= 'https://www.flickr.com/search/
                                              ?q={api_view2.query}' target = '_blank'>Flickr.com</a>)</span></h2>'''
             self.api_content2 += '''
-           <div class='picture_container'>
-                <div class='new_pictures'>
-                    <a href={self.api_view2.the_search_urls}
-                    target='_blank'><img src ={self.api_view2.the_search_urls}></a>"
-                </div>
-                <div id='users'>
-                   <a href={self.api_view2.users_urls} target='_blank'>Photographer's Flickr Profile</a>
-                </div>
-            </div>
-        '''
+             <div class='picture_container'>
+                 <div class='new_pictures'>
+                      <a href={self.api_view2.the_search_urls['''+str(search_url)+''']}
+                      target='_blank'><img src ={self.api_view2.the_search_urls['''+str(search_url)+''']}></a>"
+                  </div>
+                  <div id='users'>
+                     <a href={self.api_view2.users_urls['''+str(search_url)+''']} target='_blank'>Photographer's Flickr Profile</a>
+                 </div>
+              </div>
+          '''
         self.api_content2 = self.api_content2.format(**locals())
 
 
