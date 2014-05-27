@@ -18,7 +18,7 @@ class MainHandler(webapp2.RequestHandler):
             w_model.send_req() #connect to API
             w_view = WeatherView()#the view that is going to sshow my info
             w_view.wdo = w_model.wdo # transfer wdo from model to view
-            w_view.update()
+            w_view.update_view()
             view.page_content = w_view.content #creates html using our wdo
 
         self.response.write(view.print_out())
@@ -29,7 +29,7 @@ class WeatherView(object):
     def __init__(self):
         self.wdo = WeatherDataObject()
         self.content = ''
-    def update(self):
+    def update_view(self):
         self.content = '''
         <div>
             <h3>{self.wdo.location}</h3>

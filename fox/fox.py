@@ -21,7 +21,7 @@ class Fox(Animal, Html):
         self._avg_lifespan = "5 years (In Wild)"
         self._habitat = "Wooded areas, prairies and farmland"
         self._geo_location = "Planet Earth"
-        self.__sound = "Scream-y howl"
+        self.sound = "Scream-y howl"
         self._body_id = "fox"
         self._link = "flickr.com"
 

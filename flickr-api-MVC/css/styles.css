@@ -1,0 +1,178 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background: black;
+    position: relative;
+    font-family: 'Libre Baskerville', serif;
+}
+
+/*===========mosaic styles===============*/
+h1{
+    color: white;
+    position: absolute;
+    font-size: 3.93em;
+    margin-top: 5.5%;
+    left: 25%;
+    z-index: 2;
+    text-shadow: 0 0 20px white;
+}
+p#alert{
+    color: white;
+    position: absolute;
+    margin-top: 18.7%;
+    left: 15%;
+    z-index: 2;
+    font-size: 2em;
+    text-shadow: 0 0 10px white;
+}
+.img-container{
+    float: left;
+    width: 10%;
+    height: 140px;
+    overflow:hidden;
+}
+.img-container img{
+    min-width:100%;
+    min-height:100%;
+    -webkit-transition: blur 1s ease;
+    -moz-transition: blur 1s ease;
+    -o-transition: blur 1s ease;
+    transition: blur 1s ease;
+    -webkit-filter: blur(7px);
+    -moz-filter: blur(7px);
+    -o-filter: blur(7px);
+    filter: blur(7px);
+    -moz-transition: opacity 1s ease;
+    -webkit-transition: opacity 1s ease;
+    -o-transition: opacity 1s ease;
+    transition: opacity 1s ease;
+    opacity:.5;
+}
+.img-container img:hover{
+    opacity:1;
+    -moz-filter: blur(1px);
+    -webkit-filter: blur(1px);
+    -o-filter: blur(1px);
+}
+form{
+    width: 50%;
+    padding: 2%;
+    position: absolute;
+    margin-top: 28.5%;
+    left: 23%;
+    overflow: hidden;
+    z-index: 2;
+    cursor: move;
+}
+form input#textfield{
+    width: 100%;
+    height: 50px;
+    font-style: oblique;
+    padding-left: 1%;
+    padding-right: 0;
+    font-size: 2em;
+    border-width:0;
+}
+form input#button{
+    width: 101%;
+    height: 40px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    background: rgb(21,56,137);
+    color: rgb(250,250,250);
+    font-weight: bold;
+    border:0;
+}
+form input#button:hover{
+    cursor:pointer;
+}
+
+/*===========search results styles===============*/
+h2{
+   width: 99%;
+   color: #78A3FF;
+   margin-left: 1%;
+   margin-bottom: 1%;
+   padding-top: 3%;
+   font-size: 1.5em;
+   text-transform: uppercase;
+   float: left;
+   clear: both;
+   text-decoration: underline;
+}
+h2 span#more_pics{
+    font-size:.7em;
+    font-style: oblique;
+    text-transform: lowercase;
+}
+span#more_pics a{
+    color: #78A3FF;
+}
+div#results_wrapper{
+    background: #202122;
+    float: left;
+    position: relative;
+}
+div.picture_container{
+    position: relative;
+    width:23%;
+    margin:1%;
+    height: 200px;
+    overflow: hidden;
+    float: left;
+    transition: outline .6s ease;
+    -moz-transition: outline .6s ease;
+    -webkit-transition: outline .6s ease;
+    -o-transition: outline .6s ease;
+    outline: 0;
+}
+div.picture_container:hover{
+    outline: 1.5px solid white;
+}
+div.new_pictures{
+    width: 100%;
+    height: 100%;
+}
+div.new_pictures img{
+    min-width:100%;
+    min-height:100%;
+    border-radius: 2px;
+}
+div#users{
+    position: absolute;
+    top: 153px;
+    text-align: center;
+    background: rgba(0,0,0,.8);
+    width: 100%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+div#users a{
+    color: rgb(245,245,245);
+    text-decoration: none;
+}
+div#users{
+    transition: opacity .9s ease;
+    -moz-transition: opacity .9s ease;
+    -webkit-transition: opacity .9s ease;
+    -o-transition: opacity .9s ease;
+    opacity:0;
+}
+div#users:hover{
+    opacity:1;
+}
+div.picture_container:hover div#users{
+    opacity:1;
+}
+img#arrow{
+    position: fixed;
+    right: 3%;
+    top:50%;
+    opacity: .85;
+}
+img#arrow:hover{
+    cursor: pointer;
+    opacity: .9;
+}

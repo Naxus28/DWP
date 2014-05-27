@@ -60,7 +60,11 @@ class Animal(object):
 
     @sound.setter
     def sound(self, new_sound):
-        self.__sound = new_sound
+        if new_sound == "":
+            self.__sound = self.__sound
+        else:
+            self.__sound = new_sound
+
 
     @property
     def css(self):
