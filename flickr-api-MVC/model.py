@@ -36,8 +36,6 @@ class FlickrModel(object):
         return self.__flkrdata
 
 
-
-
 class FlickrDataObject(object):
     def __init__(self):
         self.farm = ""

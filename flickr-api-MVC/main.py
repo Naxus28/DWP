@@ -2,6 +2,7 @@ import webapp2
 from page import Page
 from page import FormPage
 from model import FlickrModel
+from page import FlickrView
 
 #libraries for working with xml in python
 
@@ -11,52 +12,8 @@ from model import FlickrModel
 class MainHandler(webapp2.RequestHandler):
     def get(self):
         view = FormPage()
-        photos_data = FlickrModel()
-        print photos_data.flkrdata()
-        print photos_data.the_urls
-
-
-        # #=============flickr.photos.getRecent API============
-        # #get the api info
-        # url = "https://api.flickr.com/services/rest/?method=flickr.photos.getRecent&api_key=01b1c8d61f0ee804f95f20fe64fba996&format=json&extras=views&nojsoncallback=1"
-        # req = urllib2.Request(url)
-        # opener = urllib2.build_opener()
-        #
-        # #this is going to get the information
-        # data = opener.open(req)
-        #
-        # #array to hold the pictures returned
-        # the_urls = []
-        #
-        # #parse the data
-        # jsondoc = json.load(data)
-        #
-        # #loop through the pictures and get the necessary info to "build" 40 pictures
-        # for photo in range(0, 50):
-        #     farm = jsondoc['photos']['photo'][photo]['farm']
-        #     server = jsondoc['photos']['photo'][photo]['server']
-        #     the_id = jsondoc['photos']['photo'][photo]['id']
-        #     secret = jsondoc['photos']['photo'][photo]['secret']
-        #     #append the pictures to the array
-        #     the_urls.append("http://farm"+str(farm)+".staticflickr.com/"+str(server)+"/"+str(the_id)+"_"+str(secret)+".jpg")
-        #
-        # #push the pictures to the view
-        # for the_url in range(0, 50):
-        #     view.page_content += '''
-        #     <div class='img-container'>
-        #         <a href='''+the_urls[the_url]+''' target='_blank'><img src ='''+the_urls[the_url]+'''></a>
-        #     </div>'''
-        #
-
-        #=============flickr.photos.search API============
-        #API web page: https://www.flickr.com/services/api/explore/flickr.photos.search
-        #This is what the json file looks like (only one object in the array for this example):
-    #     { "photos": { "page": 1, "pages": "527848", "perpage": 100, "total": "52784744",
-    #           "photo": [
-    #                    { "id": "14072114588", "owner": "107424305@N06", "secret": "2416c1e0b4",
-    #  "server": "3674", "farm": 4, "title": "Mi avistamiento de Flash (en moto) - Flash in Motorcycle",
-    # "ispublic": 1, "isfriend": 0, "isfamily": 0 }
-                          #  ]}
+        api_view = FlickrView()
+        print api_view
 
          #if there is an input
         if self.request.GET:
