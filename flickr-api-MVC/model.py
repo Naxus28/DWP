@@ -100,7 +100,6 @@ class FlickrModel(object):
             #lenght of the pictures array to be updated according to the number of pictures displayed
             self.__flkrdata2.picture_array_length = str(len(self.__flkrdata2.the_search_urls))
 
-
     @property
     def flkrdata2(self):
         return self.__flkrdata2
