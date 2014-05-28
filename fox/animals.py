@@ -76,6 +76,6 @@ class Animal(object):
 
     def update(self):
         self.all = self._open + self._content + self._close
-        self.all = self.all.format(**locals())
+        #self.all = self.all.format(**locals())
 
 

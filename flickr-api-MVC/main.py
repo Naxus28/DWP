@@ -34,12 +34,6 @@ class MainHandler(webapp2.RequestHandler):
         self.response.write(view.print_out())
 
 
-
-
-        # self.response.write(view.print_out())
-
-
-
 app = webapp2.WSGIApplication([
     ('/', MainHandler)
 ], debug=True)
