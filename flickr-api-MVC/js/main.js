@@ -51,6 +51,7 @@ $(window).load(function(){
     var counter_one = 2;
     $('.picture_container').mousedown(function(){
          $(this).css('z-index',counter_one);
+         $('h2').css('z-index',counter_one);
          $('#arrow').css('z-index',counter_one);
          counter_one ++
     });
