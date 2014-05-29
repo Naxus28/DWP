@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94938cd2-ada0-4dcc-9f76-077739e00527" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flickr-api-MVC/css/styles.css" afterPath="$PROJECT_DIR$/flickr-api-MVC/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flickr-api-MVC/js/main.js" afterPath="$PROJECT_DIR$/flickr-api-MVC/js/main.js" />
     </list>
     <ignored path="DPW.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,10 +70,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/flickr-api-MVC/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="0" selection-start="0" selection-end="1556" vertical-scroll-proportion="-18.6" vertical-offset="599" max-vertical-offset="1178">
+            <state line="30" column="20" selection-start="905" selection-end="905" vertical-scroll-proportion="0.37651122" vertical-offset="352" max-vertical-offset="1197">
               <folding />
             </state>
           </provider>
@@ -88,10 +88,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flickr-api-MVC/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="272" column="21" selection-start="4754" selection-end="4754" vertical-scroll-proportion="0.46643108" vertical-offset="4904" max-vertical-offset="6536">
+            <state line="272" column="21" selection-start="4754" selection-end="4754" vertical-scroll-proportion="-5.1764708" vertical-offset="4904" max-vertical-offset="6536">
               <folding />
             </state>
           </provider>
@@ -160,6 +160,7 @@
         <option value="$PROJECT_DIR$/flickr-api/page.py" />
         <option value="$PROJECT_DIR$/flickr-api-MVC/page.py" />
         <option value="$PROJECT_DIR$/flickr-api-MVC/css/styles.css" />
+        <option value="$PROJECT_DIR$/flickr-api-MVC/js/main.js" />
       </list>
     </option>
   </component>
@@ -781,13 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flickr-api-MVC/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="0" selection-start="0" selection-end="1556" vertical-scroll-proportion="-18.6" vertical-offset="599" max-vertical-offset="1178">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/flickr-api-MVC/app.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="0" selection-start="158" selection-end="158" vertical-scroll-proportion="-8.48" vertical-offset="16" max-vertical-offset="608">
@@ -811,7 +805,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/flickr-api-MVC/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="272" column="21" selection-start="4754" selection-end="4754" vertical-scroll-proportion="0.46643108" vertical-offset="4904" max-vertical-offset="6536">
+        <state line="272" column="21" selection-start="4754" selection-end="4754" vertical-scroll-proportion="-5.1764708" vertical-offset="4904" max-vertical-offset="6536">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flickr-api-MVC/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="20" selection-start="905" selection-end="905" vertical-scroll-proportion="0.37651122" vertical-offset="352" max-vertical-offset="1197">
           <folding />
         </state>
       </provider>

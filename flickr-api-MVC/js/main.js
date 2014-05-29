@@ -28,6 +28,7 @@ $(window).load(function(){
     var counter = 2;
     $('.img-container').mousedown(function(){
          $(this).css('z-index',counter);
+         $('form, h1').css('z-index',counter);
          $(this).hover(function(){
                 $(this).css('outline','1px solid white');
             }, function(){
