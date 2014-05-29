@@ -159,7 +159,6 @@ img#arrow{
     right: 3%;
     top:50%;
     opacity: .85;
-     z-index:10;
 }
 img#arrow:hover{
     cursor: pointer;

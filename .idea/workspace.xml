@@ -74,7 +74,7 @@
       <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flickr-api-MVC/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="20" selection-start="1220" selection-end="1220" vertical-scroll-proportion="-9.48" vertical-offset="504" max-vertical-offset="1292">
+            <state line="55" column="33" selection-start="1679" selection-end="1679" vertical-scroll-proportion="-13.28" vertical-offset="713" max-vertical-offset="1292">
               <folding />
             </state>
           </provider>
@@ -92,7 +92,7 @@
       <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/flickr-api-MVC/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="341" column="0" selection-start="5834" selection-end="5834" vertical-scroll-proportion="0.79858655" vertical-offset="6027" max-vertical-offset="6593">
+            <state line="84" column="19" selection-start="1572" selection-end="1572" vertical-scroll-proportion="0.4814189" vertical-offset="1311" max-vertical-offset="6574">
               <folding />
             </state>
           </provider>
@@ -806,14 +806,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/flickr-api-MVC/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="20" selection-start="1220" selection-end="1220" vertical-scroll-proportion="-9.48" vertical-offset="504" max-vertical-offset="1292">
+        <state line="55" column="33" selection-start="1679" selection-end="1679" vertical-scroll-proportion="-13.28" vertical-offset="713" max-vertical-offset="1292">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/flickr-api-MVC/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="341" column="0" selection-start="5834" selection-end="5834" vertical-scroll-proportion="0.79858655" vertical-offset="6027" max-vertical-offset="6593">
+        <state line="84" column="19" selection-start="1572" selection-end="1572" vertical-scroll-proportion="0.4814189" vertical-offset="1311" max-vertical-offset="6574">
           <folding />
         </state>
       </provider>
