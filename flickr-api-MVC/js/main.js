@@ -27,8 +27,11 @@ $(window).load(function(){
 
     var counter = 2;
     $('.img-container').mousedown(function(){
+    var counter1 = counter + 1;
+    console.log(counter);
+    console.log(counter1);
          $(this).css('z-index',counter);
-         $('form, h1').css('z-index',counter);
+         $('form, h1').css('z-index',counter1);
          $(this).hover(function(){
                 $(this).css('outline','1px solid white');
             }, function(){
@@ -50,8 +53,9 @@ $(window).load(function(){
 
     var counter_one = 2;
     $('.picture_container').mousedown(function(){
+         var counter_two = counter_one + 1;
          $(this).css('z-index',counter_one);
-         $('h2').css('z-index',counter_one);
+         $('h2').css('z-index',counter_two);
          $('#arrow').css('z-index',counter_one);
          counter_one ++
     });

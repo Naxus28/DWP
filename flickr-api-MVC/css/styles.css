@@ -51,6 +51,7 @@ form{
     left: 23%;
     overflow: hidden;
     z-index: 2;
+    opacity: .9;
 }
 form input#textfield{
     width: 100%;
@@ -60,6 +61,7 @@ form input#textfield{
     padding-right: 0;
     font-size: 2em;
     border-width:0;
+    opacity: .75;
 }
 form input#button{
     width: 101%;
@@ -190,7 +192,7 @@ img#arrow:hover{
 
 @media screen and (max-width: 860px){
     h1{
-        font-size:2.8em ;
+        font-size:2.6em ;
     }
     p#alert{
         font-size: 1.2em;
@@ -314,11 +316,11 @@ img#arrow:hover{
     h1{
         font-size:1.4em ;
         left: 22%;
-        margin-top: 25%;
+        margin-top: 40%;
     }
     p#alert{
-        font-size: .6em;
-        margin-top: 35%;
+        font-size: .5em;
+        margin-top: 50%;
     }
     form{
         width:55%;
