@@ -16,9 +16,13 @@ class Page(object):
         self.header = "<h1>The Picture Mosaic</h1>"
         self._content = "<h1>This is the content</h1>"
         self._close = '''
+
         <script src="js/jquery-1.11.0.min.js"></script>
+        <script src="js/init.js" type="text/javascript">
+            console.log('test');
+        </script>
         <script src="js/jquery-ui-1.10.4.custom.min.js"></script>
-        <script src="js/init.js"></script>
+
     </body>
 </html>
         '''
@@ -97,7 +101,7 @@ class FlickrView(object):
             #push the pictures to the view
             self.api_content += '''
             <div class='img-container'>
-                <a href={self.api_view.the_urls['''+str(url)+''']} target='_blank'><img src = {self.api_view.the_urls['''+str(url)+''']}></a>
+                <a href="{self.api_view.the_urls['''+str(url)+''']}" target='_blank'><img src="{self.api_view.the_urls['''+str(url)+''']}"></a>
             </div>
         '''
         self.api_content = self.api_content.format(**locals())
@@ -121,11 +125,11 @@ class FlickrView2(object):
             self.api_content2 += '''
              <div class='picture_container'>
                  <div class='new_pictures'>
-                      <a href={self.api_view2.the_search_urls['''+str(search_url)+''']}
-                      target='_blank'><img src ={self.api_view2.the_search_urls['''+str(search_url)+''']}></a>"
+                      <a href="{self.api_view2.the_search_urls['''+str(search_url)+''']}"
+                      target='_blank'><img src="{self.api_view2.the_search_urls['''+str(search_url)+''']}"></a>"
                   </div>
                   <div id='users'>
-                     <a href={self.api_view2.users_urls['''+str(search_url)+''']} target='_blank'>Photographer's Flickr Profile</a>
+                     <a href="{self.api_view2.users_urls['''+str(search_url)+''']}" target='_blank'>Photographer's Flickr Profile</a>
                  </div>
               </div>
           '''

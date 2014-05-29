@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94938cd2-ada0-4dcc-9f76-077739e00527" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fox/animals.py" afterPath="$PROJECT_DIR$/fox/animals.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flickr-api-MVC/app.yaml" afterPath="$PROJECT_DIR$/flickr-api-MVC/app.yaml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flickr-api-MVC/js/init.js" afterPath="$PROJECT_DIR$/flickr-api-MVC/js/init.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fox/js/init.js" afterPath="$PROJECT_DIR$/fox/js/init.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fox/js/jquery-1.11.0.min.js" afterPath="$PROJECT_DIR$/fox/js/jquery-1.11.0.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flickr-api-MVC/js/jquery-ui-1.10.4.custom.min.js" afterPath="$PROJECT_DIR$/flickr-api-MVC/js/jquery-ui-1.10.4.custom.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flickr-api-MVC/main.py" afterPath="$PROJECT_DIR$/flickr-api-MVC/main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flickr-api-MVC/page.py" afterPath="$PROJECT_DIR$/flickr-api-MVC/page.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flickr-api-MVC/css/styles.css" afterPath="$PROJECT_DIR$/flickr-api-MVC/css/styles.css" />
     </list>
     <ignored path="DPW.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,7 +32,7 @@
       <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flickr-api-MVC/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="39" selection-start="1164" selection-end="1164" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="836">
+            <state line="30" column="39" selection-start="1164" selection-end="1164" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="836">
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -42,10 +40,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="model.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="model.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flickr-api-MVC/model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="109" column="6" selection-start="4689" selection-end="4804" vertical-scroll-proportion="0.2413793" vertical-offset="1938" max-vertical-offset="2489">
+            <state line="88" column="38" selection-start="3637" selection-end="3637" vertical-scroll-proportion="0.0" vertical-offset="1406" max-vertical-offset="2489">
               <folding>
                 <element signature="e#39#53#0" expanded="true" />
               </folding>
@@ -56,16 +54,25 @@
       <file leaf-file-name="jquery-ui-1.10.4.custom.min.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flickr-api-MVC/js/jquery-ui-1.10.4.custom.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="228540" selection-end="228540" vertical-scroll-proportion="-5.32" vertical-offset="0" max-vertical-offset="247">
+            <state line="8" column="14" selection-start="228555" selection-end="228555" vertical-scroll-proportion="-6.08" vertical-offset="0" max-vertical-offset="266">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="app.yaml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flickr-api-MVC/app.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="9" selection-start="278" selection-end="278" vertical-scroll-proportion="-15.2" vertical-offset="0" max-vertical-offset="608">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/flickr-api-MVC/page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="66" selection-start="3336" selection-end="3378" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2831">
+            <state line="22" column="17" selection-start="805" selection-end="805" vertical-scroll-proportion="0.44827586" vertical-offset="171" max-vertical-offset="2907">
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -76,7 +83,16 @@
       <file leaf-file-name="init.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flickr-api-MVC/js/init.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="0" selection-start="1164" selection-end="1164" vertical-scroll-proportion="-9.88" vertical-offset="513" max-vertical-offset="1216">
+            <state line="30" column="34" selection-start="919" selection-end="919" vertical-scroll-proportion="-22.8" vertical-offset="0" max-vertical-offset="1178">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flickr-api-MVC/css/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="283" column="16" selection-start="4895" selection-end="4895" vertical-scroll-proportion="-4.098039" vertical-offset="5168" max-vertical-offset="5757">
               <folding />
             </state>
           </provider>
@@ -134,23 +150,23 @@
         <option value="$PROJECT_DIR$/flickr-api/css/styles.css" />
         <option value="$PROJECT_DIR$/flickr-api/js/jquery-1.11.0.min.js" />
         <option value="$PROJECT_DIR$/flickr-api-MVC/js/jquery-1.11.0.min.js" />
-        <option value="$PROJECT_DIR$/flickr-api-MVC/css/styles.css" />
-        <option value="$PROJECT_DIR$/flickr-api-MVC/model.py" />
-        <option value="$PROJECT_DIR$/flickr-api-MVC/app.yaml" />
         <option value="$PROJECT_DIR$/fox/animals.py" />
         <option value="$PROJECT_DIR$/fox/js/init.js" />
         <option value="$PROJECT_DIR$/fox/js/jquery-1.11.0.min.js" />
         <option value="$PROJECT_DIR$/fox/fox.py" />
         <option value="$PROJECT_DIR$/flickr-api-MVC/main.py" />
-        <option value="$PROJECT_DIR$/flickr-api-MVC/js/jquery-ui-1.10.4.custom.min.js" />
+        <option value="$PROJECT_DIR$/flickr-api-MVC/model.py" />
         <option value="$PROJECT_DIR$/flickr-api-MVC/js/init.js" />
+        <option value="$PROJECT_DIR$/flickr-api-MVC/css/styles.css" />
+        <option value="$PROJECT_DIR$/flickr-api-MVC/js/jquery-ui-1.10.4.custom.min.js" />
+        <option value="$PROJECT_DIR$/flickr-api-MVC/app.yaml" />
         <option value="$PROJECT_DIR$/flickr-api-MVC/page.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="73" />
-    <option name="y" value="41" />
+    <option name="x" value="48" />
+    <option name="y" value="107" />
     <option name="width" value="1095" />
     <option name="height" value="684" />
   </component>
@@ -210,6 +226,42 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="flickr-api-MVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DPW" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DPW" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flickr-api-MVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DPW" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DPW" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flickr-api-MVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -431,8 +483,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="73" y="41" width="1095" height="684" extended-state="1" />
-    <editor active="true" />
+    <frame x="48" y="107" width="1095" height="684" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32863188" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -720,13 +772,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flickr-api-MVC/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="16" selection-start="800" selection-end="800" vertical-scroll-proportion="-5.529412" vertical-offset="497" max-vertical-offset="3287">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/flickr-api-MVC/js/jquery-1.11.0.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="96382" selection-end="96382" vertical-scroll-proportion="-1.862745" vertical-offset="0" max-vertical-offset="247">
@@ -751,13 +796,6 @@
     <entry file="file://$PROJECT_DIR$/fox/fox.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="8" selection-start="1142" selection-end="1142" vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="703">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flickr-api-MVC/app.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="10" selection-start="210" selection-end="213" vertical-scroll-proportion="0.4935065" vertical-offset="0" max-vertical-offset="627">
           <folding />
         </state>
       </provider>
@@ -790,16 +828,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flickr-api-MVC/js/jquery-ui-1.10.4.custom.min.js">
+    <entry file="file://$PROJECT_DIR$/flickr-api-MVC/app.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="228540" selection-end="228540" vertical-scroll-proportion="-5.32" vertical-offset="0" max-vertical-offset="247">
+        <state line="20" column="9" selection-start="278" selection-end="278" vertical-scroll-proportion="-15.2" vertical-offset="0" max-vertical-offset="608">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flickr-api-MVC/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="38" selection-start="3637" selection-end="3637" vertical-scroll-proportion="0.0" vertical-offset="1406" max-vertical-offset="2489">
+          <folding>
+            <element signature="e#39#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flickr-api-MVC/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="283" column="16" selection-start="4895" selection-end="4895" vertical-scroll-proportion="-4.098039" vertical-offset="5168" max-vertical-offset="5757">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/flickr-api-MVC/js/init.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="0" selection-start="1164" selection-end="1164" vertical-scroll-proportion="-9.88" vertical-offset="513" max-vertical-offset="1216">
+        <state line="30" column="34" selection-start="919" selection-end="919" vertical-scroll-proportion="-22.8" vertical-offset="0" max-vertical-offset="1178">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flickr-api-MVC/js/jquery-ui-1.10.4.custom.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="14" selection-start="228555" selection-end="228555" vertical-scroll-proportion="-6.08" vertical-offset="0" max-vertical-offset="266">
           <folding />
         </state>
       </provider>
@@ -815,18 +876,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/flickr-api-MVC/page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="66" selection-start="3336" selection-end="3378" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2831">
+        <state line="22" column="17" selection-start="805" selection-end="805" vertical-scroll-proportion="0.44827586" vertical-offset="171" max-vertical-offset="2907">
           <folding>
             <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flickr-api-MVC/model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="6" selection-start="4689" selection-end="4804" vertical-scroll-proportion="0.2413793" vertical-offset="1938" max-vertical-offset="2489">
-          <folding>
-            <element signature="e#39#53#0" expanded="true" />
           </folding>
         </state>
       </provider>
