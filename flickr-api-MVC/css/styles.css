@@ -96,6 +96,7 @@ span#more_pics a{
     color: #78A3FF;
 }
 div#results_wrapper{
+    width: 100%;
     background: #202122;
     float: left;
     position: relative;
@@ -251,13 +252,49 @@ img#arrow:hover{
 }
 @media screen and (max-width: 575px){
     h1{
-        font-size:1.8em ;
+        font-size:1.8em;
+        margin-top: 25%;
     }
     p#alert{
+        font-size: .8em;
+        margin-top: 35%;
+    }
+    div#users a{
         font-size: .8em;
     }
     form{
         width:52%;
+        margin-top: 50%;
+    }
+    form input#textfield{
+        font-size: 1.3em;
+    }
+    h2{
+        font-size: .7em;
+    }
+    h2 span#more_pics{
+        font-size: .9em;
+    }
+    img#arrow{
+        width:13%;
+    }
+}
+@media screen and (max-width: 480px){
+    h1{
+        font-size:1.6em ;
+        left: 25%;
+        margin-top: 25%;
+    }
+    p#alert{
+        font-size: .65em;
+        margin-top: 35%;
+    }
+     div#users a{
+        font-size: .6em;
+    }
+    form{
+        width:55%;
+        margin-top: 50%;
     }
     form input#textfield{
         font-size: 1.3em;
@@ -272,16 +309,20 @@ img#arrow:hover{
         width:13%;
     }
 }
-@media screen and (max-width: 480px){
+
+@media screen and (max-width: 350px){
     h1{
-        font-size:1.6em ;
-        margin-left: 10%;
+        font-size:1.4em ;
+        left: 22%;
+        margin-top: 25%;
     }
     p#alert{
-        font-size: .8em;
+        font-size: .6em;
+        margin-top: 35%;
     }
     form{
         width:55%;
+        margin-top: 90%;
     }
     form input#textfield{
         font-size: 1.3em;
