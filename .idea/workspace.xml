@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94938cd2-ada0-4dcc-9f76-077739e00527" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flickr-api-MVC/js/main.js" afterPath="$PROJECT_DIR$/flickr-api-MVC/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flickr-api-MVC/css/styles.css" afterPath="$PROJECT_DIR$/flickr-api-MVC/css/styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/exam-practice/model.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/exam-practice2/model.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/final-exam/model.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/exam-practice/page.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/exam-practice2/page.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/final-exam/page.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flickr-api-MVC/main.py" afterPath="$PROJECT_DIR$/flickr-api-MVC/main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weather-app-minidom/main.py" afterPath="$PROJECT_DIR$/weather-app-minidom/main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flickr-api-MVC/model.py" afterPath="$PROJECT_DIR$/flickr-api-MVC/model.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flickr-api-MVC/page.py" afterPath="$PROJECT_DIR$/flickr-api-MVC/page.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DPW.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,73 +35,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flickr-api-MVC/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="39" selection-start="1164" selection-end="1164" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="760">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="model.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flickr-api-MVC/model.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="38" selection-start="3637" selection-end="3637" vertical-scroll-proportion="0.0" vertical-offset="1387" max-vertical-offset="2470">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery-ui-1.10.4.custom.min.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flickr-api-MVC/js/jquery-ui-1.10.4.custom.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="17" selection-start="144584" selection-end="144584" vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="228">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.yaml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flickr-api-MVC/app.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="158" selection-end="158" vertical-scroll-proportion="-8.48" vertical-offset="16" max-vertical-offset="608">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="page.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flickr-api-MVC/page.py">
+        <entry file="file://$PROJECT_DIR$/final-exam/page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="20" selection-start="2452" selection-end="2452" vertical-scroll-proportion="0.0" vertical-offset="1995" max-vertical-offset="2812">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="114">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flickr-api-MVC/js/main.js">
+      <file leaf-file-name="model.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/final-exam/model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="33" selection-start="1679" selection-end="1679" vertical-scroll-proportion="-13.28" vertical-offset="713" max-vertical-offset="1292">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery-1.11.0.min.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flickr-api-MVC/js/jquery-1.11.0.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="31942" selection-start="96380" selection-end="96380" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="171">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/flickr-api-MVC/css/styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="19" selection-start="1572" selection-end="1572" vertical-scroll-proportion="0.4814189" vertical-offset="1311" max-vertical-offset="6574">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="640">
               <folding />
             </state>
           </provider>
@@ -111,13 +66,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/fox/app.yaml" />
-        <option value="$PROJECT_DIR$/Practice/test.py" />
-        <option value="$PROJECT_DIR$/fox/main.py" />
-        <option value="$PROJECT_DIR$/fox/css/styles.css" />
-        <option value="$PROJECT_DIR$/weather-app-minidom/app.yaml" />
-        <option value="$PROJECT_DIR$/weather-app-minidom-json/app.yaml" />
-        <option value="$PROJECT_DIR$/weather-app-minidom/main.py" />
         <option value="$PROJECT_DIR$/weather-app-minidom-json/page.py" />
         <option value="$PROJECT_DIR$/weather-app-minidom-json/main.py" />
         <option value="$PROJECT_DIR$/second-quiz/main.py" />
@@ -152,21 +100,28 @@
         <option value="$PROJECT_DIR$/fox/js/init.js" />
         <option value="$PROJECT_DIR$/fox/js/jquery-1.11.0.min.js" />
         <option value="$PROJECT_DIR$/fox/fox.py" />
-        <option value="$PROJECT_DIR$/flickr-api-MVC/main.py" />
-        <option value="$PROJECT_DIR$/flickr-api-MVC/model.py" />
         <option value="$PROJECT_DIR$/flickr-api-MVC/app.yaml" />
         <option value="$PROJECT_DIR$/flickr-api-MVC/js/jquery-ui-1.10.4.custom.min.js" />
         <option value="$PROJECT_DIR$/flickr-api-MVC/js/jquery-1.11.0.min.js" />
         <option value="$PROJECT_DIR$/flickr-api-MVC/js/init.js" />
         <option value="$PROJECT_DIR$/flickr-api/page.py" />
-        <option value="$PROJECT_DIR$/flickr-api-MVC/page.py" />
         <option value="$PROJECT_DIR$/flickr-api-MVC/js/main.js" />
         <option value="$PROJECT_DIR$/flickr-api-MVC/css/styles.css" />
+        <option value="$PROJECT_DIR$/flickr-api-MVC/page.py" />
+        <option value="$PROJECT_DIR$/flickr-api-MVC/main.py" />
+        <option value="$PROJECT_DIR$/flickr-api-MVC/model.py" />
+        <option value="$PROJECT_DIR$/exam-practice/page.py" />
+        <option value="$PROJECT_DIR$/exam-practice2/page.py" />
+        <option value="$PROJECT_DIR$/exam-practice2/main.py" />
+        <option value="$PROJECT_DIR$/weather-app-minidom/main.py" />
+        <option value="$PROJECT_DIR$/exam-practice2/model.py" />
+        <option value="$PROJECT_DIR$/exam-practice/model.py" />
+        <option value="$PROJECT_DIR$/exam-practice/main.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="148" />
+    <option name="x" value="30" />
     <option name="y" value="22" />
     <option name="width" value="1137" />
     <option name="height" value="737" />
@@ -225,75 +180,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="flickr-api-MVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DPW" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DPW" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flickr-api-MVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DPW" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DPW" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flickr-api-MVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DPW" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DPW" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flickr-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DPW" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DPW" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flickr-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="final-exam" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -502,14 +389,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="148" y="22" width="1137" height="737" extended-state="0" />
-    <editor active="true" />
+    <frame x="30" y="22" width="1137" height="737" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32863188" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1996482" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1996482" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -543,69 +430,9 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/weather-app-minidom/images/11.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weather-app-minidom/images/9.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weather-app-minidom/images/29.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weather-app-minidom/images/40.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weather-app-minidom/images/39.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weather-app-minidom/images/38.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simple-form/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simple-form/page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2109" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/third-quiz/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="39" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/encapsulated-calculator/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="100" selection-start="575" selection-end="575" vertical-scroll-proportion="0.0" vertical-offset="1243" max-vertical-offset="1786" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/encapsulated-calculator/page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="77" column="13" selection-start="2211" selection-end="2211" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1995" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weather-app-minidom-json/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.0" vertical-offset="64" max-vertical-offset="969" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/weather-app-minidom-json-flickr/main.py">
@@ -615,7 +442,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/weather-app-minidom-json-flickr/page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="19" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0" vertical-offset="8" max-vertical-offset="1387" />
+        <state line="12" column="19" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0" vertical-offset="8" max-vertical-offset="1387">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ferraz_gabriel_Quiz1/main.py">
@@ -633,14 +462,11 @@
         <state line="17" column="0" selection-start="228" selection-end="228" vertical-scroll-proportion="-12.92" vertical-offset="0" max-vertical-offset="627" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weather-app-minidom/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="45" selection-start="1484" selection-end="1484" vertical-scroll-proportion="0.0" vertical-offset="118" max-vertical-offset="931" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/weather-app-minidom/page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="0" selection-start="968" selection-end="968" vertical-scroll-proportion="0.0" vertical-offset="533" max-vertical-offset="1387" />
+        <state line="46" column="0" selection-start="968" selection-end="968" vertical-scroll-proportion="0.0" vertical-offset="533" max-vertical-offset="1387">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fox/main.py">
@@ -670,27 +496,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fox/wolf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="30" selection-start="899" selection-end="899" vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="646" />
+        <state line="21" column="30" selection-start="899" selection-end="899" vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="646">
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fox/rabbit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="861" selection-end="861" vertical-scroll-proportion="0.0" vertical-offset="20" max-vertical-offset="665" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weather-app-MVC/page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="11" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0" vertical-offset="761" max-vertical-offset="1406" />
+        <state line="23" column="0" selection-start="861" selection-end="861" vertical-scroll-proportion="0.0" vertical-offset="20" max-vertical-offset="665">
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/weather-app-MVC/model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="11" selection-start="1275" selection-end="1275" vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="1254" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weather-app-MVC/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="18" selection-start="974" selection-end="974" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="988" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/flickr-api/js/main.js">
@@ -732,12 +556,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fox/fox.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="8" selection-start="1142" selection-end="1142" vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="703" />
+        <state line="31" column="8" selection-start="1142" selection-end="1142" vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="703">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fox/animals.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="35" selection-start="1651" selection-end="1651" vertical-scroll-proportion="1.6896552" vertical-offset="0" max-vertical-offset="1653" />
+        <state line="49" column="35" selection-start="1651" selection-end="1651" vertical-scroll-proportion="1.6896552" vertical-offset="0" max-vertical-offset="1653">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/classes-review/main.py">
@@ -769,13 +597,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flickr-api-MVC/model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="38" selection-start="3637" selection-end="3637" vertical-scroll-proportion="0.0" vertical-offset="1406" max-vertical-offset="2489">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/flickr-api/page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="26" selection-start="689" selection-end="689" vertical-scroll-proportion="0.5347682" vertical-offset="0" max-vertical-offset="1919">
@@ -790,20 +611,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flickr-api-MVC/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="39" selection-start="1164" selection-end="1164" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="836">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flickr-api-MVC/page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="20" selection-start="2452" selection-end="2452" vertical-scroll-proportion="0.0" vertical-offset="1995" max-vertical-offset="2812">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/flickr-api-MVC/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="55" column="33" selection-start="1679" selection-end="1679" vertical-scroll-proportion="-13.28" vertical-offset="713" max-vertical-offset="1292">
@@ -813,7 +620,157 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/flickr-api-MVC/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="19" selection-start="1572" selection-end="1572" vertical-scroll-proportion="0.4814189" vertical-offset="1311" max-vertical-offset="6574">
+        <state line="84" column="19" selection-start="1572" selection-end="1572" vertical-scroll-proportion="-11.4" vertical-offset="1311" max-vertical-offset="6574">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather-app-MVC/page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="11" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0" vertical-offset="761" max-vertical-offset="1406">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather-app-minidom-json/page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1387">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather-app-MVC/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="14" selection-start="1488" selection-end="1488" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="988">
+          <folding>
+            <element signature="e#0#14#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flickr-api-MVC/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="35" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="817">
+          <folding>
+            <element signature="e#0#14#0" expanded="false" />
+            <marker date="1401408834000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flickr-api-MVC/page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="8" selection-start="2462" selection-end="2462" vertical-scroll-proportion="0.0" vertical-offset="1292" max-vertical-offset="2850">
+          <folding>
+            <element signature="e#0#34#0" expanded="false" />
+            <marker date="1401419702000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1401419702000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1401419702000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather-app-minidom-json/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="18" selection-start="432" selection-end="483" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1007">
+          <folding>
+            <element signature="e#0#14#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flickr-api-MVC/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="33" selection-start="1288" selection-end="1371" vertical-scroll-proportion="0.81755596" vertical-offset="171" max-vertical-offset="2527">
+          <folding>
+            <element signature="e#39#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basicSyntax/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="48" selection-start="1618" selection-end="1618" vertical-scroll-proportion="0.4718543" vertical-offset="1159" max-vertical-offset="2888">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exam-practice/page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="4" selection-start="710" selection-end="710" vertical-scroll-proportion="0.9854133" vertical-offset="0" max-vertical-offset="912">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basicSyntax/notes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="33" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0923825" vertical-offset="0" max-vertical-offset="617">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exam-practice2/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="70" selection-start="712" selection-end="712" vertical-scroll-proportion="0.17549668" vertical-offset="312" max-vertical-offset="1178">
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exam-practice/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="26" selection-start="669" selection-end="669" vertical-scroll-proportion="0.6466775" vertical-offset="76" max-vertical-offset="988">
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather-app-minidom/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="26" selection-start="1392" selection-end="1392" vertical-scroll-proportion="0.6363636" vertical-offset="285" max-vertical-offset="1045">
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exam-practice2/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="30" selection-start="444" selection-end="444" vertical-scroll-proportion="0.4453125" vertical-offset="0" max-vertical-offset="640">
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exam-practice2/page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="41" selection-start="841" selection-end="841" vertical-scroll-proportion="0.6140625" vertical-offset="291" max-vertical-offset="931">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exam-practice/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="243" selection-end="243" vertical-scroll-proportion="0.3265625" vertical-offset="0" max-vertical-offset="640">
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/final-exam/page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="114">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/final-exam/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="640">
           <folding />
         </state>
       </provider>

@@ -9,8 +9,8 @@ class MainHandler(webapp2.RequestHandler):
         view = FormPage()
         #=========data transfer for flickr.photos.getRecent API========
         flickr_model = FlickrModel()
-        flickr_model.send_request()
         flickr_view = FlickrView()
+        flickr_model.send_request()
         flickr_view.api_view = flickr_model.flkrdata
         #print flickr_view.api_view
         flickr_view.update_api_view()
@@ -21,7 +21,6 @@ class MainHandler(webapp2.RequestHandler):
             flickr_model2 = FlickrModel()
             flickr_model2.query = self.request.GET['query']
             if flickr_model2.query == "":
-
                 self.response.write(view.print_out())
             else:
                 view.arrow = "<img id = 'arrow' src = 'images/arrow1.png'/>"

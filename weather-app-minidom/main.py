@@ -24,6 +24,8 @@ class MainHandler(webapp2.RequestHandler):
             #self.response.write(content)
             list = xmldoc.getElementsByTagName('yweather:forecast')
             content = xmldoc.getElementsByTagName('title')[2].firstChild.nodeValue + "</br>"
+            print content
+
             for item in list:
                 content += item.attributes['day'].value + ": "
                 content += "High of " + item.attributes['high'].value
@@ -31,6 +33,8 @@ class MainHandler(webapp2.RequestHandler):
                 content += " | Condition " + item.attributes['text'].value
                 content += "<img width='60' src = 'images/'" + item.attributes['code'].value + ".png />"
                 content += "</br>"
+
+                print item
             #self.response.write(content)
             view.page_content = content
         #print out

@@ -29,6 +29,7 @@ class Page(object):
         self.alert_msg = ""
         self._title = "The Picture Mosaic | Powered by Flickr"
         #self.all = self._open + self.header + self._content + self._close
+        self.all = ""
 
     @property
     def title(self):
@@ -112,12 +113,12 @@ class FlickrView2(object):
         self.full_content = ""
 
     def update_api_view2(self):
+        #create the h2 and push the pictures to the view
         self.api_header2 = '''
             <h2>Search Result: {self.api_view2.picture_array_length} pictures  <span id='more_pics'>(for more pictures
             on this topic, visit <a href= 'https://www.flickr.com/search/?q={self.api_view2.query}' target = '_blank'>Flickr.com</a>)</span></h2>'''
-        for search_url in range(0, 100):
 
-            #create the h2 and push the pictures to the view
+        for search_url in range(0, 100):
             self.api_content2 += '''
              <div class='picture_container'>
                  <div class='new_pictures'>

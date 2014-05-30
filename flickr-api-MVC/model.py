@@ -26,6 +26,8 @@ class FlickrModel(object):
         req = urllib2.Request(self.url)
         opener = urllib2.build_opener()
 
+        print req
+
         #this is going to get the information
         data = opener.open(req)
 
@@ -78,7 +80,7 @@ class FlickrModel(object):
         #array that holds users URL
         self.__flkrdata2.users_urls = []
 
-        #creates another instance of the query to create a ling to the searched topic on Flickr
+        #creates another instance of the query to create a link to the searched topic on Flickr
         self.__flkrdata2.query = self.query
         print self.__flkrdata2.query
 
