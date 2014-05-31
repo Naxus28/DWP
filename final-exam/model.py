@@ -12,7 +12,8 @@ class ApiModel(object):
         self.cover = ""
         self.songs_array = ""
         self.all_items = ""
-        self.length = ""
+        self.array_length = ""
+        self.__api_data = ""
 
     def send_request(self):
         req = urllib2.Request(self.url)
@@ -24,8 +25,8 @@ class ApiModel(object):
 
         self.all_items = jsondoc['songs']['track']
 
-        self.length = len(self.all_items)
-        print self.length
+        self.array_length = len(self.all_items)
+        #print self.array_length
 
         for item in self.all_items:
             #print item
@@ -81,7 +82,7 @@ class ApiDataObject(object):
         self.label = ""
         self.cover = ""
         self.all_items = ""
-        self.length = ""
+        self.array_length = ""
 
 
 

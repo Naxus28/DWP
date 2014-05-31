@@ -23,7 +23,7 @@ class MainHandler(webapp2.RequestHandler):
 
         api_view.update()
 
-        print "this is the" + api_view.api_content
+        #print "this is the" + api_view.api_content
 
         page.content = api_view.api_content
 
