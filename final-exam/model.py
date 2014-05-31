@@ -37,10 +37,15 @@ class ApiModel(object):
         #
         for item in all_items:
             #print item
-            if not 'file' in all_items:
-                self.__api_data.file = "No item to display"
-            else:
+            if 'file' in item:
                 self.__api_data.file = item['file']
+            else:
+                self.__api_data.file = "No item to display"
+
+            # if not 'file' in all_items:
+            #     self.__api_data.file = "No item to display"
+            # else:
+            #     self.__api_data.file = item['file']
 
             # self.__api_data.title = item['title']
             # if not item['title']:
