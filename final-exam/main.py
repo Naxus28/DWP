@@ -10,7 +10,7 @@ class MainHandler(webapp2.RequestHandler):
     def get(self):
         page = PageView()
         api_model = ApiModel()
-        print api_model.url
+        #print api_model.url
         self.response.write(page.print_out())
 
 app = webapp2.WSGIApplication([

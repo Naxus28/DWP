@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94938cd2-ada0-4dcc-9f76-077739e00527" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final-exam/main.py" afterPath="$PROJECT_DIR$/final-exam/main.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final-exam/model.py" afterPath="$PROJECT_DIR$/final-exam/model.py" />
     </list>
     <ignored path="DPW.iws" />
@@ -37,7 +38,7 @@
       <file leaf-file-name="model.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/final-exam/model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="13" selection-start="762" selection-end="762" vertical-scroll-proportion="0.2375" vertical-offset="456" max-vertical-offset="1216">
+            <state line="37" column="30" selection-start="892" selection-end="892" vertical-scroll-proportion="-0.128125" vertical-offset="785" max-vertical-offset="1748">
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -48,7 +49,7 @@
       <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/final-exam/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456">
+            <state line="12" column="9" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456">
               <folding>
                 <element signature="e#44#69#0" expanded="true" />
               </folding>
@@ -124,8 +125,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="56" />
-    <option name="y" value="106" />
+    <option name="x" value="13" />
+    <option name="y" value="22" />
     <option name="width" value="1137" />
     <option name="height" value="737" />
   </component>
@@ -392,7 +393,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="56" y="106" width="1137" height="737" extended-state="0" />
+    <frame x="13" y="22" width="1137" height="737" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32863188" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -768,7 +769,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/final-exam/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456">
+        <state line="12" column="9" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456">
           <folding>
             <element signature="e#44#69#0" expanded="true" />
           </folding>
@@ -777,7 +778,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/final-exam/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="13" selection-start="762" selection-end="762" vertical-scroll-proportion="0.2375" vertical-offset="456" max-vertical-offset="1216">
+        <state line="37" column="30" selection-start="892" selection-end="892" vertical-scroll-proportion="-0.128125" vertical-offset="785" max-vertical-offset="1748">
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
