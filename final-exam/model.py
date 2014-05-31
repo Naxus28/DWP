@@ -42,36 +42,39 @@ class ApiModel(object):
             else:
                 self.__api_data.file = "No item to display"
 
-            # if not 'file' in all_items:
-            #     self.__api_data.file = "No item to display"
-            # else:
-            #     self.__api_data.file = item['file']
+            if 'title' in item:
+                self.__api_data.title = item['title']
+            else:
+                self.__api_data.title = "No item to display"
 
-            # self.__api_data.title = item['title']
-            # if not item['title']:
-            #     item['title'] = "No item to display"
-            #
-            # self.__api_data.artist = item['artist']
-            # if not item['artist']:
-            #     item['artist'] = "No item to display"
-            #
-            # self.__api_data.length = item['length']
-            # if not item['length']:
-            #     item['length'] = "No item to display"
-            #
-            # self.__api_data.year = item['year']
-            # if not item['year']:
-            #     item['year'] = "No item to display"
-            #
-            # self.__api_data.label = item['label']
-            # if not item['label']:
-            #     item['label'] = "No item to display"
-            #
-            # self.__api_data.cover = item['cover']
-            # if not item['cover']:
-            #     item['cover'] = "No item to display"
+            if 'artist' in item:
+                self.__api_data.artist = item['artist']
+            else:
+                self.__api_data.artist = "No item to display"
 
-            print self.__api_data.file
+            if 'length' in item:
+                self.__api_data.length = item['length']
+            else:
+                self.__api_data.length = "No item to display"
+
+            if 'year' in item:
+                self.__api_data.year = item['year']
+            else:
+                self.__api_data.year = "No item to display"
+
+            if 'label' in item:
+                self.__api_data.label = item['label']
+            else:
+                self.__api_data.label = "No item to display"
+
+            if 'cover' in item:
+                self.__api_data.cover = item['cover']
+            else:
+                self.__api_data.cover = "No item to display"
+
+            print self.__api_data.artist
+            print self.__api_data.title
+
 
     @property
     def data_parsed(self):
