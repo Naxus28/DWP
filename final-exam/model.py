@@ -11,31 +11,23 @@ class ApiModel(object):
         self.label = ""
         self.cover = ""
         self.songs_array = ""
+        self.all_items = ""
+        self.length = ""
 
+    def send_request(self):
         req = urllib2.Request(self.url)
         opener = urllib2.build_opener()
         data = opener.open(req)
         jsondoc = json.load(data)
 
-        #print jsondoc
-
         self.__api_data = ApiDataObject()
 
-        all_items = jsondoc['songs']['track']
+        self.all_items = jsondoc['songs']['track']
 
-        # if not 'file' in all_items:
-        #     print "files not found"
-        # else:
-        #     print "no files found"
+        self.length = len(self.all_items)
+        print self.length
 
-
-        #print all_items[1]['title']
-        #print all_items
-
-        #length = len(all_items)
-        #print length
-        #
-        for item in all_items:
+        for item in self.all_items:
             #print item
             if 'file' in item:
                 self.__api_data.file = item['file']
@@ -72,8 +64,7 @@ class ApiModel(object):
             else:
                 self.__api_data.cover = "No item to display"
 
-            print self.__api_data.artist
-            print self.__api_data.title
+            #print self.__api_data.cover
 
 
     @property
@@ -89,6 +80,8 @@ class ApiDataObject(object):
         self.year = ""
         self.label = ""
         self.cover = ""
+        self.all_items = ""
+        self.length = ""
 
 
 
