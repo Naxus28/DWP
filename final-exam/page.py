@@ -34,24 +34,42 @@ class ApiView(object):
         self.api_array = []
 
 
+    # @property
+    # def click_index(self):
+    #     return self.data_view.index
+    #
+    # @click_index.setter
+    # def click_index(self, new_index):
+    #         self.data_view.index = new_index
+
     def update(self):
         i = 0
         for item in self.api_array:
-            #print self.api_array[0].title
             self.api_content += '''
                 <a style="display:block" href="?num='''+str(i)+'''">'''+item.title+'''</a></br>
                 '''
-            self.api_new_content = '''
-            <p>File: <audio controls><source src=" '''+self.api_array[i].file+''' " type="audio/mp3"></audio></p>
-            <p>Title: '''+self.api_array[i].title+'''</p>
-            <p>Artist: '''+self.api_array[i].artist+'''</p>
-            <p>Length: '''+self.api_array[i].length+'''</p>
-            <p>Year: '''+self.api_array[i].year+'''</p>
-            <p>Label: '''+self.api_array[i].label+'''</p>
-            <p>Cover: <br><img src =" '''+self.api_array[i].cover+''' "/></p>
+            i += 1
+
+    def update2(self):
+        self.data_view.index = 0
+        self.api_new_content = '''
+        <p>File: <audio controls><source src=" '''+self.api_array[self.data_view.index].file+''' " type="audio/mp3"></audio></p>
+        <p>Title: '''+self.api_array[self.data_view.index].title+'''</p>
+        <p>Artist: '''+self.api_array[self.data_view.index].artist+'''</p>
+        <p>Length: '''+self.api_array[self.data_view.index].length+'''</p>
+        <p>Year: '''+self.api_array[self.data_view.index].year+'''</p>
+        <p>Label: '''+self.api_array[self.data_view.index].label+'''</p>
+        <p>Cover: <br><img src =" '''+self.api_array[self.data_view.index].cover+''' "/></p>
 
             '''
-            i += 1
+    # @property
+    # def click_index(self):
+    #     return self.data_view.index
+    #
+    # @click_index.setter
+    # def click_index(self, new_index):
+    #         self.data_view.index = new_index
+
 
 
 

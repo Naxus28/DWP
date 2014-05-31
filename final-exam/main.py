@@ -19,16 +19,16 @@ class MainHandler(webapp2.RequestHandler):
 
         api_view.update()
 
-        #print api_view.data_view.all_items
-
-        #print "this is the" + api_view.api_content
-
         page.content = api_view.api_content
 
-        page.api_content = api_view.api_new_content
-
-
-        self.response.write(page.print_out())
+        if not self.request.GET:
+            self.response.write(page.print_out())
+        else:
+            request = self.request.GET['num']
+            api_view.update2()
+            api_view.index = request
+            page.api_content = api_view.api_new_content
+            self.response.write(page.print_out())
 
 app = webapp2.WSGIApplication([
     ('/', MainHandler)
