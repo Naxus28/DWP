@@ -25,6 +25,8 @@ class MainHandler(webapp2.RequestHandler):
 
         page.content = api_view.api_content
 
+        page.api_content = api_view.api_new_content
+
 
         self.response.write(page.print_out())
 

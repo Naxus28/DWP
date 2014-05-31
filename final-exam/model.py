@@ -58,7 +58,7 @@ class ApiModel(object):
 
             self.array.append(self.__api_data)
 
-        print self.array
+        #print self.array
 
         #print self.data_array
 
