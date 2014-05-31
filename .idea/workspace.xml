@@ -5,7 +5,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final-exam/main.py" afterPath="$PROJECT_DIR$/final-exam/main.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final-exam/model.py" afterPath="$PROJECT_DIR$/final-exam/model.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final-exam/page.py" afterPath="$PROJECT_DIR$/final-exam/page.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DPW.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,7 +30,7 @@
       <file leaf-file-name="page.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/final-exam/page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="48" selection-start="921" selection-end="921" vertical-scroll-proportion="0.703125" vertical-offset="253" max-vertical-offset="893">
+            <state line="42" column="23" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.821875" vertical-offset="272" max-vertical-offset="969">
               <folding />
             </state>
           </provider>
@@ -40,7 +39,7 @@
       <file leaf-file-name="model.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/final-exam/model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="9" selection-start="2175" selection-end="2175" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="1919">
+            <state line="67" column="32" selection-start="1991" selection-end="1991" vertical-scroll-proportion="0.0" vertical-offset="880" max-vertical-offset="1710">
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -51,7 +50,7 @@
       <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/final-exam/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="8" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0" vertical-offset="82" max-vertical-offset="722">
+            <state line="19" column="25" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="741">
               <folding>
                 <element signature="e#44#69#0" expanded="true" />
               </folding>
@@ -120,8 +119,8 @@
         <option value="$PROJECT_DIR$/exam-practice2/model.py" />
         <option value="$PROJECT_DIR$/exam-practice/model.py" />
         <option value="$PROJECT_DIR$/exam-practice/main.py" />
-        <option value="$PROJECT_DIR$/final-exam/main.py" />
         <option value="$PROJECT_DIR$/final-exam/model.py" />
+        <option value="$PROJECT_DIR$/final-exam/main.py" />
         <option value="$PROJECT_DIR$/final-exam/page.py" />
       </list>
     </option>
@@ -764,7 +763,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/final-exam/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="8" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0" vertical-offset="82" max-vertical-offset="722">
+        <state line="19" column="25" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="741">
           <folding>
             <element signature="e#44#69#0" expanded="true" />
           </folding>
@@ -773,7 +772,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/final-exam/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="9" selection-start="2175" selection-end="2175" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="1919">
+        <state line="67" column="32" selection-start="1991" selection-end="1991" vertical-scroll-proportion="0.0" vertical-offset="880" max-vertical-offset="1710">
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
@@ -782,7 +781,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/final-exam/page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="48" selection-start="921" selection-end="921" vertical-scroll-proportion="0.703125" vertical-offset="253" max-vertical-offset="893">
+        <state line="42" column="23" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.821875" vertical-offset="272" max-vertical-offset="969">
           <folding />
         </state>
       </provider>

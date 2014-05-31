@@ -15,7 +15,7 @@ class MainHandler(webapp2.RequestHandler):
 
         api_model.send_request()
 
-        api_view.data_view = api_model.data_parsed
+        api_view.api_array = api_model.array
 
         api_view.update()
 
@@ -24,6 +24,7 @@ class MainHandler(webapp2.RequestHandler):
         #print "this is the" + api_view.api_content
 
         page.content = api_view.api_content
+
 
         self.response.write(page.print_out())
 

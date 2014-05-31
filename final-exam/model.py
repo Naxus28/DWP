@@ -3,17 +3,6 @@ import urllib2
 class ApiModel(object):
     def __init__(self):
         self.url = "http://rebeccacarroll.com/api/music/music.json"
-        self.file = ""
-        self.title = ""
-        self.artist = ""
-        self.length = ""
-        self.year = ""
-        self.label = ""
-        self.cover = ""
-        self.songs_array = ""
-        self.all_items = ""
-        self.array_length = ""
-        self.__api_data = ""
         self.array = []
 
     def send_request(self):
@@ -29,9 +18,9 @@ class ApiModel(object):
 
         self.array_length = len(self.all_items)
         #print self.array_length
-        self.__api_data = ApiDataObject()
+
         for item in self.all_items:
-            #print item
+            self.__api_data = ApiDataObject()
             if 'file' in item:
                 self.__api_data.file = item['file']
             else:
@@ -67,16 +56,16 @@ class ApiModel(object):
             else:
                 self.__api_data.cover = "No item to display"
 
-            self.__api_data.array.append(self.__api_data)
+            self.array.append(self.__api_data)
 
-        #print self.__api_data.array
+        print self.array
 
         #print self.data_array
 
-
-    @property
-    def data_parsed(self):
-        return self.__api_data
+    #
+    # @property
+    # def data_parsed(self):
+    #     return self.__api_data
 
 class ApiDataObject(object):
     def __init__(self):
@@ -89,7 +78,7 @@ class ApiDataObject(object):
         self.cover = ""
         self.all_items = ""
         self.array_length = ""
-        self.array = []
+
 
 
 
