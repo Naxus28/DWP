@@ -13,15 +13,13 @@ class MainHandler(webapp2.RequestHandler):
         api_model = ApiModel()
         api_view = ApiView()
 
-        # print api_view
-
         api_model.send_request()
 
         api_view.data_view = api_model.data_parsed
 
-        # print api_view.data_view
-
         api_view.update()
+
+        #print api_view.data_view.all_items
 
         #print "this is the" + api_view.api_content
 

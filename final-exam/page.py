@@ -30,15 +30,12 @@ class ApiView(object):
     def __init__(self):
         self.data_view = ApiDataObject()
         self.api_content = ""
-
-        print self.data_view.all_items
+        print self.data_view.array
 
     def update(self):
-        for item in range(0, 9):
+        for item in self.data_view.array:
             self.api_content += '''
-                <a href ="?{self.data_view.artist['''+str(item)+''']}">The Artist</a>
+                <a href ="?{self.data_view.array}">The Artist</a>
                 '''
-
             self.api_content = self.api_content.format(**locals())
 
-        print self.api_content

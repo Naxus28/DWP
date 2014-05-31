@@ -14,6 +14,7 @@ class ApiModel(object):
         self.all_items = ""
         self.array_length = ""
         self.__api_data = ""
+        self.array = []
 
     def send_request(self):
         req = urllib2.Request(self.url)
@@ -21,13 +22,14 @@ class ApiModel(object):
         data = opener.open(req)
         jsondoc = json.load(data)
 
-        self.__api_data = ApiDataObject()
-
         self.all_items = jsondoc['songs']['track']
+
+        #print self.all_items
+        # self.__api_data.array = self.data_array
 
         self.array_length = len(self.all_items)
         #print self.array_length
-
+        self.__api_data = ApiDataObject()
         for item in self.all_items:
             #print item
             if 'file' in item:
@@ -65,7 +67,11 @@ class ApiModel(object):
             else:
                 self.__api_data.cover = "No item to display"
 
-            #print self.__api_data.cover
+            self.__api_data.array.append(self.__api_data)
+
+        #print self.__api_data.array
+
+        #print self.data_array
 
 
     @property
@@ -83,6 +89,7 @@ class ApiDataObject(object):
         self.cover = ""
         self.all_items = ""
         self.array_length = ""
+        self.array = []
 
 
 
