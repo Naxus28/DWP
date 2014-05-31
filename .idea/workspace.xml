@@ -4,6 +4,7 @@
     <list default="true" id="94938cd2-ada0-4dcc-9f76-077739e00527" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final-exam/main.py" afterPath="$PROJECT_DIR$/final-exam/main.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final-exam/page.py" afterPath="$PROJECT_DIR$/final-exam/page.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DPW.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +30,7 @@
       <file leaf-file-name="page.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/final-exam/page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="25" selection-start="1381" selection-end="1381" vertical-scroll-proportion="0.0" vertical-offset="722" max-vertical-offset="1558">
+            <state line="42" column="24" selection-start="1060" selection-end="1060" vertical-scroll-proportion="0.0" vertical-offset="494" max-vertical-offset="1710">
               <folding />
             </state>
           </provider>
@@ -38,7 +39,7 @@
       <file leaf-file-name="model.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/final-exam/model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="9" selection-start="1859" selection-end="1859" vertical-scroll-proportion="0.0" vertical-offset="456" max-vertical-offset="1710">
+            <state line="60" column="9" selection-start="1859" selection-end="1859" vertical-scroll-proportion="0.0" vertical-offset="310" max-vertical-offset="1710">
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -49,7 +50,7 @@
       <file leaf-file-name="main.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/final-exam/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="23" selection-start="637" selection-end="637" vertical-scroll-proportion="0.7328125" vertical-offset="63" max-vertical-offset="779">
+            <state line="24" column="42" selection-start="511" selection-end="511" vertical-scroll-proportion="0.5640625" vertical-offset="95" max-vertical-offset="798">
               <folding>
                 <element signature="e#44#69#0" expanded="true" />
               </folding>
@@ -228,7 +229,7 @@
       <recent name="$PROJECT_DIR$/fox/js" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.page">
     <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -260,6 +261,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="DPW" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flickr-api/main.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="page" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/final-exam" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DPW" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/final-exam/page.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -386,14 +405,16 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.test" />
       <item index="1" class="java.lang.String" itemvalue="Python.main" />
+      <item index="2" class="java.lang.String" itemvalue="Python.page" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.main" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.page" />
+        <item index="1" class="java.lang.String" itemvalue="Python.main" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -418,7 +439,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32863188" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32784432" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -774,13 +795,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/final-exam/page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="25" selection-start="1381" selection-end="1381" vertical-scroll-proportion="0.0" vertical-offset="722" max-vertical-offset="1558">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/final-exam/model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="60" column="9" selection-start="1859" selection-end="1859" vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="1710">
@@ -790,9 +804,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/final-exam/page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="24" selection-start="1060" selection-end="1060" vertical-scroll-proportion="0.0" vertical-offset="494" max-vertical-offset="1710">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/final-exam/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="23" selection-start="637" selection-end="637" vertical-scroll-proportion="0.7328125" vertical-offset="63" max-vertical-offset="779">
+        <state line="24" column="42" selection-start="511" selection-end="511" vertical-scroll-proportion="0.5640625" vertical-offset="95" max-vertical-offset="798">
           <folding>
             <element signature="e#44#69#0" expanded="true" />
           </folding>

@@ -32,6 +32,15 @@ class ApiView(object):
         self.api_content = ""
         self.api_new_content = ""
         self.api_array = []
+        self.__index = 0
+
+    @property
+    def the_index(self):
+        return self.__index
+
+    @the_index.setter
+    def the_index(self, new_index):
+        self.__index = new_index
 
 
     # @property
@@ -51,15 +60,14 @@ class ApiView(object):
             i += 1
 
     def update2(self):
-        self.data_view.index = 0
         self.api_new_content = '''
-        <p>File: <audio controls><source src=" '''+self.api_array[self.data_view.index].file+''' " type="audio/mp3"></audio></p>
-        <p>Title: '''+self.api_array[self.data_view.index].title+'''</p>
-        <p>Artist: '''+self.api_array[self.data_view.index].artist+'''</p>
-        <p>Length: '''+self.api_array[self.data_view.index].length+'''</p>
-        <p>Year: '''+self.api_array[self.data_view.index].year+'''</p>
-        <p>Label: '''+self.api_array[self.data_view.index].label+'''</p>
-        <p>Cover: <br><img src =" '''+self.api_array[self.data_view.index].cover+''' "/></p>
+        <p>File: <audio controls><source src=" '''+self.api_array[self.the_index].file+''' " type="audio/mp3"></audio></p>
+        <p>Title: '''+self.api_array[self.the_index].title+'''</p>
+        <p>Artist: '''+self.api_array[self.the_index].artist+'''</p>
+        <p>Length: '''+self.api_array[self.the_index].length+'''</p>
+        <p>Year: '''+self.api_array[self.the_index].year+'''</p>
+        <p>Label: '''+self.api_array[self.the_index].label+'''</p>
+        <p>Cover: <br><img src =" '''+self.api_array[self.the_index].cover+''' "/></p>
 
             '''
     # @property
