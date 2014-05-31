@@ -10,6 +10,7 @@ class ApiModel(object):
         self.year = ""
         self.label = ""
         self.image = ""
+        self.songs_array = ""
 
         req = urllib2.Request(self.url)
         opener = urllib2.build_opener()
@@ -20,7 +21,22 @@ class ApiModel(object):
 
         self.__api_data = ApiDataObject()
 
-        self.__api_data.title = jsondoc['songs']['track'][0]['title']
+        all_items = jsondoc['songs']['track']
+
+        print all_items[1]['title']
+        #print all_items
+
+        length = len(all_items)
+        print length
+
+        for item in all_items:
+            #print item
+            self.__api_data.title = item['title']
+            if not item['title']:
+                item['title'] = "No item to display"
+
+
+            self.__api_data.artist =
 
         print self.__api_data.title
 
