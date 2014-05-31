@@ -4,7 +4,6 @@
     <list default="true" id="94938cd2-ada0-4dcc-9f76-077739e00527" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final-exam/main.py" afterPath="$PROJECT_DIR$/final-exam/main.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final-exam/model.py" afterPath="$PROJECT_DIR$/final-exam/model.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final-exam/page.py" afterPath="$PROJECT_DIR$/final-exam/page.py" />
     </list>
     <ignored path="DPW.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,20 +26,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="page.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="page.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/final-exam/page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="24" selection-start="498" selection-end="498" vertical-scroll-proportion="0.59375" vertical-offset="0" max-vertical-offset="640">
+            <state line="20" column="24" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="model.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="model.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/final-exam/model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="114">
-              <folding />
+            <state line="22" column="55" selection-start="580" selection-end="580" vertical-scroll-proportion="0.653125" vertical-offset="0" max-vertical-offset="912">
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -48,7 +49,7 @@
       <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/final-exam/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399">
+            <state line="18" column="0" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456">
               <folding>
                 <element signature="e#44#69#0" expanded="true" />
               </folding>
@@ -117,15 +118,15 @@
         <option value="$PROJECT_DIR$/exam-practice2/model.py" />
         <option value="$PROJECT_DIR$/exam-practice/model.py" />
         <option value="$PROJECT_DIR$/exam-practice/main.py" />
-        <option value="$PROJECT_DIR$/final-exam/model.py" />
-        <option value="$PROJECT_DIR$/final-exam/main.py" />
         <option value="$PROJECT_DIR$/final-exam/page.py" />
+        <option value="$PROJECT_DIR$/final-exam/main.py" />
+        <option value="$PROJECT_DIR$/final-exam/model.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="115" />
-    <option name="y" value="31" />
+    <option name="x" value="200" />
+    <option name="y" value="22" />
     <option name="width" value="1137" />
     <option name="height" value="737" />
   </component>
@@ -392,7 +393,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="115" y="31" width="1137" height="737" extended-state="0" />
+    <frame x="200" y="22" width="1137" height="737" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32863188" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -759,26 +760,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/final-exam/model.py">
+    <entry file="file://$PROJECT_DIR$/final-exam/page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="114">
+        <state line="20" column="24" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/final-exam/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399">
+        <state line="18" column="0" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456">
           <folding>
             <element signature="e#44#69#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/final-exam/page.py">
+    <entry file="file://$PROJECT_DIR$/final-exam/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="24" selection-start="498" selection-end="498" vertical-scroll-proportion="0.59375" vertical-offset="0" max-vertical-offset="640">
-          <folding />
+        <state line="22" column="55" selection-start="580" selection-end="580" vertical-scroll-proportion="0.653125" vertical-offset="0" max-vertical-offset="912">
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
